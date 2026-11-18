@@ -773,10 +773,8 @@ async def deepseek_query_async(prompt, model='deepseek-v4.1-flash-1017', system_
             'cost_out': 0.28 / 1e6,
         },
     }
-    # The models for which `thinking` and `reasoning_effort` are sent. deepseek-v4.1-flash-1017 is
-    # not among them: for it neither field is sent and the server's default applies, which is how
-    # the sessions of the paper were run.
-    EFFORT_MODELS = ('deepseek-v4-flash',)
+    # The models for which `thinking` and `reasoning_effort` are sent.
+    EFFORT_MODELS = ('deepseek-v4-flash', 'deepseek-v4.1-flash-1017')
 
     # --- Validate model ---
     if model not in MODEL_CONFIG:

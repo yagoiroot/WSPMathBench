@@ -28,9 +28,6 @@ The number at the start of a folder name is the session's ID in the paper's resu
 | `program_output.txt` | `oneshot_code` only: what the program printed when it ran |
 | `session.json` | the session's settings, token counts, cost, the tensors it edited, and the change in the tiny model's score with its standard error |
 
-For deepseek-v4.1-flash-1017, `session.json` records `reasoning_effort` max, the setting of the
-session; the provider did not receive it and ran at its default, high (see the main README).
-
 In `session.json`, `score_change` gives, for each evaluation set, the unedited and edited tiny
 model's mean score in percent, the difference in points, the standard error of that difference, and
 whether the difference is significant under the paper's test.

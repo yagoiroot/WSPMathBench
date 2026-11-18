@@ -5,7 +5,7 @@
  "task": "math",
  "provider": "DeepSeek",
  "model": "deepseek-v4.1-flash-1017",
- "reasoning_effort": "max",
+ "reasoning_effort": "high",
  "prompt_version": "v2-MobileLLM-R1-950M",
  "dsl_version": "v1-MobileLLM-R1-950M",
  "status": "edit_saved",

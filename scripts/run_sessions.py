@@ -54,7 +54,7 @@ PRESETS = {
     # Google's own API (host None); the other seven ran with the settings below.
     'gemini-4-carbon': ('Google', {'reasoning_effort': 'high', 'host': 'OpenRouter', 'stream': True,
                                    'max_tokens': 300000}),
-    'deepseek-v4.1-flash-1017': ('DeepSeek', {'reasoning_effort': 'max', 'host': 'OpenRouter', 'stream': True,
+    'deepseek-v4.1-flash-1017': ('DeepSeek', {'reasoning_effort': 'high', 'host': 'OpenRouter', 'stream': True,
                                               'thinking': True}),
     'kimi-k3.1-pro': ('Kimi', {'reasoning_effort': 'max', 'host': 'OpenRouter', 'stream': True}),
 }

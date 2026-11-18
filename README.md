@@ -183,8 +183,8 @@ Error logs contain absolute paths of the machine they were written on.
 ## Reproducing the paper
 
 The paper evaluates seven primary LLMs, each with one session per tiny model and tier (70
-sessions): gpt-6.1-sol, gpt-6-astra, gpt-6-astra-pro, deepseek-v4.1-flash-1017 and kimi-k3.1-pro
-at reasoning effort max, claude-fable-5-2 at medium and gemini-4-carbon at high. To repeat it,
+sessions): gpt-6.1-sol, gpt-6-astra, gpt-6-astra-pro and kimi-k3.1-pro at reasoning effort max,
+deepseek-v4.1-flash-1017 and gemini-4-carbon at high, and claude-fable-5-2 at medium. To repeat it,
 run steps 3 to 6 above for each of them with the presets. A primary LLM's replies may differ from run
 to run, so new sessions give new edits; the paper's scores rest on a true one-shot approach.
 
@@ -195,21 +195,16 @@ to run, so new sessions give new edits; the paper's scores rest on a true one-sh
    sentence beginning "Nor is an edit that makes the model give the same answer", in anticipation 
    of an edge case where the primary LLM decides to make the tiny LLM produce a constant answer, 
    rather than have any dependency on the problem
-2. **deepseek-v4.1-flash-1017 did not receive the reasoning effort.** Its sessions are recorded
-   with `reasoning_effort` max, but the client code (`deepseek_query_async` in `llm/query.py`)
-   sends the thinking and effort fields only for the models in its `EFFORT_MODELS` list, which
-   does not include this model. The provider's default applied. The code here keeps that
-   behaviour.
-3. **A few sessions used slightly different settings from the presets.** Three of the ten
+2. **A few sessions used slightly different settings from the presets.** Three of the ten
    gemini-4-carbon sessions ran with `max_tokens` 128000, two of them on Google's own API instead
    of OpenRouter (a comment in `scripts/run_sessions.py` says so). One gpt-6.1-sol session ran
    without OpenAI's flex service tier.
-4. **At scoring time the `\boxed{}` instruction is a system message for all four chat models.**
+3. **At scoring time the `\boxed{}` instruction is a system message for all four chat models.**
    The protocols in `config.py`, which the prompt quotes and the practice runs follow, put the
    instruction in the user message for Qwen3.5-0.8B, LFM2.5-350M and gemma-3-270m-it. The scoring
    code sends it as the system message for every chat model. The unedited and the edited model
    are scored the same way, so the comparison between them is unaffected.
-5. **Grading GSM8K-500 and MATH-500 calls an OpenAI model.** A reply whose final answer cannot be
+4. **Grading GSM8K-500 and MATH-500 calls an OpenAI model.** A reply whose final answer cannot be
    read by a fixed rule goes to a small helper model (gpt-5.6-luna at low effort), which returns
    the content of the last `\boxed{}`. Scoring those two sets therefore needs `OPENAI_API_KEY` and
    has a small cost. BasicArithmetic is graded purely deterministically.
