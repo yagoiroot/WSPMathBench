@@ -1,0 +1,49 @@
+{
+ "session_id": 12,
+ "tier": "oneshot_spec",
+ "tiny_model": "MobileLLM-R1-950M",
+ "task": "math",
+ "provider": "DeepSeek",
+ "model": "deepseek-v4.1-flash-1017",
+ "reasoning_effort": "max",
+ "prompt_version": "v2-MobileLLM-R1-950M",
+ "dsl_version": "v1-MobileLLM-R1-950M",
+ "status": "edit_saved",
+ "tensors_edited": [
+  "model.layers.18.feed_forward.down_proj.weight",
+  "model.layers.18.self_attn.o_proj.weight",
+  "model.layers.19.feed_forward.down_proj.weight",
+  "model.layers.19.self_attn.o_proj.weight",
+  "model.layers.20.feed_forward.down_proj.weight",
+  "model.layers.20.self_attn.o_proj.weight",
+  "model.layers.21.feed_forward.down_proj.weight",
+  "model.layers.21.self_attn.o_proj.weight"
+ ],
+ "tokens": {
+  "prompt": 12734,
+  "cached": 0,
+  "completion": 10653,
+  "reasoning": 9966,
+  "total": 23387
+ },
+ "cost_usd": 0.0166,
+ "wall_s": 42.31,
+ "kernel_seconds": null,
+ "exception": null,
+ "score_change": {
+  "GSM8K_500": {
+   "unedited_percent": 73.1,
+   "edited_percent": 63.3,
+   "change_points": -9.8,
+   "standard_error_points": 1.31,
+   "significant": true
+  },
+  "MATH500": {
+   "unedited_percent": 74.8,
+   "edited_percent": 64.1,
+   "change_points": -10.6,
+   "standard_error_points": 1.24,
+   "significant": true
+  }
+ }
+}

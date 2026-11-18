@@ -1,0 +1,50 @@
+wait_ids: [3655, 11158, 13428, 13784]
+wait_tokens: [' wait', 'wait', ' Wait', 'Wait']
+box_ids: [1555, 8003, 71160, 76367]
+box_tokens: ['Box', ' Box', ' boxed', 'boxed']
+wait_basis shape: (1024, 4)
+box_basis shape: (1024, 4)
+edited model.language_model.layers.18.linear_attn.out_proj.weight alpha_wait 0.35 beta_box 0.0
+edited model.language_model.layers.18.mlp.down_proj.weight alpha_wait 0.35 beta_box 0.0
+edited model.language_model.layers.19.self_attn.o_proj.weight alpha_wait 0.35 beta_box 0.0
+edited model.language_model.layers.19.mlp.down_proj.weight alpha_wait 0.35 beta_box 0.0
+edited model.language_model.layers.20.linear_attn.out_proj.weight alpha_wait 0.35 beta_box 0.0
+edited model.language_model.layers.20.mlp.down_proj.weight alpha_wait 0.35 beta_box 0.0
+edited model.language_model.layers.21.linear_attn.out_proj.weight alpha_wait 0.35 beta_box 0.12
+edited model.language_model.layers.21.mlp.down_proj.weight alpha_wait 0.35 beta_box 0.12
+edited model.language_model.layers.22.linear_attn.out_proj.weight alpha_wait 0.35 beta_box 0.12
+edited model.language_model.layers.22.mlp.down_proj.weight alpha_wait 0.35 beta_box 0.12
+edited model.language_model.layers.23.self_attn.o_proj.weight alpha_wait 0.35 beta_box 0.12
+edited model.language_model.layers.23.mlp.down_proj.weight alpha_wait 0.35 beta_box 0.12
+edited model.language_model.layers.12.linear_attn.A_log mask_count 8 median -1.78125
+edited model.language_model.layers.13.linear_attn.A_log mask_count 8 median -1.3359375
+edited model.language_model.layers.14.linear_attn.A_log mask_count 9 median -1.15625
+edited model.language_model.layers.16.linear_attn.A_log mask_count 8 median -1.5703125
+edited model.language_model.layers.17.linear_attn.A_log mask_count 8 median -1.390625
+edited model.language_model.layers.18.linear_attn.A_log mask_count 8 median -1.4140625
+edited model.language_model.layers.20.linear_attn.A_log mask_count 8 median -1.359375
+edited model.language_model.layers.21.linear_attn.A_log mask_count 8 median -1.3515625
+edited model.language_model.layers.22.linear_attn.A_log mask_count 8 median -1.4375
+Total edited tensors: 21
+Edited names:
+   model.language_model.layers.18.linear_attn.out_proj.weight
+   model.language_model.layers.18.mlp.down_proj.weight
+   model.language_model.layers.19.self_attn.o_proj.weight
+   model.language_model.layers.19.mlp.down_proj.weight
+   model.language_model.layers.20.linear_attn.out_proj.weight
+   model.language_model.layers.20.mlp.down_proj.weight
+   model.language_model.layers.21.linear_attn.out_proj.weight
+   model.language_model.layers.21.mlp.down_proj.weight
+   model.language_model.layers.22.linear_attn.out_proj.weight
+   model.language_model.layers.22.mlp.down_proj.weight
+   model.language_model.layers.23.self_attn.o_proj.weight
+   model.language_model.layers.23.mlp.down_proj.weight
+   model.language_model.layers.12.linear_attn.A_log
+   model.language_model.layers.13.linear_attn.A_log
+   model.language_model.layers.14.linear_attn.A_log
+   model.language_model.layers.16.linear_attn.A_log
+   model.language_model.layers.17.linear_attn.A_log
+   model.language_model.layers.18.linear_attn.A_log
+   model.language_model.layers.20.linear_attn.A_log
+   model.language_model.layers.21.linear_attn.A_log
+   model.language_model.layers.22.linear_attn.A_log

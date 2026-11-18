@@ -1,0 +1,3 @@
+# Keep text files with LF line endings on every platform, so prompts and data files
+# are byte-identical to the ones the tests and the paper were produced with.
+* text=auto eol=lf

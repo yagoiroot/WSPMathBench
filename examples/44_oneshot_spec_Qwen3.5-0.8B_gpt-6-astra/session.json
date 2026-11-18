@@ -1,0 +1,49 @@
+{
+ "session_id": 44,
+ "tier": "oneshot_spec",
+ "tiny_model": "Qwen3.5-0.8B",
+ "task": "math",
+ "provider": "OpenAI",
+ "model": "gpt-6-astra",
+ "reasoning_effort": "max",
+ "prompt_version": "v1-Qwen3.5-0.8B",
+ "dsl_version": "v1-Qwen3.5-0.8B",
+ "status": "edit_saved",
+ "tensors_edited": [
+  "model.language_model.layers.18.mlp.down_proj.weight",
+  "model.language_model.layers.19.mlp.down_proj.weight",
+  "model.language_model.layers.19.self_attn.o_proj.weight",
+  "model.language_model.layers.20.mlp.down_proj.weight",
+  "model.language_model.layers.21.mlp.down_proj.weight",
+  "model.language_model.layers.22.mlp.down_proj.weight",
+  "model.language_model.layers.23.mlp.down_proj.weight",
+  "model.language_model.layers.23.self_attn.o_proj.weight"
+ ],
+ "tokens": {
+  "prompt": 14860,
+  "cached": 0,
+  "completion": 5465,
+  "reasoning": 4701,
+  "total": 20325
+ },
+ "cost_usd": 0.2295,
+ "wall_s": 97.19,
+ "kernel_seconds": null,
+ "exception": null,
+ "score_change": {
+  "GSM8K_500": {
+   "unedited_percent": 12.0,
+   "edited_percent": 45.9,
+   "change_points": 33.9,
+   "standard_error_points": 1.65,
+   "significant": true
+  },
+  "MATH500": {
+   "unedited_percent": 7.4,
+   "edited_percent": 32.1,
+   "change_points": 24.7,
+   "standard_error_points": 1.57,
+   "significant": true
+  }
+ }
+}

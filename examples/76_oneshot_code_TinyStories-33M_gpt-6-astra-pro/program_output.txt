@@ -1,0 +1,5 @@
+Frozen readout geometry: 200 integer outputs; positive margins = 200 minimum = 4.8508100509643555 median = 7.579805374145508
+Compiler alphabet = 579 positions = 48 context coordinates = 56 predecessor heads = 3 numeral suffix rules = 306
+Active MLP neurons: 820 96 397 2400
+Committing compiled arithmetic circuit; elapsed seconds: 2.86
+Saved 52 editable tensors.

@@ -1,0 +1,47 @@
+{
+ "session_id": 28,
+ "tier": "oneshot_spec",
+ "tiny_model": "gemma-3-270m-it",
+ "task": "math",
+ "provider": "Kimi",
+ "model": "kimi-k3.1-pro",
+ "reasoning_effort": "max",
+ "prompt_version": "v2-gemma-3-270m-it",
+ "dsl_version": "v1-gemma-3-270m-it",
+ "status": "edit_saved",
+ "tensors_edited": [
+  "model.layers.14.mlp.down_proj.weight",
+  "model.layers.15.mlp.down_proj.weight",
+  "model.layers.16.mlp.down_proj.weight",
+  "model.layers.16.self_attn.o_proj.weight",
+  "model.layers.17.mlp.down_proj.weight",
+  "model.layers.17.self_attn.o_proj.weight"
+ ],
+ "tokens": {
+  "prompt": 9334,
+  "cached": 0,
+  "completion": 15096,
+  "reasoning": 14444,
+  "total": 24430
+ },
+ "cost_usd": 0.1696,
+ "wall_s": 147.98,
+ "kernel_seconds": null,
+ "exception": null,
+ "score_change": {
+  "GSM8K_500": {
+   "unedited_percent": 1.4,
+   "edited_percent": 1.7,
+   "change_points": 0.4,
+   "standard_error_points": 0.39,
+   "significant": false
+  },
+  "MATH500": {
+   "unedited_percent": 4.7,
+   "edited_percent": 3.7,
+   "change_points": -1.0,
+   "standard_error_points": 0.59,
+   "significant": false
+  }
+ }
+}

@@ -1,0 +1,25 @@
+# The Linux side (inside WSL2 on Windows). Two separate virtual environments; this file is a
+# reference for both and is not meant for a single `pip install -r`. docs/SETUP.md has the commands.
+
+# ---------------------------------------------------------------------------------------------
+# 1. The vLLM venv (default ~/venvs/vllm, setting WSPMB_VLLM_VENV)
+#    Serves the tiny models on the GPU and runs tools/run_practice_baseline.py,
+#    tools/check_checkpoint_vllm.py and tools/serve_transformers.py.
+#    vllm installs torch and transformers, which the tools also import.
+# ---------------------------------------------------------------------------------------------
+# vllm==0.29.0
+# math-verify==0.9.0
+
+# ---------------------------------------------------------------------------------------------
+# 2. The sandbox venv (default ~/venvs/wsp_sandbox, setting WSPMB_SANDBOX_PYTHON)
+#    Runs the programs of the oneshot_code tier, on the CPU. The prompt tells the primary LLM that
+#    exactly these packages are available, so install all of them. PyTorch is the CPU build.
+# ---------------------------------------------------------------------------------------------
+# torch            (CPU build: pip install torch --index-url https://download.pytorch.org/whl/cpu)
+# numpy
+# scipy
+# scikit-learn
+# pandas
+# sympy
+# safetensors
+# tokenizers

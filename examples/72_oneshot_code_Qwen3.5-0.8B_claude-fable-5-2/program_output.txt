@@ -1,0 +1,31 @@
+embed (248320, 1024)
+wait ids [13784, 13428]
+layer 16: 2 Wait-promoting neurons, top z [14.59338092803955, 5.814319133758545, 3.608198404312134, 3.082564115524292, 2.8791046142578125]
+layer 17: 2 Wait-promoting neurons, top z [13.243863105773926, 4.008932590484619, 3.593400716781616, 2.9972236156463623, 2.6775312423706055]
+layer 18: 2 Wait-promoting neurons, top z [12.712989807128906, 4.427832126617432, 3.531425714492798, 3.3675785064697266, 3.3196113109588623]
+layer 19: 1 Wait-promoting neurons, top z [5.352543830871582, 3.1551828384399414, 3.0341107845306396, 2.959970474243164, 2.8555212020874023]
+layer 20: 0 Wait-promoting neurons, top z [3.6678812503814697, 3.2249815464019775, 3.132550001144409, 3.04923939704895, 2.8316423892974854]
+layer 21: 0 Wait-promoting neurons, top z [3.807101011276245, 3.381587266921997, 3.301677703857422, 3.295789957046509, 3.179908275604248]
+layer 22: 0 Wait-promoting neurons, top z [3.6937572956085205, 3.1671671867370605, 3.0608174800872803, 3.009524345397949, 3.0000014305114746]
+layer 23: 0 Wait-promoting neurons, top z [3.8441293239593506, 2.8440866470336914, 2.8309109210968018, 2.8011386394500732, 2.752025842666626]
+layer 15 head 0: removed Wait->Wait copy, score 0.0016
+layer 15 head 1: removed Wait->Wait copy, score 0.1216
+layer 15 head 2: removed Wait->Wait copy, score 0.0858
+layer 15 head 4: removed Wait->Wait copy, score 0.0027
+layer 15 head 5: removed Wait->Wait copy, score 0.0073
+layer 15 head 7: removed Wait->Wait copy, score 0.0065
+layer 15 head 1: removed Wait->Wait copy, score 0.0193
+layer 15 head 2: removed Wait->Wait copy, score 0.0061
+layer 15 head 5: removed Wait->Wait copy, score 0.0052
+layer 15 head 7: removed Wait->Wait copy, score 0.0014
+layer 19 head 2: removed Wait->Wait copy, score 0.0038
+layer 19 head 4: removed Wait->Wait copy, score 0.3323
+layer 19 head 6: removed Wait->Wait copy, score 0.0596
+layer 19 head 2: removed Wait->Wait copy, score 0.0035
+layer 19 head 4: removed Wait->Wait copy, score 0.0539
+layer 23 head 0: removed Wait->Wait copy, score 0.0036
+layer 23 head 1: removed Wait->Wait copy, score 0.0070
+layer 23 head 3: removed Wait->Wait copy, score 0.0737
+layer 23 head 4: removed Wait->Wait copy, score 0.0238
+layer 23 head 0: removed Wait->Wait copy, score 0.0175
+edited: ['model.language_model.layers.15.self_attn.o_proj.weight', 'model.language_model.layers.16.mlp.down_proj.weight', 'model.language_model.layers.17.mlp.down_proj.weight', 'model.language_model.layers.18.mlp.down_proj.weight', 'model.language_model.layers.19.mlp.down_proj.weight', 'model.language_model.layers.19.self_attn.o_proj.weight', 'model.language_model.layers.23.self_attn.o_proj.weight']

@@ -1,0 +1,39 @@
+{
+ "n": 1000,
+ "n_correct": 31,
+ "accuracy": 0.031,
+ "mean_tokens": 15.075,
+ "cut_share": 0.873,
+ "by_source": {
+  "symbolic": {
+   "n": 500,
+   "n_correct": 14,
+   "accuracy": 0.028,
+   "mean_tokens": 15.588,
+   "cut_share": 0.904
+  },
+  "word": {
+   "n": 500,
+   "n_correct": 17,
+   "accuracy": 0.034,
+   "mean_tokens": 14.562,
+   "cut_share": 0.842
+  }
+ },
+ "failures": {
+  "wrong_answer": 614,
+  "no_number": 355
+ },
+ "task": "basic_arithmetic",
+ "protocol": "tinystories_33m",
+ "sampling": {
+  "temperature": 0.1,
+  "max_tokens": 16
+ },
+ "seed": 0,
+ "engine_version": "transformers 5.17.0",
+ "tiny_model": "TinyStories-33M",
+ "model_revision": "2ad0a164221b7c4d21cac7c46aec74f6f98dbfc8",
+ "model_dir": "<models folder>/TinyStories-33M-bf16",
+ "dtype": "bfloat16"
+}

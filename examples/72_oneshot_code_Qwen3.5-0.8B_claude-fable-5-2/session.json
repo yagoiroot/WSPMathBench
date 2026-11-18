@@ -1,0 +1,48 @@
+{
+ "session_id": 72,
+ "tier": "oneshot_code",
+ "tiny_model": "Qwen3.5-0.8B",
+ "task": "math",
+ "provider": "Anthropic",
+ "model": "claude-fable-5-2",
+ "reasoning_effort": "medium",
+ "prompt_version": "v1-Qwen3.5-0.8B",
+ "dsl_version": "v1-Qwen3.5-0.8B",
+ "status": "edit_saved",
+ "tensors_edited": [
+  "model.language_model.layers.15.self_attn.o_proj.weight",
+  "model.language_model.layers.16.mlp.down_proj.weight",
+  "model.language_model.layers.17.mlp.down_proj.weight",
+  "model.language_model.layers.18.mlp.down_proj.weight",
+  "model.language_model.layers.19.mlp.down_proj.weight",
+  "model.language_model.layers.19.self_attn.o_proj.weight",
+  "model.language_model.layers.23.self_attn.o_proj.weight"
+ ],
+ "tokens": {
+  "prompt": 22993,
+  "cached": 0,
+  "completion": 5778,
+  "reasoning": 0,
+  "total": 28771
+ },
+ "cost_usd": 0.4151,
+ "wall_s": 80.54,
+ "kernel_seconds": 4.92,
+ "exception": null,
+ "score_change": {
+  "GSM8K_500": {
+   "unedited_percent": 12.0,
+   "edited_percent": 40.8,
+   "change_points": 28.8,
+   "standard_error_points": 1.59,
+   "significant": true
+  },
+  "MATH500": {
+   "unedited_percent": 7.4,
+   "edited_percent": 28.1,
+   "change_points": 20.7,
+   "standard_error_points": 1.43,
+   "significant": true
+  }
+ }
+}

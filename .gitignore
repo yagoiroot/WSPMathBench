@@ -1,0 +1,26 @@
+# Secrets and machine settings
+.env
+
+# Everything a run writes: sessions, scores, figures, error logs
+/results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Model weights never belong in the repository
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

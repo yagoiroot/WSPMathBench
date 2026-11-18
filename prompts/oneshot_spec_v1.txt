@@ -1,0 +1,19 @@
+TASK. You are given a description of the weights of a language model, {tiny_name} ({arch_text}). Your job is to make it better at {goal_text} by specifying ONE edit to its weights, written in the edit language below. You cannot run the model or any code. You reply once.
+
+HOW IT WILL BE MEASURED. After you finish, your edited model and the unedited model are evaluated on {evaluation_text} with this fixed protocol: {protocol_text} The config, tokenizer, {prompt_format_text} and decoding settings are fixed: only weight values can change (same tensor names and shapes). {unseen_text}
+
+WHAT COUNTS. We want edits that come from understanding the network: identify the components responsible for its failures (specific neurons, heads, directions or circuits) and change them in a way you can justify with evidence. Out of scope, and refused: {frozen_text}, and any edit that only multiplies a whole tensor by a constant. Global knobs (making the whole output distribution sharper or flatter) are not what we are looking for.
+
+TENSORS. Every editable tensor, by layer. Shapes are [rows, columns]; the residual stream has width {width}.
+{tensor_table}
+
+PRACTICE PROBLEMS. {practice_text} {holdout_text} The unedited model answered {n_run} of them with the evaluation protocol above. Its results:
+{practice_summary}
+
+EXAMPLES. {k} of its failing answers, chosen at random from that run. For each: {example_fields_text}.
+{examples}
+
+THE EDIT LANGUAGE. Reply with exactly one block that starts with ```json and contains {{"edits": [...]}}, a list of at most {max_ops} operations:
+{dsl_text}
+
+RULES. The block is validated before anything is applied. If any operation is invalid, nothing is applied and you are shown the errors once. Only the block has an effect; write your reasoning before it.

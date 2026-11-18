@@ -1,0 +1,62 @@
+{
+ "session_id": 2,
+ "tier": "oneshot_code",
+ "tiny_model": "Qwen3.5-0.8B",
+ "task": "math",
+ "provider": "DeepSeek",
+ "model": "deepseek-v4.1-flash-1017",
+ "reasoning_effort": "max",
+ "prompt_version": "v1-Qwen3.5-0.8B",
+ "dsl_version": "v1-Qwen3.5-0.8B",
+ "status": "edit_saved",
+ "tensors_edited": [
+  "model.language_model.layers.12.linear_attn.A_log",
+  "model.language_model.layers.13.linear_attn.A_log",
+  "model.language_model.layers.14.linear_attn.A_log",
+  "model.language_model.layers.16.linear_attn.A_log",
+  "model.language_model.layers.17.linear_attn.A_log",
+  "model.language_model.layers.18.linear_attn.A_log",
+  "model.language_model.layers.18.linear_attn.out_proj.weight",
+  "model.language_model.layers.18.mlp.down_proj.weight",
+  "model.language_model.layers.19.mlp.down_proj.weight",
+  "model.language_model.layers.19.self_attn.o_proj.weight",
+  "model.language_model.layers.20.linear_attn.A_log",
+  "model.language_model.layers.20.linear_attn.out_proj.weight",
+  "model.language_model.layers.20.mlp.down_proj.weight",
+  "model.language_model.layers.21.linear_attn.A_log",
+  "model.language_model.layers.21.linear_attn.out_proj.weight",
+  "model.language_model.layers.21.mlp.down_proj.weight",
+  "model.language_model.layers.22.linear_attn.A_log",
+  "model.language_model.layers.22.linear_attn.out_proj.weight",
+  "model.language_model.layers.22.mlp.down_proj.weight",
+  "model.language_model.layers.23.mlp.down_proj.weight",
+  "model.language_model.layers.23.self_attn.o_proj.weight"
+ ],
+ "tokens": {
+  "prompt": 16343,
+  "cached": 0,
+  "completion": 20651,
+  "reasoning": 18711,
+  "total": 36994
+ },
+ "cost_usd": 0.0178,
+ "wall_s": 76.3,
+ "kernel_seconds": 3.83,
+ "exception": null,
+ "score_change": {
+  "GSM8K_500": {
+   "unedited_percent": 12.0,
+   "edited_percent": 44.3,
+   "change_points": 32.3,
+   "standard_error_points": 1.46,
+   "significant": true
+  },
+  "MATH500": {
+   "unedited_percent": 7.4,
+   "edited_percent": 28.6,
+   "change_points": 21.2,
+   "standard_error_points": 1.48,
+   "significant": true
+  }
+ }
+}

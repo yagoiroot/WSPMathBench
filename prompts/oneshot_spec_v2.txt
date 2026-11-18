@@ -1,0 +1,19 @@
+TASK. You are given a description of the weights of a language model, {tiny_name} ({arch_text}). Your job is to make it better at {goal_text} by specifying an edit to its weights, written in the edit language below: a list of operations that are applied together. You cannot run the model or any code. You reply once.
+
+HOW IT WILL BE MEASURED. After you finish, your edited model and the unedited model are evaluated on {evaluation_text} with this fixed protocol: {protocol_text} The config, tokenizer, {prompt_format_text} and decoding settings are fixed: only weight values can change (same tensor names and shapes). {unseen_text}
+
+WHAT COUNTS. The goal is a model that scores higher under that protocol, and how you get there is open. You might remove something that holds the model back, strengthen something it already does well, or change how some part of it computes. The edit may be narrow (a few neurons, one head) or broad (a direction or a pattern across many layers), and it may pursue more than one of these at once. No route is preferred. The practice results and examples further down describe how the model behaves now: they are evidence to reason from, and they do not mark out what your edit should target. What we ask in every case is that the edit comes from understanding the network: say which components you are changing (neurons, heads, directions, circuits or larger structures), what you believe they do, and why changing them should make the model more accurate on problems it has not seen. Out of scope, and refused: {frozen_text}, and any edit that only multiplies a whole tensor by a constant. An edit that only makes the whole output distribution sharper or flatter is not what we are looking for either: that is a decoding setting reached through the weights, and it shows nothing about the network. Nor is an edit that makes the model give the same answer, or one of a few fixed answers, whatever the problem says (for example by pushing the output toward a particular number): that can score above zero by matching the most common answers, but it removes the model’s dependence on the problem instead of improving how it solves one.
+
+TENSORS. Every editable tensor, by layer. Shapes are [rows, columns]; the residual stream has width {width}.
+{tensor_table}
+
+PRACTICE PROBLEMS. {practice_text} {holdout_text} The unedited model answered {n_run} of them with the evaluation protocol above. Its results:
+{practice_summary}
+
+EXAMPLES. {k} of its failing answers, chosen at random from that run. For each: {example_fields_text}.
+{examples}
+
+THE EDIT LANGUAGE. Reply with exactly one block that starts with ```json and contains {{"edits": [...]}}, a list of at most {max_ops} operations:
+{dsl_text}
+
+RULES. The block is validated before anything is applied. If any operation is invalid, nothing is applied and you are shown the errors once. Only the block has an effect; write your reasoning before it.

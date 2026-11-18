@@ -1,0 +1,46 @@
+{
+ "session_id": 54,
+ "tier": "oneshot_spec",
+ "tiny_model": "MobileLLM-R1-950M",
+ "task": "math",
+ "provider": "Google",
+ "model": "gemini-4-carbon",
+ "reasoning_effort": "high",
+ "prompt_version": "v2-MobileLLM-R1-950M",
+ "dsl_version": "v1-MobileLLM-R1-950M",
+ "status": "edit_saved",
+ "tensors_edited": [
+  "model.layers.19.feed_forward.down_proj.weight",
+  "model.layers.20.feed_forward.down_proj.weight",
+  "model.layers.20.self_attn.o_proj.weight",
+  "model.layers.21.feed_forward.down_proj.weight",
+  "model.layers.21.self_attn.o_proj.weight"
+ ],
+ "tokens": {
+  "prompt": 14942,
+  "cached": 0,
+  "completion": 50503,
+  "reasoning": 48303,
+  "total": 65445
+ },
+ "cost_usd": 0.2675,
+ "wall_s": 591.3,
+ "kernel_seconds": null,
+ "exception": null,
+ "score_change": {
+  "GSM8K_500": {
+   "unedited_percent": 73.1,
+   "edited_percent": 47.8,
+   "change_points": -25.3,
+   "standard_error_points": 1.51,
+   "significant": true
+  },
+  "MATH500": {
+   "unedited_percent": 74.8,
+   "edited_percent": 44.2,
+   "change_points": -30.6,
+   "standard_error_points": 1.46,
+   "significant": true
+  }
+ }
+}

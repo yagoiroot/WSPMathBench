@@ -1,0 +1,41 @@
+{
+ "n": 256,
+ "n_correct": 197,
+ "accuracy": 0.76953125,
+ "mean_tokens": 3556.1640625,
+ "cut_share": 0.02734375,
+ "by_source": {
+  "gsm8k": {
+   "n": 128,
+   "n_correct": 96,
+   "accuracy": 0.75,
+   "mean_tokens": 1970.953125,
+   "cut_share": 0.0078125
+  },
+  "math": {
+   "n": 128,
+   "n_correct": 101,
+   "accuracy": 0.7890625,
+   "mean_tokens": 5141.375,
+   "cut_share": 0.046875
+  }
+ },
+ "failures": {
+  "wrong_answer": 48,
+  "no_answer_finished": 4,
+  "cut_at_max_tokens": 7
+ },
+ "task": "math",
+ "protocol": "mobilellm_r1_950m",
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "max_tokens": 30000
+ },
+ "seed": 0,
+ "engine_version": "vllm 0.29.0",
+ "tiny_model": "MobileLLM-R1-950M",
+ "model_revision": "aa7d61df54d764738d32c220e107ed5f292d56eb",
+ "model_dir": "<models folder>/MobileLLM-R1-950M-bf16",
+ "dtype": "bfloat16"
+}

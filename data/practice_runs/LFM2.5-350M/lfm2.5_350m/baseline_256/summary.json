@@ -1,0 +1,42 @@
+{
+ "n": 256,
+ "n_correct": 64,
+ "accuracy": 0.25,
+ "mean_tokens": 173.9921875,
+ "cut_share": 0.0,
+ "by_source": {
+  "gsm8k": {
+   "n": 128,
+   "n_correct": 45,
+   "accuracy": 0.3515625,
+   "mean_tokens": 162.4453125,
+   "cut_share": 0.0
+  },
+  "math": {
+   "n": 128,
+   "n_correct": 19,
+   "accuracy": 0.1484375,
+   "mean_tokens": 185.5390625,
+   "cut_share": 0.0
+  }
+ },
+ "failures": {
+  "wrong_answer": 192,
+  "no_answer_finished": 0,
+  "cut_at_max_tokens": 0
+ },
+ "task": "math",
+ "protocol": "lfm2.5_350m",
+ "sampling": {
+  "temperature": 0.1,
+  "top_k": 50,
+  "repetition_penalty": 1.05,
+  "max_tokens": 30000
+ },
+ "seed": 0,
+ "engine_version": "vllm 0.29.0",
+ "tiny_model": "LFM2.5-350M",
+ "model_revision": "9921cd4d82c0e3986887aa4b376f9446729ef8a3",
+ "model_dir": "<models folder>/LFM2.5-350M",
+ "dtype": "bfloat16"
+}

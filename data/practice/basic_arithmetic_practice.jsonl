@@ -1,0 +1,1000 @@
+{"id": "ba-practice-symbolic-0000", "pair": 0, "source": "symbolic", "problem": "8 / 8 =", "answer": "1", "operation": "div", "a": 8, "b": 8, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0001", "pair": 1, "source": "symbolic", "problem": "70-52=", "answer": "18", "operation": "sub", "a": 70, "b": 52, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0002", "pair": 2, "source": "symbolic", "problem": "8 x 2 =", "answer": "16", "operation": "mul", "a": 8, "b": 2, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0003", "pair": 3, "source": "symbolic", "problem": "2+5=", "answer": "7", "operation": "add", "a": 2, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0004", "pair": 4, "source": "symbolic", "problem": "3+8=", "answer": "11", "operation": "add", "a": 3, "b": 8, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0005", "pair": 5, "source": "symbolic", "problem": "26+23=", "answer": "49", "operation": "add", "a": 26, "b": 23, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0006", "pair": 6, "source": "symbolic", "problem": "91-58=", "answer": "33", "operation": "sub", "a": 91, "b": 58, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0007", "pair": 7, "source": "symbolic", "problem": "3 + 7 =", "answer": "10", "operation": "add", "a": 3, "b": 7, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0008", "pair": 8, "source": "symbolic", "problem": "64 - 48 =", "answer": "16", "operation": "sub", "a": 64, "b": 48, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0009", "pair": 9, "source": "symbolic", "problem": "3 - 2 =", "answer": "1", "operation": "sub", "a": 3, "b": 2, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0010", "pair": 10, "source": "symbolic", "problem": "7-5=", "answer": "2", "operation": "sub", "a": 7, "b": 5, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0011", "pair": 11, "source": "symbolic", "problem": "4 + 4 =", "answer": "8", "operation": "add", "a": 4, "b": 4, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0012", "pair": 12, "source": "symbolic", "problem": "13+61=", "answer": "74", "operation": "add", "a": 13, "b": 61, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0013", "pair": 13, "source": "symbolic", "problem": "2-1=", "answer": "1", "operation": "sub", "a": 2, "b": 1, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0014", "pair": 14, "source": "symbolic", "problem": "7*8=", "answer": "56", "operation": "mul", "a": 7, "b": 8, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0015", "pair": 15, "source": "symbolic", "problem": "27/9=", "answer": "3", "operation": "div", "a": 27, "b": 9, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0016", "pair": 16, "source": "symbolic", "problem": "9*9=", "answer": "81", "operation": "mul", "a": 9, "b": 9, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0017", "pair": 17, "source": "symbolic", "problem": "5 x 8 =", "answer": "40", "operation": "mul", "a": 5, "b": 8, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0018", "pair": 18, "source": "symbolic", "problem": "11 + 86 =", "answer": "97", "operation": "add", "a": 11, "b": 86, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0019", "pair": 19, "source": "symbolic", "problem": "49 / 7 =", "answer": "7", "operation": "div", "a": 49, "b": 7, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0020", "pair": 20, "source": "symbolic", "problem": "7 * 7 =", "answer": "49", "operation": "mul", "a": 7, "b": 7, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0021", "pair": 21, "source": "symbolic", "problem": "5 - 2 =", "answer": "3", "operation": "sub", "a": 5, "b": 2, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0022", "pair": 22, "source": "symbolic", "problem": "40 / 5 =", "answer": "8", "operation": "div", "a": 40, "b": 5, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0023", "pair": 23, "source": "symbolic", "problem": "5 - 3 =", "answer": "2", "operation": "sub", "a": 5, "b": 3, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0024", "pair": 24, "source": "symbolic", "problem": "2 + 9 =", "answer": "11", "operation": "add", "a": 2, "b": 9, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0025", "pair": 25, "source": "symbolic", "problem": "27 + 54 =", "answer": "81", "operation": "add", "a": 27, "b": 54, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0026", "pair": 26, "source": "symbolic", "problem": "6 x 7 =", "answer": "42", "operation": "mul", "a": 6, "b": 7, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0027", "pair": 27, "source": "symbolic", "problem": "35 / 5 =", "answer": "7", "operation": "div", "a": 35, "b": 5, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0028", "pair": 28, "source": "symbolic", "problem": "5+8=", "answer": "13", "operation": "add", "a": 5, "b": 8, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0029", "pair": 29, "source": "symbolic", "problem": "56/7=", "answer": "8", "operation": "div", "a": 56, "b": 7, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0030", "pair": 30, "source": "symbolic", "problem": "0 + 4 =", "answer": "4", "operation": "add", "a": 0, "b": 4, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0031", "pair": 31, "source": "symbolic", "problem": "40 / 8 =", "answer": "5", "operation": "div", "a": 40, "b": 8, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0032", "pair": 32, "source": "symbolic", "problem": "7 / 7 =", "answer": "1", "operation": "div", "a": 7, "b": 7, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0033", "pair": 33, "source": "symbolic", "problem": "8/4=", "answer": "2", "operation": "div", "a": 8, "b": 4, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0034", "pair": 34, "source": "symbolic", "problem": "9-5=", "answer": "4", "operation": "sub", "a": 9, "b": 5, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0035", "pair": 35, "source": "symbolic", "problem": "74-32=", "answer": "42", "operation": "sub", "a": 74, "b": 32, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0036", "pair": 36, "source": "symbolic", "problem": "72 - 56 =", "answer": "16", "operation": "sub", "a": 72, "b": 56, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0037", "pair": 37, "source": "symbolic", "problem": "22+66=", "answer": "88", "operation": "add", "a": 22, "b": 66, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0038", "pair": 38, "source": "symbolic", "problem": "95-28=", "answer": "67", "operation": "sub", "a": 95, "b": 28, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0039", "pair": 39, "source": "symbolic", "problem": "97-95=", "answer": "2", "operation": "sub", "a": 97, "b": 95, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0040", "pair": 40, "source": "symbolic", "problem": "6 + 2 =", "answer": "8", "operation": "add", "a": 6, "b": 2, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0041", "pair": 41, "source": "symbolic", "problem": "8 * 8 =", "answer": "64", "operation": "mul", "a": 8, "b": 8, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0042", "pair": 42, "source": "symbolic", "problem": "8 + 3 =", "answer": "11", "operation": "add", "a": 8, "b": 3, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0043", "pair": 43, "source": "symbolic", "problem": "4 + 73 =", "answer": "77", "operation": "add", "a": 4, "b": 73, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0044", "pair": 44, "source": "symbolic", "problem": "0*9=", "answer": "0", "operation": "mul", "a": 0, "b": 9, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0045", "pair": 45, "source": "symbolic", "problem": "86 - 60 =", "answer": "26", "operation": "sub", "a": 86, "b": 60, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0046", "pair": 46, "source": "symbolic", "problem": "3 x 2 =", "answer": "6", "operation": "mul", "a": 3, "b": 2, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0047", "pair": 47, "source": "symbolic", "problem": "67 - 30 =", "answer": "37", "operation": "sub", "a": 67, "b": 30, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0048", "pair": 48, "source": "symbolic", "problem": "2+2=", "answer": "4", "operation": "add", "a": 2, "b": 2, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0049", "pair": 49, "source": "symbolic", "problem": "3*4=", "answer": "12", "operation": "mul", "a": 3, "b": 4, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0050", "pair": 50, "source": "symbolic", "problem": "0x4=", "answer": "0", "operation": "mul", "a": 0, "b": 4, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0051", "pair": 51, "source": "symbolic", "problem": "9 - 6 =", "answer": "3", "operation": "sub", "a": 9, "b": 6, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0052", "pair": 52, "source": "symbolic", "problem": "70 - 35 =", "answer": "35", "operation": "sub", "a": 70, "b": 35, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0053", "pair": 53, "source": "symbolic", "problem": "54/9=", "answer": "6", "operation": "div", "a": 54, "b": 9, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0054", "pair": 54, "source": "symbolic", "problem": "2 * 2 =", "answer": "4", "operation": "mul", "a": 2, "b": 2, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0055", "pair": 55, "source": "symbolic", "problem": "95-39=", "answer": "56", "operation": "sub", "a": 95, "b": 39, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0056", "pair": 56, "source": "symbolic", "problem": "1 + 8 =", "answer": "9", "operation": "add", "a": 1, "b": 8, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0057", "pair": 57, "source": "symbolic", "problem": "6 x 4 =", "answer": "24", "operation": "mul", "a": 6, "b": 4, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0058", "pair": 58, "source": "symbolic", "problem": "99 - 77 =", "answer": "22", "operation": "sub", "a": 99, "b": 77, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0059", "pair": 59, "source": "symbolic", "problem": "92 - 31 =", "answer": "61", "operation": "sub", "a": 92, "b": 31, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0060", "pair": 60, "source": "symbolic", "problem": "73-12=", "answer": "61", "operation": "sub", "a": 73, "b": 12, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0061", "pair": 61, "source": "symbolic", "problem": "5/5=", "answer": "1", "operation": "div", "a": 5, "b": 5, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0062", "pair": 62, "source": "symbolic", "problem": "8 - 2 =", "answer": "6", "operation": "sub", "a": 8, "b": 2, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0063", "pair": 63, "source": "symbolic", "problem": "46 + 49 =", "answer": "95", "operation": "add", "a": 46, "b": 49, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0064", "pair": 64, "source": "symbolic", "problem": "18 / 2 =", "answer": "9", "operation": "div", "a": 18, "b": 2, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0065", "pair": 65, "source": "symbolic", "problem": "2 * 4 =", "answer": "8", "operation": "mul", "a": 2, "b": 4, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0066", "pair": 66, "source": "symbolic", "problem": "7+5=", "answer": "12", "operation": "add", "a": 7, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0067", "pair": 67, "source": "symbolic", "problem": "51 - 34 =", "answer": "17", "operation": "sub", "a": 51, "b": 34, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0068", "pair": 68, "source": "symbolic", "problem": "9-8=", "answer": "1", "operation": "sub", "a": 9, "b": 8, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0069", "pair": 69, "source": "symbolic", "problem": "2 + 7 =", "answer": "9", "operation": "add", "a": 2, "b": 7, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0070", "pair": 70, "source": "symbolic", "problem": "9 + 8 =", "answer": "17", "operation": "add", "a": 9, "b": 8, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0071", "pair": 71, "source": "symbolic", "problem": "4/4=", "answer": "1", "operation": "div", "a": 4, "b": 4, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0072", "pair": 72, "source": "symbolic", "problem": "5*6=", "answer": "30", "operation": "mul", "a": 5, "b": 6, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0073", "pair": 73, "source": "symbolic", "problem": "28/7=", "answer": "4", "operation": "div", "a": 28, "b": 7, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0074", "pair": 74, "source": "symbolic", "problem": "42-11=", "answer": "31", "operation": "sub", "a": 42, "b": 11, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0075", "pair": 75, "source": "symbolic", "problem": "3+3=", "answer": "6", "operation": "add", "a": 3, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0076", "pair": 76, "source": "symbolic", "problem": "3 - 0 =", "answer": "3", "operation": "sub", "a": 3, "b": 0, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0077", "pair": 77, "source": "symbolic", "problem": "82+7=", "answer": "89", "operation": "add", "a": 82, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0078", "pair": 78, "source": "symbolic", "problem": "41 + 56 =", "answer": "97", "operation": "add", "a": 41, "b": 56, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0079", "pair": 79, "source": "symbolic", "problem": "16 + 19 =", "answer": "35", "operation": "add", "a": 16, "b": 19, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0080", "pair": 80, "source": "symbolic", "problem": "9 - 1 =", "answer": "8", "operation": "sub", "a": 9, "b": 1, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0081", "pair": 81, "source": "symbolic", "problem": "12/4=", "answer": "3", "operation": "div", "a": 12, "b": 4, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0082", "pair": 82, "source": "symbolic", "problem": "8 + 35 =", "answer": "43", "operation": "add", "a": 8, "b": 35, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0083", "pair": 83, "source": "symbolic", "problem": "36 - 31 =", "answer": "5", "operation": "sub", "a": 36, "b": 31, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0084", "pair": 84, "source": "symbolic", "problem": "6*3=", "answer": "18", "operation": "mul", "a": 6, "b": 3, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0085", "pair": 85, "source": "symbolic", "problem": "50 + 20 =", "answer": "70", "operation": "add", "a": 50, "b": 20, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0086", "pair": 86, "source": "symbolic", "problem": "3 - 3 =", "answer": "0", "operation": "sub", "a": 3, "b": 3, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0087", "pair": 87, "source": "symbolic", "problem": "44 - 12 =", "answer": "32", "operation": "sub", "a": 44, "b": 12, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0088", "pair": 88, "source": "symbolic", "problem": "70 - 13 =", "answer": "57", "operation": "sub", "a": 70, "b": 13, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0089", "pair": 89, "source": "symbolic", "problem": "15+7=", "answer": "22", "operation": "add", "a": 15, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0090", "pair": 90, "source": "symbolic", "problem": "3+2=", "answer": "5", "operation": "add", "a": 3, "b": 2, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0091", "pair": 91, "source": "symbolic", "problem": "73 - 37 =", "answer": "36", "operation": "sub", "a": 73, "b": 37, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0092", "pair": 92, "source": "symbolic", "problem": "2+22=", "answer": "24", "operation": "add", "a": 2, "b": 22, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0093", "pair": 93, "source": "symbolic", "problem": "6+6=", "answer": "12", "operation": "add", "a": 6, "b": 6, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0094", "pair": 94, "source": "symbolic", "problem": "4+70=", "answer": "74", "operation": "add", "a": 4, "b": 70, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0095", "pair": 95, "source": "symbolic", "problem": "3/1=", "answer": "3", "operation": "div", "a": 3, "b": 1, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0096", "pair": 96, "source": "symbolic", "problem": "5+5=", "answer": "10", "operation": "add", "a": 5, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0097", "pair": 97, "source": "symbolic", "problem": "5 + 4 =", "answer": "9", "operation": "add", "a": 5, "b": 4, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0098", "pair": 98, "source": "symbolic", "problem": "5x2=", "answer": "10", "operation": "mul", "a": 5, "b": 2, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0099", "pair": 99, "source": "symbolic", "problem": "5 - 4 =", "answer": "1", "operation": "sub", "a": 5, "b": 4, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0100", "pair": 100, "source": "symbolic", "problem": "1 * 0 =", "answer": "0", "operation": "mul", "a": 1, "b": 0, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0101", "pair": 101, "source": "symbolic", "problem": "54-34=", "answer": "20", "operation": "sub", "a": 54, "b": 34, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0102", "pair": 102, "source": "symbolic", "problem": "5x0=", "answer": "0", "operation": "mul", "a": 5, "b": 0, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0103", "pair": 103, "source": "symbolic", "problem": "10/5=", "answer": "2", "operation": "div", "a": 10, "b": 5, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0104", "pair": 104, "source": "symbolic", "problem": "36-8=", "answer": "28", "operation": "sub", "a": 36, "b": 8, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0105", "pair": 105, "source": "symbolic", "problem": "1-0=", "answer": "1", "operation": "sub", "a": 1, "b": 0, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0106", "pair": 106, "source": "symbolic", "problem": "0 + 8 =", "answer": "8", "operation": "add", "a": 0, "b": 8, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0107", "pair": 107, "source": "symbolic", "problem": "45 / 5 =", "answer": "9", "operation": "div", "a": 45, "b": 5, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0108", "pair": 108, "source": "symbolic", "problem": "4 x 2 =", "answer": "8", "operation": "mul", "a": 4, "b": 2, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0109", "pair": 109, "source": "symbolic", "problem": "2 x 3 =", "answer": "6", "operation": "mul", "a": 2, "b": 3, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0110", "pair": 110, "source": "symbolic", "problem": "60-38=", "answer": "22", "operation": "sub", "a": 60, "b": 38, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0111", "pair": 111, "source": "symbolic", "problem": "50 - 46 =", "answer": "4", "operation": "sub", "a": 50, "b": 46, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0112", "pair": 112, "source": "symbolic", "problem": "5x1=", "answer": "5", "operation": "mul", "a": 5, "b": 1, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0113", "pair": 113, "source": "symbolic", "problem": "21 - 2 =", "answer": "19", "operation": "sub", "a": 21, "b": 2, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0114", "pair": 114, "source": "symbolic", "problem": "37-11=", "answer": "26", "operation": "sub", "a": 37, "b": 11, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0115", "pair": 115, "source": "symbolic", "problem": "12 / 3 =", "answer": "4", "operation": "div", "a": 12, "b": 3, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0116", "pair": 116, "source": "symbolic", "problem": "0+5=", "answer": "5", "operation": "add", "a": 0, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0117", "pair": 117, "source": "symbolic", "problem": "16 / 8 =", "answer": "2", "operation": "div", "a": 16, "b": 8, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0118", "pair": 118, "source": "symbolic", "problem": "4 + 1 =", "answer": "5", "operation": "add", "a": 4, "b": 1, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0119", "pair": 119, "source": "symbolic", "problem": "9*6=", "answer": "54", "operation": "mul", "a": 9, "b": 6, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0120", "pair": 120, "source": "symbolic", "problem": "6+1=", "answer": "7", "operation": "add", "a": 6, "b": 1, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0121", "pair": 121, "source": "symbolic", "problem": "19+10=", "answer": "29", "operation": "add", "a": 19, "b": 10, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0122", "pair": 122, "source": "symbolic", "problem": "9-9=", "answer": "0", "operation": "sub", "a": 9, "b": 9, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0123", "pair": 123, "source": "symbolic", "problem": "88 - 58 =", "answer": "30", "operation": "sub", "a": 88, "b": 58, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0124", "pair": 124, "source": "symbolic", "problem": "12 + 5 =", "answer": "17", "operation": "add", "a": 12, "b": 5, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0125", "pair": 125, "source": "symbolic", "problem": "35 + 32 =", "answer": "67", "operation": "add", "a": 35, "b": 32, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0126", "pair": 126, "source": "symbolic", "problem": "0*1=", "answer": "0", "operation": "mul", "a": 0, "b": 1, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0127", "pair": 127, "source": "symbolic", "problem": "35 - 31 =", "answer": "4", "operation": "sub", "a": 35, "b": 31, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0128", "pair": 128, "source": "symbolic", "problem": "9 / 1 =", "answer": "9", "operation": "div", "a": 9, "b": 1, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0129", "pair": 129, "source": "symbolic", "problem": "6 + 9 =", "answer": "15", "operation": "add", "a": 6, "b": 9, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0130", "pair": 130, "source": "symbolic", "problem": "66 - 23 =", "answer": "43", "operation": "sub", "a": 66, "b": 23, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0131", "pair": 131, "source": "symbolic", "problem": "54 + 16 =", "answer": "70", "operation": "add", "a": 54, "b": 16, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0132", "pair": 132, "source": "symbolic", "problem": "2 x 7 =", "answer": "14", "operation": "mul", "a": 2, "b": 7, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0133", "pair": 133, "source": "symbolic", "problem": "8x3=", "answer": "24", "operation": "mul", "a": 8, "b": 3, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0134", "pair": 134, "source": "symbolic", "problem": "6+7=", "answer": "13", "operation": "add", "a": 6, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0135", "pair": 135, "source": "symbolic", "problem": "5 + 3 =", "answer": "8", "operation": "add", "a": 5, "b": 3, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0136", "pair": 136, "source": "symbolic", "problem": "6 - 3 =", "answer": "3", "operation": "sub", "a": 6, "b": 3, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0137", "pair": 137, "source": "symbolic", "problem": "7 + 6 =", "answer": "13", "operation": "add", "a": 7, "b": 6, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0138", "pair": 138, "source": "symbolic", "problem": "36/4=", "answer": "9", "operation": "div", "a": 36, "b": 4, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0139", "pair": 139, "source": "symbolic", "problem": "5 - 5 =", "answer": "0", "operation": "sub", "a": 5, "b": 5, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0140", "pair": 140, "source": "symbolic", "problem": "57 + 41 =", "answer": "98", "operation": "add", "a": 57, "b": 41, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0141", "pair": 141, "source": "symbolic", "problem": "5 + 1 =", "answer": "6", "operation": "add", "a": 5, "b": 1, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0142", "pair": 142, "source": "symbolic", "problem": "15 / 3 =", "answer": "5", "operation": "div", "a": 15, "b": 3, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0143", "pair": 143, "source": "symbolic", "problem": "5 x 4 =", "answer": "20", "operation": "mul", "a": 5, "b": 4, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0144", "pair": 144, "source": "symbolic", "problem": "8x5=", "answer": "40", "operation": "mul", "a": 8, "b": 5, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0145", "pair": 145, "source": "symbolic", "problem": "40 - 7 =", "answer": "33", "operation": "sub", "a": 40, "b": 7, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0146", "pair": 146, "source": "symbolic", "problem": "8*1=", "answer": "8", "operation": "mul", "a": 8, "b": 1, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0147", "pair": 147, "source": "symbolic", "problem": "42 / 7 =", "answer": "6", "operation": "div", "a": 42, "b": 7, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0148", "pair": 148, "source": "symbolic", "problem": "6x2=", "answer": "12", "operation": "mul", "a": 6, "b": 2, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0149", "pair": 149, "source": "symbolic", "problem": "8 + 9 =", "answer": "17", "operation": "add", "a": 8, "b": 9, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0150", "pair": 150, "source": "symbolic", "problem": "41 + 40 =", "answer": "81", "operation": "add", "a": 41, "b": 40, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0151", "pair": 151, "source": "symbolic", "problem": "11+80=", "answer": "91", "operation": "add", "a": 11, "b": 80, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0152", "pair": 152, "source": "symbolic", "problem": "3 x 3 =", "answer": "9", "operation": "mul", "a": 3, "b": 3, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0153", "pair": 153, "source": "symbolic", "problem": "1 x 5 =", "answer": "5", "operation": "mul", "a": 1, "b": 5, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0154", "pair": 154, "source": "symbolic", "problem": "7 * 9 =", "answer": "63", "operation": "mul", "a": 7, "b": 9, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0155", "pair": 155, "source": "symbolic", "problem": "6+0=", "answer": "6", "operation": "add", "a": 6, "b": 0, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0156", "pair": 156, "source": "symbolic", "problem": "16+44=", "answer": "60", "operation": "add", "a": 16, "b": 44, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0157", "pair": 157, "source": "symbolic", "problem": "12+1=", "answer": "13", "operation": "add", "a": 12, "b": 1, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0158", "pair": 158, "source": "symbolic", "problem": "16 / 2 =", "answer": "8", "operation": "div", "a": 16, "b": 2, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0159", "pair": 159, "source": "symbolic", "problem": "0+3=", "answer": "3", "operation": "add", "a": 0, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0160", "pair": 160, "source": "symbolic", "problem": "2+6=", "answer": "8", "operation": "add", "a": 2, "b": 6, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0161", "pair": 161, "source": "symbolic", "problem": "9 / 9 =", "answer": "1", "operation": "div", "a": 9, "b": 9, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0162", "pair": 162, "source": "symbolic", "problem": "8+5=", "answer": "13", "operation": "add", "a": 8, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0163", "pair": 163, "source": "symbolic", "problem": "9 + 19 =", "answer": "28", "operation": "add", "a": 9, "b": 19, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0164", "pair": 164, "source": "symbolic", "problem": "30 + 68 =", "answer": "98", "operation": "add", "a": 30, "b": 68, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0165", "pair": 165, "source": "symbolic", "problem": "40 + 16 =", "answer": "56", "operation": "add", "a": 40, "b": 16, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0166", "pair": 166, "source": "symbolic", "problem": "6 + 8 =", "answer": "14", "operation": "add", "a": 6, "b": 8, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0167", "pair": 167, "source": "symbolic", "problem": "7 + 4 =", "answer": "11", "operation": "add", "a": 7, "b": 4, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0168", "pair": 168, "source": "symbolic", "problem": "7x3=", "answer": "21", "operation": "mul", "a": 7, "b": 3, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0169", "pair": 169, "source": "symbolic", "problem": "5+2=", "answer": "7", "operation": "add", "a": 5, "b": 2, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0170", "pair": 170, "source": "symbolic", "problem": "8 + 2 =", "answer": "10", "operation": "add", "a": 8, "b": 2, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0171", "pair": 171, "source": "symbolic", "problem": "0+1=", "answer": "1", "operation": "add", "a": 0, "b": 1, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0172", "pair": 172, "source": "symbolic", "problem": "68 - 68 =", "answer": "0", "operation": "sub", "a": 68, "b": 68, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0173", "pair": 173, "source": "symbolic", "problem": "5*9=", "answer": "45", "operation": "mul", "a": 5, "b": 9, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0174", "pair": 174, "source": "symbolic", "problem": "0/3=", "answer": "0", "operation": "div", "a": 0, "b": 3, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0175", "pair": 175, "source": "symbolic", "problem": "0 + 9 =", "answer": "9", "operation": "add", "a": 0, "b": 9, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0176", "pair": 176, "source": "symbolic", "problem": "42/6=", "answer": "7", "operation": "div", "a": 42, "b": 6, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0177", "pair": 177, "source": "symbolic", "problem": "87-39=", "answer": "48", "operation": "sub", "a": 87, "b": 39, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0178", "pair": 178, "source": "symbolic", "problem": "0 / 1 =", "answer": "0", "operation": "div", "a": 0, "b": 1, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0179", "pair": 179, "source": "symbolic", "problem": "98 - 36 =", "answer": "62", "operation": "sub", "a": 98, "b": 36, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0180", "pair": 180, "source": "symbolic", "problem": "7-0=", "answer": "7", "operation": "sub", "a": 7, "b": 0, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0181", "pair": 181, "source": "symbolic", "problem": "9-7=", "answer": "2", "operation": "sub", "a": 9, "b": 7, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0182", "pair": 182, "source": "symbolic", "problem": "3+0=", "answer": "3", "operation": "add", "a": 3, "b": 0, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0183", "pair": 183, "source": "symbolic", "problem": "8 / 1 =", "answer": "8", "operation": "div", "a": 8, "b": 1, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0184", "pair": 184, "source": "symbolic", "problem": "0/9=", "answer": "0", "operation": "div", "a": 0, "b": 9, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0185", "pair": 185, "source": "symbolic", "problem": "11+29=", "answer": "40", "operation": "add", "a": 11, "b": 29, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0186", "pair": 186, "source": "symbolic", "problem": "7-1=", "answer": "6", "operation": "sub", "a": 7, "b": 1, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0187", "pair": 187, "source": "symbolic", "problem": "4+76=", "answer": "80", "operation": "add", "a": 4, "b": 76, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0188", "pair": 188, "source": "symbolic", "problem": "40-20=", "answer": "20", "operation": "sub", "a": 40, "b": 20, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0189", "pair": 189, "source": "symbolic", "problem": "1x3=", "answer": "3", "operation": "mul", "a": 1, "b": 3, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0190", "pair": 190, "source": "symbolic", "problem": "18 / 3 =", "answer": "6", "operation": "div", "a": 18, "b": 3, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0191", "pair": 191, "source": "symbolic", "problem": "0+0=", "answer": "0", "operation": "add", "a": 0, "b": 0, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0192", "pair": 192, "source": "symbolic", "problem": "8+6=", "answer": "14", "operation": "add", "a": 8, "b": 6, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0193", "pair": 193, "source": "symbolic", "problem": "0x7=", "answer": "0", "operation": "mul", "a": 0, "b": 7, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0194", "pair": 194, "source": "symbolic", "problem": "27 + 44 =", "answer": "71", "operation": "add", "a": 27, "b": 44, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0195", "pair": 195, "source": "symbolic", "problem": "7 x 5 =", "answer": "35", "operation": "mul", "a": 7, "b": 5, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0196", "pair": 196, "source": "symbolic", "problem": "6 - 1 =", "answer": "5", "operation": "sub", "a": 6, "b": 1, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0197", "pair": 197, "source": "symbolic", "problem": "56 / 8 =", "answer": "7", "operation": "div", "a": 56, "b": 8, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0198", "pair": 198, "source": "symbolic", "problem": "9-4=", "answer": "5", "operation": "sub", "a": 9, "b": 4, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0199", "pair": 199, "source": "symbolic", "problem": "59-37=", "answer": "22", "operation": "sub", "a": 59, "b": 37, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0200", "pair": 200, "source": "symbolic", "problem": "5+7=", "answer": "12", "operation": "add", "a": 5, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0201", "pair": 201, "source": "symbolic", "problem": "2 * 0 =", "answer": "0", "operation": "mul", "a": 2, "b": 0, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0202", "pair": 202, "source": "symbolic", "problem": "64-43=", "answer": "21", "operation": "sub", "a": 64, "b": 43, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0203", "pair": 203, "source": "symbolic", "problem": "0 * 3 =", "answer": "0", "operation": "mul", "a": 0, "b": 3, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0204", "pair": 204, "source": "symbolic", "problem": "24 + 7 =", "answer": "31", "operation": "add", "a": 24, "b": 7, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0205", "pair": 205, "source": "symbolic", "problem": "85 + 11 =", "answer": "96", "operation": "add", "a": 85, "b": 11, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0206", "pair": 206, "source": "symbolic", "problem": "2 + 1 =", "answer": "3", "operation": "add", "a": 2, "b": 1, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0207", "pair": 207, "source": "symbolic", "problem": "4x3=", "answer": "12", "operation": "mul", "a": 4, "b": 3, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0208", "pair": 208, "source": "symbolic", "problem": "16 / 4 =", "answer": "4", "operation": "div", "a": 16, "b": 4, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0209", "pair": 209, "source": "symbolic", "problem": "7 * 4 =", "answer": "28", "operation": "mul", "a": 7, "b": 4, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0210", "pair": 210, "source": "symbolic", "problem": "7+3=", "answer": "10", "operation": "add", "a": 7, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0211", "pair": 211, "source": "symbolic", "problem": "4 x 5 =", "answer": "20", "operation": "mul", "a": 4, "b": 5, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0212", "pair": 212, "source": "symbolic", "problem": "56 - 36 =", "answer": "20", "operation": "sub", "a": 56, "b": 36, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0213", "pair": 213, "source": "symbolic", "problem": "7+8=", "answer": "15", "operation": "add", "a": 7, "b": 8, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0214", "pair": 214, "source": "symbolic", "problem": "4*8=", "answer": "32", "operation": "mul", "a": 4, "b": 8, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0215", "pair": 215, "source": "symbolic", "problem": "2 - 0 =", "answer": "2", "operation": "sub", "a": 2, "b": 0, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0216", "pair": 216, "source": "symbolic", "problem": "7 - 4 =", "answer": "3", "operation": "sub", "a": 7, "b": 4, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0217", "pair": 217, "source": "symbolic", "problem": "4 + 2 =", "answer": "6", "operation": "add", "a": 4, "b": 2, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0218", "pair": 218, "source": "symbolic", "problem": "6x5=", "answer": "30", "operation": "mul", "a": 6, "b": 5, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0219", "pair": 219, "source": "symbolic", "problem": "30+31=", "answer": "61", "operation": "add", "a": 30, "b": 31, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0220", "pair": 220, "source": "symbolic", "problem": "0/8=", "answer": "0", "operation": "div", "a": 0, "b": 8, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0221", "pair": 221, "source": "symbolic", "problem": "75-9=", "answer": "66", "operation": "sub", "a": 75, "b": 9, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0222", "pair": 222, "source": "symbolic", "problem": "0x5=", "answer": "0", "operation": "mul", "a": 0, "b": 5, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0223", "pair": 223, "source": "symbolic", "problem": "45+46=", "answer": "91", "operation": "add", "a": 45, "b": 46, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0224", "pair": 224, "source": "symbolic", "problem": "71+13=", "answer": "84", "operation": "add", "a": 71, "b": 13, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0225", "pair": 225, "source": "symbolic", "problem": "36+34=", "answer": "70", "operation": "add", "a": 36, "b": 34, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0226", "pair": 226, "source": "symbolic", "problem": "0 * 8 =", "answer": "0", "operation": "mul", "a": 0, "b": 8, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0227", "pair": 227, "source": "symbolic", "problem": "9+9=", "answer": "18", "operation": "add", "a": 9, "b": 9, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0228", "pair": 228, "source": "symbolic", "problem": "72/8=", "answer": "9", "operation": "div", "a": 72, "b": 8, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0229", "pair": 229, "source": "symbolic", "problem": "48+5=", "answer": "53", "operation": "add", "a": 48, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0230", "pair": 230, "source": "symbolic", "problem": "30/6=", "answer": "5", "operation": "div", "a": 30, "b": 6, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0231", "pair": 231, "source": "symbolic", "problem": "34+3=", "answer": "37", "operation": "add", "a": 34, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0232", "pair": 232, "source": "symbolic", "problem": "82 - 16 =", "answer": "66", "operation": "sub", "a": 82, "b": 16, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0233", "pair": 233, "source": "symbolic", "problem": "9-0=", "answer": "9", "operation": "sub", "a": 9, "b": 0, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0234", "pair": 234, "source": "symbolic", "problem": "2 + 0 =", "answer": "2", "operation": "add", "a": 2, "b": 0, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0235", "pair": 235, "source": "symbolic", "problem": "2x1=", "answer": "2", "operation": "mul", "a": 2, "b": 1, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0236", "pair": 236, "source": "symbolic", "problem": "81-11=", "answer": "70", "operation": "sub", "a": 81, "b": 11, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0237", "pair": 237, "source": "symbolic", "problem": "1 x 8 =", "answer": "8", "operation": "mul", "a": 1, "b": 8, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0238", "pair": 238, "source": "symbolic", "problem": "4*7=", "answer": "28", "operation": "mul", "a": 4, "b": 7, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0239", "pair": 239, "source": "symbolic", "problem": "21-12=", "answer": "9", "operation": "sub", "a": 21, "b": 12, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0240", "pair": 240, "source": "symbolic", "problem": "9 + 2 =", "answer": "11", "operation": "add", "a": 9, "b": 2, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0241", "pair": 241, "source": "symbolic", "problem": "7+7=", "answer": "14", "operation": "add", "a": 7, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0242", "pair": 242, "source": "symbolic", "problem": "9+4=", "answer": "13", "operation": "add", "a": 9, "b": 4, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0243", "pair": 243, "source": "symbolic", "problem": "9+6=", "answer": "15", "operation": "add", "a": 9, "b": 6, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0244", "pair": 244, "source": "symbolic", "problem": "1/1=", "answer": "1", "operation": "div", "a": 1, "b": 1, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0245", "pair": 245, "source": "symbolic", "problem": "24 + 44 =", "answer": "68", "operation": "add", "a": 24, "b": 44, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0246", "pair": 246, "source": "symbolic", "problem": "21 + 12 =", "answer": "33", "operation": "add", "a": 21, "b": 12, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0247", "pair": 247, "source": "symbolic", "problem": "25 / 5 =", "answer": "5", "operation": "div", "a": 25, "b": 5, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0248", "pair": 248, "source": "symbolic", "problem": "4 + 6 =", "answer": "10", "operation": "add", "a": 4, "b": 6, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0249", "pair": 249, "source": "symbolic", "problem": "9/3=", "answer": "3", "operation": "div", "a": 9, "b": 3, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0250", "pair": 250, "source": "symbolic", "problem": "8-5=", "answer": "3", "operation": "sub", "a": 8, "b": 5, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0251", "pair": 251, "source": "symbolic", "problem": "7+9=", "answer": "16", "operation": "add", "a": 7, "b": 9, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0252", "pair": 252, "source": "symbolic", "problem": "4 x 1 =", "answer": "4", "operation": "mul", "a": 4, "b": 1, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0253", "pair": 253, "source": "symbolic", "problem": "1 x 4 =", "answer": "4", "operation": "mul", "a": 1, "b": 4, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0254", "pair": 254, "source": "symbolic", "problem": "3+56=", "answer": "59", "operation": "add", "a": 3, "b": 56, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0255", "pair": 255, "source": "symbolic", "problem": "8+8=", "answer": "16", "operation": "add", "a": 8, "b": 8, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0256", "pair": 256, "source": "symbolic", "problem": "1+6=", "answer": "7", "operation": "add", "a": 1, "b": 6, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0257", "pair": 257, "source": "symbolic", "problem": "81 - 4 =", "answer": "77", "operation": "sub", "a": 81, "b": 4, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0258", "pair": 258, "source": "symbolic", "problem": "88 - 59 =", "answer": "29", "operation": "sub", "a": 88, "b": 59, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0259", "pair": 259, "source": "symbolic", "problem": "8 + 77 =", "answer": "85", "operation": "add", "a": 8, "b": 77, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0260", "pair": 260, "source": "symbolic", "problem": "17 + 24 =", "answer": "41", "operation": "add", "a": 17, "b": 24, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0261", "pair": 261, "source": "symbolic", "problem": "3*9=", "answer": "27", "operation": "mul", "a": 3, "b": 9, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0262", "pair": 262, "source": "symbolic", "problem": "5 + 6 =", "answer": "11", "operation": "add", "a": 5, "b": 6, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0263", "pair": 263, "source": "symbolic", "problem": "3x6=", "answer": "18", "operation": "mul", "a": 3, "b": 6, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0264", "pair": 264, "source": "symbolic", "problem": "0 + 6 =", "answer": "6", "operation": "add", "a": 0, "b": 6, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0265", "pair": 265, "source": "symbolic", "problem": "96-1=", "answer": "95", "operation": "sub", "a": 96, "b": 1, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0266", "pair": 266, "source": "symbolic", "problem": "15/5=", "answer": "3", "operation": "div", "a": 15, "b": 5, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0267", "pair": 267, "source": "symbolic", "problem": "1 + 3 =", "answer": "4", "operation": "add", "a": 1, "b": 3, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0268", "pair": 268, "source": "symbolic", "problem": "77-72=", "answer": "5", "operation": "sub", "a": 77, "b": 72, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0269", "pair": 269, "source": "symbolic", "problem": "0x6=", "answer": "0", "operation": "mul", "a": 0, "b": 6, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0270", "pair": 270, "source": "symbolic", "problem": "26+7=", "answer": "33", "operation": "add", "a": 26, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0271", "pair": 271, "source": "symbolic", "problem": "1 x 6 =", "answer": "6", "operation": "mul", "a": 1, "b": 6, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0272", "pair": 272, "source": "symbolic", "problem": "5 - 1 =", "answer": "4", "operation": "sub", "a": 5, "b": 1, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0273", "pair": 273, "source": "symbolic", "problem": "13 + 80 =", "answer": "93", "operation": "add", "a": 13, "b": 80, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0274", "pair": 274, "source": "symbolic", "problem": "9 + 1 =", "answer": "10", "operation": "add", "a": 9, "b": 1, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0275", "pair": 275, "source": "symbolic", "problem": "0 x 2 =", "answer": "0", "operation": "mul", "a": 0, "b": 2, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0276", "pair": 276, "source": "symbolic", "problem": "6 * 8 =", "answer": "48", "operation": "mul", "a": 6, "b": 8, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0277", "pair": 277, "source": "symbolic", "problem": "6-5=", "answer": "1", "operation": "sub", "a": 6, "b": 5, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0278", "pair": 278, "source": "symbolic", "problem": "90-81=", "answer": "9", "operation": "sub", "a": 90, "b": 81, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0279", "pair": 279, "source": "symbolic", "problem": "1+5=", "answer": "6", "operation": "add", "a": 1, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0280", "pair": 280, "source": "symbolic", "problem": "3 + 5 =", "answer": "8", "operation": "add", "a": 3, "b": 5, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0281", "pair": 281, "source": "symbolic", "problem": "1 + 0 =", "answer": "1", "operation": "add", "a": 1, "b": 0, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0282", "pair": 282, "source": "symbolic", "problem": "8 - 1 =", "answer": "7", "operation": "sub", "a": 8, "b": 1, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0283", "pair": 283, "source": "symbolic", "problem": "72-3=", "answer": "69", "operation": "sub", "a": 72, "b": 3, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0284", "pair": 284, "source": "symbolic", "problem": "92-73=", "answer": "19", "operation": "sub", "a": 92, "b": 73, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0285", "pair": 285, "source": "symbolic", "problem": "4 x 0 =", "answer": "0", "operation": "mul", "a": 4, "b": 0, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0286", "pair": 286, "source": "symbolic", "problem": "63/7=", "answer": "9", "operation": "div", "a": 63, "b": 7, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0287", "pair": 287, "source": "symbolic", "problem": "6 - 2 =", "answer": "4", "operation": "sub", "a": 6, "b": 2, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0288", "pair": 288, "source": "symbolic", "problem": "5 - 0 =", "answer": "5", "operation": "sub", "a": 5, "b": 0, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0289", "pair": 289, "source": "symbolic", "problem": "36 + 39 =", "answer": "75", "operation": "add", "a": 36, "b": 39, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0290", "pair": 290, "source": "symbolic", "problem": "2+8=", "answer": "10", "operation": "add", "a": 2, "b": 8, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0291", "pair": 291, "source": "symbolic", "problem": "36/9=", "answer": "4", "operation": "div", "a": 36, "b": 9, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0292", "pair": 292, "source": "symbolic", "problem": "7x6=", "answer": "42", "operation": "mul", "a": 7, "b": 6, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0293", "pair": 293, "source": "symbolic", "problem": "14 / 2 =", "answer": "7", "operation": "div", "a": 14, "b": 2, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0294", "pair": 294, "source": "symbolic", "problem": "4 x 6 =", "answer": "24", "operation": "mul", "a": 4, "b": 6, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0295", "pair": 295, "source": "symbolic", "problem": "81-70=", "answer": "11", "operation": "sub", "a": 81, "b": 70, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0296", "pair": 296, "source": "symbolic", "problem": "0 / 7 =", "answer": "0", "operation": "div", "a": 0, "b": 7, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0297", "pair": 297, "source": "symbolic", "problem": "5*3=", "answer": "15", "operation": "mul", "a": 5, "b": 3, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0298", "pair": 298, "source": "symbolic", "problem": "11 + 1 =", "answer": "12", "operation": "add", "a": 11, "b": 1, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0299", "pair": 299, "source": "symbolic", "problem": "0 / 5 =", "answer": "0", "operation": "div", "a": 0, "b": 5, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0300", "pair": 300, "source": "symbolic", "problem": "83 + 3 =", "answer": "86", "operation": "add", "a": 83, "b": 3, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0301", "pair": 301, "source": "symbolic", "problem": "8 + 4 =", "answer": "12", "operation": "add", "a": 8, "b": 4, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0302", "pair": 302, "source": "symbolic", "problem": "12/2=", "answer": "6", "operation": "div", "a": 12, "b": 2, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0303", "pair": 303, "source": "symbolic", "problem": "18 / 6 =", "answer": "3", "operation": "div", "a": 18, "b": 6, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0304", "pair": 304, "source": "symbolic", "problem": "6 / 1 =", "answer": "6", "operation": "div", "a": 6, "b": 1, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0305", "pair": 305, "source": "symbolic", "problem": "0x0=", "answer": "0", "operation": "mul", "a": 0, "b": 0, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0306", "pair": 306, "source": "symbolic", "problem": "4-4=", "answer": "0", "operation": "sub", "a": 4, "b": 4, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0307", "pair": 307, "source": "symbolic", "problem": "35/7=", "answer": "5", "operation": "div", "a": 35, "b": 7, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0308", "pair": 308, "source": "symbolic", "problem": "93+3=", "answer": "96", "operation": "add", "a": 93, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0309", "pair": 309, "source": "symbolic", "problem": "56-6=", "answer": "50", "operation": "sub", "a": 56, "b": 6, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0310", "pair": 310, "source": "symbolic", "problem": "7+2=", "answer": "9", "operation": "add", "a": 7, "b": 2, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0311", "pair": 311, "source": "symbolic", "problem": "6 / 6 =", "answer": "1", "operation": "div", "a": 6, "b": 6, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0312", "pair": 312, "source": "symbolic", "problem": "53 + 5 =", "answer": "58", "operation": "add", "a": 53, "b": 5, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0313", "pair": 313, "source": "symbolic", "problem": "74-25=", "answer": "49", "operation": "sub", "a": 74, "b": 25, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0314", "pair": 314, "source": "symbolic", "problem": "77 - 34 =", "answer": "43", "operation": "sub", "a": 77, "b": 34, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0315", "pair": 315, "source": "symbolic", "problem": "9 + 5 =", "answer": "14", "operation": "add", "a": 9, "b": 5, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0316", "pair": 316, "source": "symbolic", "problem": "6 * 9 =", "answer": "54", "operation": "mul", "a": 6, "b": 9, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0317", "pair": 317, "source": "symbolic", "problem": "45 / 9 =", "answer": "5", "operation": "div", "a": 45, "b": 9, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0318", "pair": 318, "source": "symbolic", "problem": "9 x 3 =", "answer": "27", "operation": "mul", "a": 9, "b": 3, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0319", "pair": 319, "source": "symbolic", "problem": "7 x 1 =", "answer": "7", "operation": "mul", "a": 7, "b": 1, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0320", "pair": 320, "source": "symbolic", "problem": "8/2=", "answer": "4", "operation": "div", "a": 8, "b": 2, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0321", "pair": 321, "source": "symbolic", "problem": "5 * 7 =", "answer": "35", "operation": "mul", "a": 5, "b": 7, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0322", "pair": 322, "source": "symbolic", "problem": "9x2=", "answer": "18", "operation": "mul", "a": 9, "b": 2, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0323", "pair": 323, "source": "symbolic", "problem": "9 * 0 =", "answer": "0", "operation": "mul", "a": 9, "b": 0, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0324", "pair": 324, "source": "symbolic", "problem": "3x8=", "answer": "24", "operation": "mul", "a": 3, "b": 8, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0325", "pair": 325, "source": "symbolic", "problem": "48/8=", "answer": "6", "operation": "div", "a": 48, "b": 8, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0326", "pair": 326, "source": "symbolic", "problem": "1 + 7 =", "answer": "8", "operation": "add", "a": 1, "b": 7, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0327", "pair": 327, "source": "symbolic", "problem": "4x4=", "answer": "16", "operation": "mul", "a": 4, "b": 4, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0328", "pair": 328, "source": "symbolic", "problem": "64 - 37 =", "answer": "27", "operation": "sub", "a": 64, "b": 37, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0329", "pair": 329, "source": "symbolic", "problem": "27 / 3 =", "answer": "9", "operation": "div", "a": 27, "b": 3, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0330", "pair": 330, "source": "symbolic", "problem": "6/3=", "answer": "2", "operation": "div", "a": 6, "b": 3, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0331", "pair": 331, "source": "symbolic", "problem": "9x5=", "answer": "45", "operation": "mul", "a": 9, "b": 5, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0332", "pair": 332, "source": "symbolic", "problem": "33+42=", "answer": "75", "operation": "add", "a": 33, "b": 42, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0333", "pair": 333, "source": "symbolic", "problem": "21 + 56 =", "answer": "77", "operation": "add", "a": 21, "b": 56, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0334", "pair": 334, "source": "symbolic", "problem": "5*5=", "answer": "25", "operation": "mul", "a": 5, "b": 5, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0335", "pair": 335, "source": "symbolic", "problem": "0 / 4 =", "answer": "0", "operation": "div", "a": 0, "b": 4, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0336", "pair": 336, "source": "symbolic", "problem": "1 + 4 =", "answer": "5", "operation": "add", "a": 1, "b": 4, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0337", "pair": 337, "source": "symbolic", "problem": "2+3=", "answer": "5", "operation": "add", "a": 2, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0338", "pair": 338, "source": "symbolic", "problem": "28 + 57 =", "answer": "85", "operation": "add", "a": 28, "b": 57, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0339", "pair": 339, "source": "symbolic", "problem": "95-17=", "answer": "78", "operation": "sub", "a": 95, "b": 17, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0340", "pair": 340, "source": "symbolic", "problem": "30+54=", "answer": "84", "operation": "add", "a": 30, "b": 54, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0341", "pair": 341, "source": "symbolic", "problem": "6+3=", "answer": "9", "operation": "add", "a": 6, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0342", "pair": 342, "source": "symbolic", "problem": "49-29=", "answer": "20", "operation": "sub", "a": 49, "b": 29, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0343", "pair": 343, "source": "symbolic", "problem": "72-7=", "answer": "65", "operation": "sub", "a": 72, "b": 7, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0344", "pair": 344, "source": "symbolic", "problem": "1 + 2 =", "answer": "3", "operation": "add", "a": 1, "b": 2, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0345", "pair": 345, "source": "symbolic", "problem": "0 + 7 =", "answer": "7", "operation": "add", "a": 0, "b": 7, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0346", "pair": 346, "source": "symbolic", "problem": "99-82=", "answer": "17", "operation": "sub", "a": 99, "b": 82, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0347", "pair": 347, "source": "symbolic", "problem": "32/4=", "answer": "8", "operation": "div", "a": 32, "b": 4, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0348", "pair": 348, "source": "symbolic", "problem": "77-62=", "answer": "15", "operation": "sub", "a": 77, "b": 62, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0349", "pair": 349, "source": "symbolic", "problem": "20 / 4 =", "answer": "5", "operation": "div", "a": 20, "b": 4, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0350", "pair": 350, "source": "symbolic", "problem": "7 - 7 =", "answer": "0", "operation": "sub", "a": 7, "b": 7, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0351", "pair": 351, "source": "symbolic", "problem": "4 + 5 =", "answer": "9", "operation": "add", "a": 4, "b": 5, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0352", "pair": 352, "source": "symbolic", "problem": "9*1=", "answer": "9", "operation": "mul", "a": 9, "b": 1, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0353", "pair": 353, "source": "symbolic", "problem": "1*2=", "answer": "2", "operation": "mul", "a": 1, "b": 2, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0354", "pair": 354, "source": "symbolic", "problem": "4*9=", "answer": "36", "operation": "mul", "a": 4, "b": 9, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0355", "pair": 355, "source": "symbolic", "problem": "4 / 1 =", "answer": "4", "operation": "div", "a": 4, "b": 1, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0356", "pair": 356, "source": "symbolic", "problem": "5+0=", "answer": "5", "operation": "add", "a": 5, "b": 0, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0357", "pair": 357, "source": "symbolic", "problem": "3 x 0 =", "answer": "0", "operation": "mul", "a": 3, "b": 0, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0358", "pair": 358, "source": "symbolic", "problem": "24 + 58 =", "answer": "82", "operation": "add", "a": 24, "b": 58, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0359", "pair": 359, "source": "symbolic", "problem": "43-18=", "answer": "25", "operation": "sub", "a": 43, "b": 18, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0360", "pair": 360, "source": "symbolic", "problem": "36+22=", "answer": "58", "operation": "add", "a": 36, "b": 22, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0361", "pair": 361, "source": "symbolic", "problem": "28 / 4 =", "answer": "7", "operation": "div", "a": 28, "b": 4, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0362", "pair": 362, "source": "symbolic", "problem": "4-0=", "answer": "4", "operation": "sub", "a": 4, "b": 0, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0363", "pair": 363, "source": "symbolic", "problem": "0 - 0 =", "answer": "0", "operation": "sub", "a": 0, "b": 0, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0364", "pair": 364, "source": "symbolic", "problem": "0 / 2 =", "answer": "0", "operation": "div", "a": 0, "b": 2, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0365", "pair": 365, "source": "symbolic", "problem": "6 + 4 =", "answer": "10", "operation": "add", "a": 6, "b": 4, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0366", "pair": 366, "source": "symbolic", "problem": "1-1=", "answer": "0", "operation": "sub", "a": 1, "b": 1, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0367", "pair": 367, "source": "symbolic", "problem": "3 + 6 =", "answer": "9", "operation": "add", "a": 3, "b": 6, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0368", "pair": 368, "source": "symbolic", "problem": "7 - 6 =", "answer": "1", "operation": "sub", "a": 7, "b": 6, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0369", "pair": 369, "source": "symbolic", "problem": "8 - 3 =", "answer": "5", "operation": "sub", "a": 8, "b": 3, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0370", "pair": 370, "source": "symbolic", "problem": "7 - 2 =", "answer": "5", "operation": "sub", "a": 7, "b": 2, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0371", "pair": 371, "source": "symbolic", "problem": "14/7=", "answer": "2", "operation": "div", "a": 14, "b": 7, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0372", "pair": 372, "source": "symbolic", "problem": "64-26=", "answer": "38", "operation": "sub", "a": 64, "b": 26, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0373", "pair": 373, "source": "symbolic", "problem": "4+9=", "answer": "13", "operation": "add", "a": 4, "b": 9, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0374", "pair": 374, "source": "symbolic", "problem": "4 + 8 =", "answer": "12", "operation": "add", "a": 4, "b": 8, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0375", "pair": 375, "source": "symbolic", "problem": "64 + 5 =", "answer": "69", "operation": "add", "a": 64, "b": 5, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0376", "pair": 376, "source": "symbolic", "problem": "75-47=", "answer": "28", "operation": "sub", "a": 75, "b": 47, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0377", "pair": 377, "source": "symbolic", "problem": "7/1=", "answer": "7", "operation": "div", "a": 7, "b": 1, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0378", "pair": 378, "source": "symbolic", "problem": "6+5=", "answer": "11", "operation": "add", "a": 6, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0379", "pair": 379, "source": "symbolic", "problem": "9+7=", "answer": "16", "operation": "add", "a": 9, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0380", "pair": 380, "source": "symbolic", "problem": "54 / 6 =", "answer": "9", "operation": "div", "a": 54, "b": 6, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0381", "pair": 381, "source": "symbolic", "problem": "21/3=", "answer": "7", "operation": "div", "a": 21, "b": 3, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0382", "pair": 382, "source": "symbolic", "problem": "7 - 3 =", "answer": "4", "operation": "sub", "a": 7, "b": 3, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0383", "pair": 383, "source": "symbolic", "problem": "8 - 6 =", "answer": "2", "operation": "sub", "a": 8, "b": 6, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0384", "pair": 384, "source": "symbolic", "problem": "9-2=", "answer": "7", "operation": "sub", "a": 9, "b": 2, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0385", "pair": 385, "source": "symbolic", "problem": "9+77=", "answer": "86", "operation": "add", "a": 9, "b": 77, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0386", "pair": 386, "source": "symbolic", "problem": "8+7=", "answer": "15", "operation": "add", "a": 8, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0387", "pair": 387, "source": "symbolic", "problem": "8x9=", "answer": "72", "operation": "mul", "a": 8, "b": 9, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0388", "pair": 388, "source": "symbolic", "problem": "5 / 1 =", "answer": "5", "operation": "div", "a": 5, "b": 1, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0389", "pair": 389, "source": "symbolic", "problem": "76+22=", "answer": "98", "operation": "add", "a": 76, "b": 22, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0390", "pair": 390, "source": "symbolic", "problem": "1 x 9 =", "answer": "9", "operation": "mul", "a": 1, "b": 9, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0391", "pair": 391, "source": "symbolic", "problem": "1 + 9 =", "answer": "10", "operation": "add", "a": 1, "b": 9, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0392", "pair": 392, "source": "symbolic", "problem": "6 - 4 =", "answer": "2", "operation": "sub", "a": 6, "b": 4, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0393", "pair": 393, "source": "symbolic", "problem": "1 x 1 =", "answer": "1", "operation": "mul", "a": 1, "b": 1, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0394", "pair": 394, "source": "symbolic", "problem": "41+38=", "answer": "79", "operation": "add", "a": 41, "b": 38, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0395", "pair": 395, "source": "symbolic", "problem": "4+7=", "answer": "11", "operation": "add", "a": 4, "b": 7, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0396", "pair": 396, "source": "symbolic", "problem": "9 * 8 =", "answer": "72", "operation": "mul", "a": 9, "b": 8, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0397", "pair": 397, "source": "symbolic", "problem": "3x7=", "answer": "21", "operation": "mul", "a": 3, "b": 7, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0398", "pair": 398, "source": "symbolic", "problem": "16-7=", "answer": "9", "operation": "sub", "a": 16, "b": 7, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0399", "pair": 399, "source": "symbolic", "problem": "6 * 6 =", "answer": "36", "operation": "mul", "a": 6, "b": 6, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0400", "pair": 400, "source": "symbolic", "problem": "8x7=", "answer": "56", "operation": "mul", "a": 8, "b": 7, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0401", "pair": 401, "source": "symbolic", "problem": "6 x 1 =", "answer": "6", "operation": "mul", "a": 6, "b": 1, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0402", "pair": 402, "source": "symbolic", "problem": "6 - 6 =", "answer": "0", "operation": "sub", "a": 6, "b": 6, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0403", "pair": 403, "source": "symbolic", "problem": "2 * 9 =", "answer": "18", "operation": "mul", "a": 2, "b": 9, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0404", "pair": 404, "source": "symbolic", "problem": "4+3=", "answer": "7", "operation": "add", "a": 4, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0405", "pair": 405, "source": "symbolic", "problem": "33 + 18 =", "answer": "51", "operation": "add", "a": 33, "b": 18, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0406", "pair": 406, "source": "symbolic", "problem": "24/4=", "answer": "6", "operation": "div", "a": 24, "b": 4, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0407", "pair": 407, "source": "symbolic", "problem": "2+40=", "answer": "42", "operation": "add", "a": 2, "b": 40, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0408", "pair": 408, "source": "symbolic", "problem": "12+83=", "answer": "95", "operation": "add", "a": 12, "b": 83, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0409", "pair": 409, "source": "symbolic", "problem": "62 - 18 =", "answer": "44", "operation": "sub", "a": 62, "b": 18, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0410", "pair": 410, "source": "symbolic", "problem": "3+9=", "answer": "12", "operation": "add", "a": 3, "b": 9, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0411", "pair": 411, "source": "symbolic", "problem": "5+9=", "answer": "14", "operation": "add", "a": 5, "b": 9, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0412", "pair": 412, "source": "symbolic", "problem": "24 / 8 =", "answer": "3", "operation": "div", "a": 24, "b": 8, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0413", "pair": 413, "source": "symbolic", "problem": "6 - 0 =", "answer": "6", "operation": "sub", "a": 6, "b": 0, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0414", "pair": 414, "source": "symbolic", "problem": "1 + 1 =", "answer": "2", "operation": "add", "a": 1, "b": 1, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0415", "pair": 415, "source": "symbolic", "problem": "76+14=", "answer": "90", "operation": "add", "a": 76, "b": 14, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0416", "pair": 416, "source": "symbolic", "problem": "8 - 4 =", "answer": "4", "operation": "sub", "a": 8, "b": 4, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0417", "pair": 417, "source": "symbolic", "problem": "61-19=", "answer": "42", "operation": "sub", "a": 61, "b": 19, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0418", "pair": 418, "source": "symbolic", "problem": "7+0=", "answer": "7", "operation": "add", "a": 7, "b": 0, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0419", "pair": 419, "source": "symbolic", "problem": "0 / 6 =", "answer": "0", "operation": "div", "a": 0, "b": 6, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0420", "pair": 420, "source": "symbolic", "problem": "3 + 4 =", "answer": "7", "operation": "add", "a": 3, "b": 4, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0421", "pair": 421, "source": "symbolic", "problem": "34 - 10 =", "answer": "24", "operation": "sub", "a": 34, "b": 10, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0422", "pair": 422, "source": "symbolic", "problem": "3 / 3 =", "answer": "1", "operation": "div", "a": 3, "b": 3, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0423", "pair": 423, "source": "symbolic", "problem": "72 / 9 =", "answer": "8", "operation": "div", "a": 72, "b": 9, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0424", "pair": 424, "source": "symbolic", "problem": "24/3=", "answer": "8", "operation": "div", "a": 24, "b": 3, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0425", "pair": 425, "source": "symbolic", "problem": "2 x 5 =", "answer": "10", "operation": "mul", "a": 2, "b": 5, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0426", "pair": 426, "source": "symbolic", "problem": "6x0=", "answer": "0", "operation": "mul", "a": 6, "b": 0, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0427", "pair": 427, "source": "symbolic", "problem": "39+50=", "answer": "89", "operation": "add", "a": 39, "b": 50, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0428", "pair": 428, "source": "symbolic", "problem": "73-41=", "answer": "32", "operation": "sub", "a": 73, "b": 41, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0429", "pair": 429, "source": "symbolic", "problem": "2x8=", "answer": "16", "operation": "mul", "a": 2, "b": 8, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0430", "pair": 430, "source": "symbolic", "problem": "17+5=", "answer": "22", "operation": "add", "a": 17, "b": 5, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0431", "pair": 431, "source": "symbolic", "problem": "30 / 5 =", "answer": "6", "operation": "div", "a": 30, "b": 5, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0432", "pair": 432, "source": "symbolic", "problem": "0+2=", "answer": "2", "operation": "add", "a": 0, "b": 2, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0433", "pair": 433, "source": "symbolic", "problem": "28 - 4 =", "answer": "24", "operation": "sub", "a": 28, "b": 4, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0434", "pair": 434, "source": "symbolic", "problem": "58 - 24 =", "answer": "34", "operation": "sub", "a": 58, "b": 24, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0435", "pair": 435, "source": "symbolic", "problem": "86 - 76 =", "answer": "10", "operation": "sub", "a": 86, "b": 76, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0436", "pair": 436, "source": "symbolic", "problem": "16 + 81 =", "answer": "97", "operation": "add", "a": 16, "b": 81, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0437", "pair": 437, "source": "symbolic", "problem": "8 - 0 =", "answer": "8", "operation": "sub", "a": 8, "b": 0, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0438", "pair": 438, "source": "symbolic", "problem": "7x2=", "answer": "14", "operation": "mul", "a": 7, "b": 2, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0439", "pair": 439, "source": "symbolic", "problem": "4-1=", "answer": "3", "operation": "sub", "a": 4, "b": 1, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0440", "pair": 440, "source": "symbolic", "problem": "2+4=", "answer": "6", "operation": "add", "a": 2, "b": 4, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0441", "pair": 441, "source": "symbolic", "problem": "8+1=", "answer": "9", "operation": "add", "a": 8, "b": 1, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0442", "pair": 442, "source": "symbolic", "problem": "9 x 7 =", "answer": "63", "operation": "mul", "a": 9, "b": 7, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0443", "pair": 443, "source": "symbolic", "problem": "72 + 18 =", "answer": "90", "operation": "add", "a": 72, "b": 18, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0444", "pair": 444, "source": "symbolic", "problem": "2/1=", "answer": "2", "operation": "div", "a": 2, "b": 1, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0445", "pair": 445, "source": "symbolic", "problem": "4+66=", "answer": "70", "operation": "add", "a": 4, "b": 66, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0446", "pair": 446, "source": "symbolic", "problem": "3 + 1 =", "answer": "4", "operation": "add", "a": 3, "b": 1, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0447", "pair": 447, "source": "symbolic", "problem": "71-64=", "answer": "7", "operation": "sub", "a": 71, "b": 64, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0448", "pair": 448, "source": "symbolic", "problem": "7 + 1 =", "answer": "8", "operation": "add", "a": 7, "b": 1, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0449", "pair": 449, "source": "symbolic", "problem": "60 + 15 =", "answer": "75", "operation": "add", "a": 60, "b": 15, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0450", "pair": 450, "source": "symbolic", "problem": "1 x 7 =", "answer": "7", "operation": "mul", "a": 1, "b": 7, "symbol": "x", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0451", "pair": 451, "source": "symbolic", "problem": "65-14=", "answer": "51", "operation": "sub", "a": 65, "b": 14, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0452", "pair": 452, "source": "symbolic", "problem": "32/8=", "answer": "4", "operation": "div", "a": 32, "b": 8, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0453", "pair": 453, "source": "symbolic", "problem": "10+56=", "answer": "66", "operation": "add", "a": 10, "b": 56, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0454", "pair": 454, "source": "symbolic", "problem": "9 + 0 =", "answer": "9", "operation": "add", "a": 9, "b": 0, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0455", "pair": 455, "source": "symbolic", "problem": "2x6=", "answer": "12", "operation": "mul", "a": 2, "b": 6, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0456", "pair": 456, "source": "symbolic", "problem": "2 / 2 =", "answer": "1", "operation": "div", "a": 2, "b": 2, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0457", "pair": 457, "source": "symbolic", "problem": "55 - 32 =", "answer": "23", "operation": "sub", "a": 55, "b": 32, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0458", "pair": 458, "source": "symbolic", "problem": "8-7=", "answer": "1", "operation": "sub", "a": 8, "b": 7, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0459", "pair": 459, "source": "symbolic", "problem": "74+3=", "answer": "77", "operation": "add", "a": 74, "b": 3, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0460", "pair": 460, "source": "symbolic", "problem": "2 - 2 =", "answer": "0", "operation": "sub", "a": 2, "b": 2, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0461", "pair": 461, "source": "symbolic", "problem": "3 * 5 =", "answer": "15", "operation": "mul", "a": 3, "b": 5, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0462", "pair": 462, "source": "symbolic", "problem": "4-2=", "answer": "2", "operation": "sub", "a": 4, "b": 2, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0463", "pair": 463, "source": "symbolic", "problem": "21/7=", "answer": "3", "operation": "div", "a": 21, "b": 7, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0464", "pair": 464, "source": "symbolic", "problem": "71 - 41 =", "answer": "30", "operation": "sub", "a": 71, "b": 41, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0465", "pair": 465, "source": "symbolic", "problem": "39-37=", "answer": "2", "operation": "sub", "a": 39, "b": 37, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0466", "pair": 466, "source": "symbolic", "problem": "81/9=", "answer": "9", "operation": "div", "a": 81, "b": 9, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0467", "pair": 467, "source": "symbolic", "problem": "8+0=", "answer": "8", "operation": "add", "a": 8, "b": 0, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0468", "pair": 468, "source": "symbolic", "problem": "8 * 4 =", "answer": "32", "operation": "mul", "a": 8, "b": 4, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0469", "pair": 469, "source": "symbolic", "problem": "20/5=", "answer": "4", "operation": "div", "a": 20, "b": 5, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0470", "pair": 470, "source": "symbolic", "problem": "18/9=", "answer": "2", "operation": "div", "a": 18, "b": 9, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0471", "pair": 471, "source": "symbolic", "problem": "4/2=", "answer": "2", "operation": "div", "a": 4, "b": 2, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0472", "pair": 472, "source": "symbolic", "problem": "38-9=", "answer": "29", "operation": "sub", "a": 38, "b": 9, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0473", "pair": 473, "source": "symbolic", "problem": "9 + 3 =", "answer": "12", "operation": "add", "a": 9, "b": 3, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0474", "pair": 474, "source": "symbolic", "problem": "12/6=", "answer": "2", "operation": "div", "a": 12, "b": 6, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0475", "pair": 475, "source": "symbolic", "problem": "4 + 0 =", "answer": "4", "operation": "add", "a": 4, "b": 0, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0476", "pair": 476, "source": "symbolic", "problem": "8 - 8 =", "answer": "0", "operation": "sub", "a": 8, "b": 8, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0477", "pair": 477, "source": "symbolic", "problem": "11 + 83 =", "answer": "94", "operation": "add", "a": 11, "b": 83, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0478", "pair": 478, "source": "symbolic", "problem": "3-1=", "answer": "2", "operation": "sub", "a": 3, "b": 1, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0479", "pair": 479, "source": "symbolic", "problem": "5 + 34 =", "answer": "39", "operation": "add", "a": 5, "b": 34, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0480", "pair": 480, "source": "symbolic", "problem": "10 / 2 =", "answer": "5", "operation": "div", "a": 10, "b": 2, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0481", "pair": 481, "source": "symbolic", "problem": "33-33=", "answer": "0", "operation": "sub", "a": 33, "b": 33, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0482", "pair": 482, "source": "symbolic", "problem": "24 / 6 =", "answer": "4", "operation": "div", "a": 24, "b": 6, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0483", "pair": 483, "source": "symbolic", "problem": "7+90=", "answer": "97", "operation": "add", "a": 7, "b": 90, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0484", "pair": 484, "source": "symbolic", "problem": "6/2=", "answer": "3", "operation": "div", "a": 6, "b": 2, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0485", "pair": 485, "source": "symbolic", "problem": "8x6=", "answer": "48", "operation": "mul", "a": 8, "b": 6, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0486", "pair": 486, "source": "symbolic", "problem": "7 * 0 =", "answer": "0", "operation": "mul", "a": 7, "b": 0, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0487", "pair": 487, "source": "symbolic", "problem": "1 + 96 =", "answer": "97", "operation": "add", "a": 1, "b": 96, "symbol": "+", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0488", "pair": 488, "source": "symbolic", "problem": "64 / 8 =", "answer": "8", "operation": "div", "a": 64, "b": 8, "symbol": "/", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0489", "pair": 489, "source": "symbolic", "problem": "63/9=", "answer": "7", "operation": "div", "a": 63, "b": 9, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0490", "pair": 490, "source": "symbolic", "problem": "8 * 0 =", "answer": "0", "operation": "mul", "a": 8, "b": 0, "symbol": "*", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0491", "pair": 491, "source": "symbolic", "problem": "48/6=", "answer": "8", "operation": "div", "a": 48, "b": 6, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0492", "pair": 492, "source": "symbolic", "problem": "9*4=", "answer": "36", "operation": "mul", "a": 9, "b": 4, "symbol": "*", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0493", "pair": 493, "source": "symbolic", "problem": "3x1=", "answer": "3", "operation": "mul", "a": 3, "b": 1, "symbol": "x", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0494", "pair": 494, "source": "symbolic", "problem": "4-3=", "answer": "1", "operation": "sub", "a": 4, "b": 3, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0495", "pair": 495, "source": "symbolic", "problem": "9-3=", "answer": "6", "operation": "sub", "a": 9, "b": 3, "symbol": "-", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0496", "pair": 496, "source": "symbolic", "problem": "73 - 17 =", "answer": "56", "operation": "sub", "a": 73, "b": 17, "symbol": "-", "spacing": "spaced"}
+{"id": "ba-practice-symbolic-0497", "pair": 497, "source": "symbolic", "problem": "30+67=", "answer": "97", "operation": "add", "a": 30, "b": 67, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0498", "pair": 498, "source": "symbolic", "problem": "10+78=", "answer": "88", "operation": "add", "a": 10, "b": 78, "symbol": "+", "spacing": "tight"}
+{"id": "ba-practice-symbolic-0499", "pair": 499, "source": "symbolic", "problem": "36/6=", "answer": "6", "operation": "div", "a": 36, "b": 6, "symbol": "/", "spacing": "tight"}
+{"id": "ba-practice-word-0000", "pair": 0, "source": "word", "problem": "eight divided by eight equals", "answer": "1", "operation": "div", "a": 8, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0001", "pair": 1, "source": "word", "problem": "seventy minus fifty-two equals", "answer": "18", "operation": "sub", "a": 70, "b": 52, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0002", "pair": 2, "source": "word", "problem": "eight times two equals", "answer": "16", "operation": "mul", "a": 8, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0003", "pair": 3, "source": "word", "problem": "two plus five equals", "answer": "7", "operation": "add", "a": 2, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0004", "pair": 4, "source": "word", "problem": "three plus eight equals", "answer": "11", "operation": "add", "a": 3, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0005", "pair": 5, "source": "word", "problem": "twenty-six plus twenty-three equals", "answer": "49", "operation": "add", "a": 26, "b": 23, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0006", "pair": 6, "source": "word", "problem": "ninety-one minus fifty-eight equals", "answer": "33", "operation": "sub", "a": 91, "b": 58, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0007", "pair": 7, "source": "word", "problem": "three plus seven equals", "answer": "10", "operation": "add", "a": 3, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0008", "pair": 8, "source": "word", "problem": "sixty-four minus forty-eight equals", "answer": "16", "operation": "sub", "a": 64, "b": 48, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0009", "pair": 9, "source": "word", "problem": "three minus two equals", "answer": "1", "operation": "sub", "a": 3, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0010", "pair": 10, "source": "word", "problem": "seven minus five equals", "answer": "2", "operation": "sub", "a": 7, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0011", "pair": 11, "source": "word", "problem": "four plus four equals", "answer": "8", "operation": "add", "a": 4, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0012", "pair": 12, "source": "word", "problem": "thirteen plus sixty-one equals", "answer": "74", "operation": "add", "a": 13, "b": 61, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0013", "pair": 13, "source": "word", "problem": "two minus one equals", "answer": "1", "operation": "sub", "a": 2, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0014", "pair": 14, "source": "word", "problem": "seven times eight equals", "answer": "56", "operation": "mul", "a": 7, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0015", "pair": 15, "source": "word", "problem": "twenty-seven divided by nine equals", "answer": "3", "operation": "div", "a": 27, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0016", "pair": 16, "source": "word", "problem": "nine times nine equals", "answer": "81", "operation": "mul", "a": 9, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0017", "pair": 17, "source": "word", "problem": "five times eight equals", "answer": "40", "operation": "mul", "a": 5, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0018", "pair": 18, "source": "word", "problem": "eleven plus eighty-six equals", "answer": "97", "operation": "add", "a": 11, "b": 86, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0019", "pair": 19, "source": "word", "problem": "forty-nine divided by seven equals", "answer": "7", "operation": "div", "a": 49, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0020", "pair": 20, "source": "word", "problem": "seven times seven equals", "answer": "49", "operation": "mul", "a": 7, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0021", "pair": 21, "source": "word", "problem": "five minus two equals", "answer": "3", "operation": "sub", "a": 5, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0022", "pair": 22, "source": "word", "problem": "forty divided by five equals", "answer": "8", "operation": "div", "a": 40, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0023", "pair": 23, "source": "word", "problem": "five minus three equals", "answer": "2", "operation": "sub", "a": 5, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0024", "pair": 24, "source": "word", "problem": "two plus nine equals", "answer": "11", "operation": "add", "a": 2, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0025", "pair": 25, "source": "word", "problem": "twenty-seven plus fifty-four equals", "answer": "81", "operation": "add", "a": 27, "b": 54, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0026", "pair": 26, "source": "word", "problem": "six times seven equals", "answer": "42", "operation": "mul", "a": 6, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0027", "pair": 27, "source": "word", "problem": "thirty-five divided by five equals", "answer": "7", "operation": "div", "a": 35, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0028", "pair": 28, "source": "word", "problem": "five plus eight equals", "answer": "13", "operation": "add", "a": 5, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0029", "pair": 29, "source": "word", "problem": "fifty-six divided by seven equals", "answer": "8", "operation": "div", "a": 56, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0030", "pair": 30, "source": "word", "problem": "zero plus four equals", "answer": "4", "operation": "add", "a": 0, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0031", "pair": 31, "source": "word", "problem": "forty divided by eight equals", "answer": "5", "operation": "div", "a": 40, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0032", "pair": 32, "source": "word", "problem": "seven divided by seven equals", "answer": "1", "operation": "div", "a": 7, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0033", "pair": 33, "source": "word", "problem": "eight divided by four equals", "answer": "2", "operation": "div", "a": 8, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0034", "pair": 34, "source": "word", "problem": "nine minus five equals", "answer": "4", "operation": "sub", "a": 9, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0035", "pair": 35, "source": "word", "problem": "seventy-four minus thirty-two equals", "answer": "42", "operation": "sub", "a": 74, "b": 32, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0036", "pair": 36, "source": "word", "problem": "seventy-two minus fifty-six equals", "answer": "16", "operation": "sub", "a": 72, "b": 56, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0037", "pair": 37, "source": "word", "problem": "twenty-two plus sixty-six equals", "answer": "88", "operation": "add", "a": 22, "b": 66, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0038", "pair": 38, "source": "word", "problem": "ninety-five minus twenty-eight equals", "answer": "67", "operation": "sub", "a": 95, "b": 28, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0039", "pair": 39, "source": "word", "problem": "ninety-seven minus ninety-five equals", "answer": "2", "operation": "sub", "a": 97, "b": 95, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0040", "pair": 40, "source": "word", "problem": "six plus two equals", "answer": "8", "operation": "add", "a": 6, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0041", "pair": 41, "source": "word", "problem": "eight times eight equals", "answer": "64", "operation": "mul", "a": 8, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0042", "pair": 42, "source": "word", "problem": "eight plus three equals", "answer": "11", "operation": "add", "a": 8, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0043", "pair": 43, "source": "word", "problem": "four plus seventy-three equals", "answer": "77", "operation": "add", "a": 4, "b": 73, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0044", "pair": 44, "source": "word", "problem": "zero times nine equals", "answer": "0", "operation": "mul", "a": 0, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0045", "pair": 45, "source": "word", "problem": "eighty-six minus sixty equals", "answer": "26", "operation": "sub", "a": 86, "b": 60, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0046", "pair": 46, "source": "word", "problem": "three times two equals", "answer": "6", "operation": "mul", "a": 3, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0047", "pair": 47, "source": "word", "problem": "sixty-seven minus thirty equals", "answer": "37", "operation": "sub", "a": 67, "b": 30, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0048", "pair": 48, "source": "word", "problem": "two plus two equals", "answer": "4", "operation": "add", "a": 2, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0049", "pair": 49, "source": "word", "problem": "three times four equals", "answer": "12", "operation": "mul", "a": 3, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0050", "pair": 50, "source": "word", "problem": "zero times four equals", "answer": "0", "operation": "mul", "a": 0, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0051", "pair": 51, "source": "word", "problem": "nine minus six equals", "answer": "3", "operation": "sub", "a": 9, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0052", "pair": 52, "source": "word", "problem": "seventy minus thirty-five equals", "answer": "35", "operation": "sub", "a": 70, "b": 35, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0053", "pair": 53, "source": "word", "problem": "fifty-four divided by nine equals", "answer": "6", "operation": "div", "a": 54, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0054", "pair": 54, "source": "word", "problem": "two times two equals", "answer": "4", "operation": "mul", "a": 2, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0055", "pair": 55, "source": "word", "problem": "ninety-five minus thirty-nine equals", "answer": "56", "operation": "sub", "a": 95, "b": 39, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0056", "pair": 56, "source": "word", "problem": "one plus eight equals", "answer": "9", "operation": "add", "a": 1, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0057", "pair": 57, "source": "word", "problem": "six times four equals", "answer": "24", "operation": "mul", "a": 6, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0058", "pair": 58, "source": "word", "problem": "ninety-nine minus seventy-seven equals", "answer": "22", "operation": "sub", "a": 99, "b": 77, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0059", "pair": 59, "source": "word", "problem": "ninety-two minus thirty-one equals", "answer": "61", "operation": "sub", "a": 92, "b": 31, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0060", "pair": 60, "source": "word", "problem": "seventy-three minus twelve equals", "answer": "61", "operation": "sub", "a": 73, "b": 12, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0061", "pair": 61, "source": "word", "problem": "five divided by five equals", "answer": "1", "operation": "div", "a": 5, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0062", "pair": 62, "source": "word", "problem": "eight minus two equals", "answer": "6", "operation": "sub", "a": 8, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0063", "pair": 63, "source": "word", "problem": "forty-six plus forty-nine equals", "answer": "95", "operation": "add", "a": 46, "b": 49, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0064", "pair": 64, "source": "word", "problem": "eighteen divided by two equals", "answer": "9", "operation": "div", "a": 18, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0065", "pair": 65, "source": "word", "problem": "two times four equals", "answer": "8", "operation": "mul", "a": 2, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0066", "pair": 66, "source": "word", "problem": "seven plus five equals", "answer": "12", "operation": "add", "a": 7, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0067", "pair": 67, "source": "word", "problem": "fifty-one minus thirty-four equals", "answer": "17", "operation": "sub", "a": 51, "b": 34, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0068", "pair": 68, "source": "word", "problem": "nine minus eight equals", "answer": "1", "operation": "sub", "a": 9, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0069", "pair": 69, "source": "word", "problem": "two plus seven equals", "answer": "9", "operation": "add", "a": 2, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0070", "pair": 70, "source": "word", "problem": "nine plus eight equals", "answer": "17", "operation": "add", "a": 9, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0071", "pair": 71, "source": "word", "problem": "four divided by four equals", "answer": "1", "operation": "div", "a": 4, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0072", "pair": 72, "source": "word", "problem": "five times six equals", "answer": "30", "operation": "mul", "a": 5, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0073", "pair": 73, "source": "word", "problem": "twenty-eight divided by seven equals", "answer": "4", "operation": "div", "a": 28, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0074", "pair": 74, "source": "word", "problem": "forty-two minus eleven equals", "answer": "31", "operation": "sub", "a": 42, "b": 11, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0075", "pair": 75, "source": "word", "problem": "three plus three equals", "answer": "6", "operation": "add", "a": 3, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0076", "pair": 76, "source": "word", "problem": "three minus zero equals", "answer": "3", "operation": "sub", "a": 3, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0077", "pair": 77, "source": "word", "problem": "eighty-two plus seven equals", "answer": "89", "operation": "add", "a": 82, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0078", "pair": 78, "source": "word", "problem": "forty-one plus fifty-six equals", "answer": "97", "operation": "add", "a": 41, "b": 56, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0079", "pair": 79, "source": "word", "problem": "sixteen plus nineteen equals", "answer": "35", "operation": "add", "a": 16, "b": 19, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0080", "pair": 80, "source": "word", "problem": "nine minus one equals", "answer": "8", "operation": "sub", "a": 9, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0081", "pair": 81, "source": "word", "problem": "twelve divided by four equals", "answer": "3", "operation": "div", "a": 12, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0082", "pair": 82, "source": "word", "problem": "eight plus thirty-five equals", "answer": "43", "operation": "add", "a": 8, "b": 35, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0083", "pair": 83, "source": "word", "problem": "thirty-six minus thirty-one equals", "answer": "5", "operation": "sub", "a": 36, "b": 31, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0084", "pair": 84, "source": "word", "problem": "six times three equals", "answer": "18", "operation": "mul", "a": 6, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0085", "pair": 85, "source": "word", "problem": "fifty plus twenty equals", "answer": "70", "operation": "add", "a": 50, "b": 20, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0086", "pair": 86, "source": "word", "problem": "three minus three equals", "answer": "0", "operation": "sub", "a": 3, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0087", "pair": 87, "source": "word", "problem": "forty-four minus twelve equals", "answer": "32", "operation": "sub", "a": 44, "b": 12, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0088", "pair": 88, "source": "word", "problem": "seventy minus thirteen equals", "answer": "57", "operation": "sub", "a": 70, "b": 13, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0089", "pair": 89, "source": "word", "problem": "fifteen plus seven equals", "answer": "22", "operation": "add", "a": 15, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0090", "pair": 90, "source": "word", "problem": "three plus two equals", "answer": "5", "operation": "add", "a": 3, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0091", "pair": 91, "source": "word", "problem": "seventy-three minus thirty-seven equals", "answer": "36", "operation": "sub", "a": 73, "b": 37, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0092", "pair": 92, "source": "word", "problem": "two plus twenty-two equals", "answer": "24", "operation": "add", "a": 2, "b": 22, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0093", "pair": 93, "source": "word", "problem": "six plus six equals", "answer": "12", "operation": "add", "a": 6, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0094", "pair": 94, "source": "word", "problem": "four plus seventy equals", "answer": "74", "operation": "add", "a": 4, "b": 70, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0095", "pair": 95, "source": "word", "problem": "three divided by one equals", "answer": "3", "operation": "div", "a": 3, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0096", "pair": 96, "source": "word", "problem": "five plus five equals", "answer": "10", "operation": "add", "a": 5, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0097", "pair": 97, "source": "word", "problem": "five plus four equals", "answer": "9", "operation": "add", "a": 5, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0098", "pair": 98, "source": "word", "problem": "five times two equals", "answer": "10", "operation": "mul", "a": 5, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0099", "pair": 99, "source": "word", "problem": "five minus four equals", "answer": "1", "operation": "sub", "a": 5, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0100", "pair": 100, "source": "word", "problem": "one times zero equals", "answer": "0", "operation": "mul", "a": 1, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0101", "pair": 101, "source": "word", "problem": "fifty-four minus thirty-four equals", "answer": "20", "operation": "sub", "a": 54, "b": 34, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0102", "pair": 102, "source": "word", "problem": "five times zero equals", "answer": "0", "operation": "mul", "a": 5, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0103", "pair": 103, "source": "word", "problem": "ten divided by five equals", "answer": "2", "operation": "div", "a": 10, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0104", "pair": 104, "source": "word", "problem": "thirty-six minus eight equals", "answer": "28", "operation": "sub", "a": 36, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0105", "pair": 105, "source": "word", "problem": "one minus zero equals", "answer": "1", "operation": "sub", "a": 1, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0106", "pair": 106, "source": "word", "problem": "zero plus eight equals", "answer": "8", "operation": "add", "a": 0, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0107", "pair": 107, "source": "word", "problem": "forty-five divided by five equals", "answer": "9", "operation": "div", "a": 45, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0108", "pair": 108, "source": "word", "problem": "four times two equals", "answer": "8", "operation": "mul", "a": 4, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0109", "pair": 109, "source": "word", "problem": "two times three equals", "answer": "6", "operation": "mul", "a": 2, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0110", "pair": 110, "source": "word", "problem": "sixty minus thirty-eight equals", "answer": "22", "operation": "sub", "a": 60, "b": 38, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0111", "pair": 111, "source": "word", "problem": "fifty minus forty-six equals", "answer": "4", "operation": "sub", "a": 50, "b": 46, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0112", "pair": 112, "source": "word", "problem": "five times one equals", "answer": "5", "operation": "mul", "a": 5, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0113", "pair": 113, "source": "word", "problem": "twenty-one minus two equals", "answer": "19", "operation": "sub", "a": 21, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0114", "pair": 114, "source": "word", "problem": "thirty-seven minus eleven equals", "answer": "26", "operation": "sub", "a": 37, "b": 11, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0115", "pair": 115, "source": "word", "problem": "twelve divided by three equals", "answer": "4", "operation": "div", "a": 12, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0116", "pair": 116, "source": "word", "problem": "zero plus five equals", "answer": "5", "operation": "add", "a": 0, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0117", "pair": 117, "source": "word", "problem": "sixteen divided by eight equals", "answer": "2", "operation": "div", "a": 16, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0118", "pair": 118, "source": "word", "problem": "four plus one equals", "answer": "5", "operation": "add", "a": 4, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0119", "pair": 119, "source": "word", "problem": "nine times six equals", "answer": "54", "operation": "mul", "a": 9, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0120", "pair": 120, "source": "word", "problem": "six plus one equals", "answer": "7", "operation": "add", "a": 6, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0121", "pair": 121, "source": "word", "problem": "nineteen plus ten equals", "answer": "29", "operation": "add", "a": 19, "b": 10, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0122", "pair": 122, "source": "word", "problem": "nine minus nine equals", "answer": "0", "operation": "sub", "a": 9, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0123", "pair": 123, "source": "word", "problem": "eighty-eight minus fifty-eight equals", "answer": "30", "operation": "sub", "a": 88, "b": 58, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0124", "pair": 124, "source": "word", "problem": "twelve plus five equals", "answer": "17", "operation": "add", "a": 12, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0125", "pair": 125, "source": "word", "problem": "thirty-five plus thirty-two equals", "answer": "67", "operation": "add", "a": 35, "b": 32, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0126", "pair": 126, "source": "word", "problem": "zero times one equals", "answer": "0", "operation": "mul", "a": 0, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0127", "pair": 127, "source": "word", "problem": "thirty-five minus thirty-one equals", "answer": "4", "operation": "sub", "a": 35, "b": 31, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0128", "pair": 128, "source": "word", "problem": "nine divided by one equals", "answer": "9", "operation": "div", "a": 9, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0129", "pair": 129, "source": "word", "problem": "six plus nine equals", "answer": "15", "operation": "add", "a": 6, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0130", "pair": 130, "source": "word", "problem": "sixty-six minus twenty-three equals", "answer": "43", "operation": "sub", "a": 66, "b": 23, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0131", "pair": 131, "source": "word", "problem": "fifty-four plus sixteen equals", "answer": "70", "operation": "add", "a": 54, "b": 16, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0132", "pair": 132, "source": "word", "problem": "two times seven equals", "answer": "14", "operation": "mul", "a": 2, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0133", "pair": 133, "source": "word", "problem": "eight times three equals", "answer": "24", "operation": "mul", "a": 8, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0134", "pair": 134, "source": "word", "problem": "six plus seven equals", "answer": "13", "operation": "add", "a": 6, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0135", "pair": 135, "source": "word", "problem": "five plus three equals", "answer": "8", "operation": "add", "a": 5, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0136", "pair": 136, "source": "word", "problem": "six minus three equals", "answer": "3", "operation": "sub", "a": 6, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0137", "pair": 137, "source": "word", "problem": "seven plus six equals", "answer": "13", "operation": "add", "a": 7, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0138", "pair": 138, "source": "word", "problem": "thirty-six divided by four equals", "answer": "9", "operation": "div", "a": 36, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0139", "pair": 139, "source": "word", "problem": "five minus five equals", "answer": "0", "operation": "sub", "a": 5, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0140", "pair": 140, "source": "word", "problem": "fifty-seven plus forty-one equals", "answer": "98", "operation": "add", "a": 57, "b": 41, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0141", "pair": 141, "source": "word", "problem": "five plus one equals", "answer": "6", "operation": "add", "a": 5, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0142", "pair": 142, "source": "word", "problem": "fifteen divided by three equals", "answer": "5", "operation": "div", "a": 15, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0143", "pair": 143, "source": "word", "problem": "five times four equals", "answer": "20", "operation": "mul", "a": 5, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0144", "pair": 144, "source": "word", "problem": "eight times five equals", "answer": "40", "operation": "mul", "a": 8, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0145", "pair": 145, "source": "word", "problem": "forty minus seven equals", "answer": "33", "operation": "sub", "a": 40, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0146", "pair": 146, "source": "word", "problem": "eight times one equals", "answer": "8", "operation": "mul", "a": 8, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0147", "pair": 147, "source": "word", "problem": "forty-two divided by seven equals", "answer": "6", "operation": "div", "a": 42, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0148", "pair": 148, "source": "word", "problem": "six times two equals", "answer": "12", "operation": "mul", "a": 6, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0149", "pair": 149, "source": "word", "problem": "eight plus nine equals", "answer": "17", "operation": "add", "a": 8, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0150", "pair": 150, "source": "word", "problem": "forty-one plus forty equals", "answer": "81", "operation": "add", "a": 41, "b": 40, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0151", "pair": 151, "source": "word", "problem": "eleven plus eighty equals", "answer": "91", "operation": "add", "a": 11, "b": 80, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0152", "pair": 152, "source": "word", "problem": "three times three equals", "answer": "9", "operation": "mul", "a": 3, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0153", "pair": 153, "source": "word", "problem": "one times five equals", "answer": "5", "operation": "mul", "a": 1, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0154", "pair": 154, "source": "word", "problem": "seven times nine equals", "answer": "63", "operation": "mul", "a": 7, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0155", "pair": 155, "source": "word", "problem": "six plus zero equals", "answer": "6", "operation": "add", "a": 6, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0156", "pair": 156, "source": "word", "problem": "sixteen plus forty-four equals", "answer": "60", "operation": "add", "a": 16, "b": 44, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0157", "pair": 157, "source": "word", "problem": "twelve plus one equals", "answer": "13", "operation": "add", "a": 12, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0158", "pair": 158, "source": "word", "problem": "sixteen divided by two equals", "answer": "8", "operation": "div", "a": 16, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0159", "pair": 159, "source": "word", "problem": "zero plus three equals", "answer": "3", "operation": "add", "a": 0, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0160", "pair": 160, "source": "word", "problem": "two plus six equals", "answer": "8", "operation": "add", "a": 2, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0161", "pair": 161, "source": "word", "problem": "nine divided by nine equals", "answer": "1", "operation": "div", "a": 9, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0162", "pair": 162, "source": "word", "problem": "eight plus five equals", "answer": "13", "operation": "add", "a": 8, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0163", "pair": 163, "source": "word", "problem": "nine plus nineteen equals", "answer": "28", "operation": "add", "a": 9, "b": 19, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0164", "pair": 164, "source": "word", "problem": "thirty plus sixty-eight equals", "answer": "98", "operation": "add", "a": 30, "b": 68, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0165", "pair": 165, "source": "word", "problem": "forty plus sixteen equals", "answer": "56", "operation": "add", "a": 40, "b": 16, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0166", "pair": 166, "source": "word", "problem": "six plus eight equals", "answer": "14", "operation": "add", "a": 6, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0167", "pair": 167, "source": "word", "problem": "seven plus four equals", "answer": "11", "operation": "add", "a": 7, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0168", "pair": 168, "source": "word", "problem": "seven times three equals", "answer": "21", "operation": "mul", "a": 7, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0169", "pair": 169, "source": "word", "problem": "five plus two equals", "answer": "7", "operation": "add", "a": 5, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0170", "pair": 170, "source": "word", "problem": "eight plus two equals", "answer": "10", "operation": "add", "a": 8, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0171", "pair": 171, "source": "word", "problem": "zero plus one equals", "answer": "1", "operation": "add", "a": 0, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0172", "pair": 172, "source": "word", "problem": "sixty-eight minus sixty-eight equals", "answer": "0", "operation": "sub", "a": 68, "b": 68, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0173", "pair": 173, "source": "word", "problem": "five times nine equals", "answer": "45", "operation": "mul", "a": 5, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0174", "pair": 174, "source": "word", "problem": "zero divided by three equals", "answer": "0", "operation": "div", "a": 0, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0175", "pair": 175, "source": "word", "problem": "zero plus nine equals", "answer": "9", "operation": "add", "a": 0, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0176", "pair": 176, "source": "word", "problem": "forty-two divided by six equals", "answer": "7", "operation": "div", "a": 42, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0177", "pair": 177, "source": "word", "problem": "eighty-seven minus thirty-nine equals", "answer": "48", "operation": "sub", "a": 87, "b": 39, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0178", "pair": 178, "source": "word", "problem": "zero divided by one equals", "answer": "0", "operation": "div", "a": 0, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0179", "pair": 179, "source": "word", "problem": "ninety-eight minus thirty-six equals", "answer": "62", "operation": "sub", "a": 98, "b": 36, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0180", "pair": 180, "source": "word", "problem": "seven minus zero equals", "answer": "7", "operation": "sub", "a": 7, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0181", "pair": 181, "source": "word", "problem": "nine minus seven equals", "answer": "2", "operation": "sub", "a": 9, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0182", "pair": 182, "source": "word", "problem": "three plus zero equals", "answer": "3", "operation": "add", "a": 3, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0183", "pair": 183, "source": "word", "problem": "eight divided by one equals", "answer": "8", "operation": "div", "a": 8, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0184", "pair": 184, "source": "word", "problem": "zero divided by nine equals", "answer": "0", "operation": "div", "a": 0, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0185", "pair": 185, "source": "word", "problem": "eleven plus twenty-nine equals", "answer": "40", "operation": "add", "a": 11, "b": 29, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0186", "pair": 186, "source": "word", "problem": "seven minus one equals", "answer": "6", "operation": "sub", "a": 7, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0187", "pair": 187, "source": "word", "problem": "four plus seventy-six equals", "answer": "80", "operation": "add", "a": 4, "b": 76, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0188", "pair": 188, "source": "word", "problem": "forty minus twenty equals", "answer": "20", "operation": "sub", "a": 40, "b": 20, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0189", "pair": 189, "source": "word", "problem": "one times three equals", "answer": "3", "operation": "mul", "a": 1, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0190", "pair": 190, "source": "word", "problem": "eighteen divided by three equals", "answer": "6", "operation": "div", "a": 18, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0191", "pair": 191, "source": "word", "problem": "zero plus zero equals", "answer": "0", "operation": "add", "a": 0, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0192", "pair": 192, "source": "word", "problem": "eight plus six equals", "answer": "14", "operation": "add", "a": 8, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0193", "pair": 193, "source": "word", "problem": "zero times seven equals", "answer": "0", "operation": "mul", "a": 0, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0194", "pair": 194, "source": "word", "problem": "twenty-seven plus forty-four equals", "answer": "71", "operation": "add", "a": 27, "b": 44, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0195", "pair": 195, "source": "word", "problem": "seven times five equals", "answer": "35", "operation": "mul", "a": 7, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0196", "pair": 196, "source": "word", "problem": "six minus one equals", "answer": "5", "operation": "sub", "a": 6, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0197", "pair": 197, "source": "word", "problem": "fifty-six divided by eight equals", "answer": "7", "operation": "div", "a": 56, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0198", "pair": 198, "source": "word", "problem": "nine minus four equals", "answer": "5", "operation": "sub", "a": 9, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0199", "pair": 199, "source": "word", "problem": "fifty-nine minus thirty-seven equals", "answer": "22", "operation": "sub", "a": 59, "b": 37, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0200", "pair": 200, "source": "word", "problem": "five plus seven equals", "answer": "12", "operation": "add", "a": 5, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0201", "pair": 201, "source": "word", "problem": "two times zero equals", "answer": "0", "operation": "mul", "a": 2, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0202", "pair": 202, "source": "word", "problem": "sixty-four minus forty-three equals", "answer": "21", "operation": "sub", "a": 64, "b": 43, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0203", "pair": 203, "source": "word", "problem": "zero times three equals", "answer": "0", "operation": "mul", "a": 0, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0204", "pair": 204, "source": "word", "problem": "twenty-four plus seven equals", "answer": "31", "operation": "add", "a": 24, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0205", "pair": 205, "source": "word", "problem": "eighty-five plus eleven equals", "answer": "96", "operation": "add", "a": 85, "b": 11, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0206", "pair": 206, "source": "word", "problem": "two plus one equals", "answer": "3", "operation": "add", "a": 2, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0207", "pair": 207, "source": "word", "problem": "four times three equals", "answer": "12", "operation": "mul", "a": 4, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0208", "pair": 208, "source": "word", "problem": "sixteen divided by four equals", "answer": "4", "operation": "div", "a": 16, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0209", "pair": 209, "source": "word", "problem": "seven times four equals", "answer": "28", "operation": "mul", "a": 7, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0210", "pair": 210, "source": "word", "problem": "seven plus three equals", "answer": "10", "operation": "add", "a": 7, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0211", "pair": 211, "source": "word", "problem": "four times five equals", "answer": "20", "operation": "mul", "a": 4, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0212", "pair": 212, "source": "word", "problem": "fifty-six minus thirty-six equals", "answer": "20", "operation": "sub", "a": 56, "b": 36, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0213", "pair": 213, "source": "word", "problem": "seven plus eight equals", "answer": "15", "operation": "add", "a": 7, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0214", "pair": 214, "source": "word", "problem": "four times eight equals", "answer": "32", "operation": "mul", "a": 4, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0215", "pair": 215, "source": "word", "problem": "two minus zero equals", "answer": "2", "operation": "sub", "a": 2, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0216", "pair": 216, "source": "word", "problem": "seven minus four equals", "answer": "3", "operation": "sub", "a": 7, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0217", "pair": 217, "source": "word", "problem": "four plus two equals", "answer": "6", "operation": "add", "a": 4, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0218", "pair": 218, "source": "word", "problem": "six times five equals", "answer": "30", "operation": "mul", "a": 6, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0219", "pair": 219, "source": "word", "problem": "thirty plus thirty-one equals", "answer": "61", "operation": "add", "a": 30, "b": 31, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0220", "pair": 220, "source": "word", "problem": "zero divided by eight equals", "answer": "0", "operation": "div", "a": 0, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0221", "pair": 221, "source": "word", "problem": "seventy-five minus nine equals", "answer": "66", "operation": "sub", "a": 75, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0222", "pair": 222, "source": "word", "problem": "zero times five equals", "answer": "0", "operation": "mul", "a": 0, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0223", "pair": 223, "source": "word", "problem": "forty-five plus forty-six equals", "answer": "91", "operation": "add", "a": 45, "b": 46, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0224", "pair": 224, "source": "word", "problem": "seventy-one plus thirteen equals", "answer": "84", "operation": "add", "a": 71, "b": 13, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0225", "pair": 225, "source": "word", "problem": "thirty-six plus thirty-four equals", "answer": "70", "operation": "add", "a": 36, "b": 34, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0226", "pair": 226, "source": "word", "problem": "zero times eight equals", "answer": "0", "operation": "mul", "a": 0, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0227", "pair": 227, "source": "word", "problem": "nine plus nine equals", "answer": "18", "operation": "add", "a": 9, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0228", "pair": 228, "source": "word", "problem": "seventy-two divided by eight equals", "answer": "9", "operation": "div", "a": 72, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0229", "pair": 229, "source": "word", "problem": "forty-eight plus five equals", "answer": "53", "operation": "add", "a": 48, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0230", "pair": 230, "source": "word", "problem": "thirty divided by six equals", "answer": "5", "operation": "div", "a": 30, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0231", "pair": 231, "source": "word", "problem": "thirty-four plus three equals", "answer": "37", "operation": "add", "a": 34, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0232", "pair": 232, "source": "word", "problem": "eighty-two minus sixteen equals", "answer": "66", "operation": "sub", "a": 82, "b": 16, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0233", "pair": 233, "source": "word", "problem": "nine minus zero equals", "answer": "9", "operation": "sub", "a": 9, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0234", "pair": 234, "source": "word", "problem": "two plus zero equals", "answer": "2", "operation": "add", "a": 2, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0235", "pair": 235, "source": "word", "problem": "two times one equals", "answer": "2", "operation": "mul", "a": 2, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0236", "pair": 236, "source": "word", "problem": "eighty-one minus eleven equals", "answer": "70", "operation": "sub", "a": 81, "b": 11, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0237", "pair": 237, "source": "word", "problem": "one times eight equals", "answer": "8", "operation": "mul", "a": 1, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0238", "pair": 238, "source": "word", "problem": "four times seven equals", "answer": "28", "operation": "mul", "a": 4, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0239", "pair": 239, "source": "word", "problem": "twenty-one minus twelve equals", "answer": "9", "operation": "sub", "a": 21, "b": 12, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0240", "pair": 240, "source": "word", "problem": "nine plus two equals", "answer": "11", "operation": "add", "a": 9, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0241", "pair": 241, "source": "word", "problem": "seven plus seven equals", "answer": "14", "operation": "add", "a": 7, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0242", "pair": 242, "source": "word", "problem": "nine plus four equals", "answer": "13", "operation": "add", "a": 9, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0243", "pair": 243, "source": "word", "problem": "nine plus six equals", "answer": "15", "operation": "add", "a": 9, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0244", "pair": 244, "source": "word", "problem": "one divided by one equals", "answer": "1", "operation": "div", "a": 1, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0245", "pair": 245, "source": "word", "problem": "twenty-four plus forty-four equals", "answer": "68", "operation": "add", "a": 24, "b": 44, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0246", "pair": 246, "source": "word", "problem": "twenty-one plus twelve equals", "answer": "33", "operation": "add", "a": 21, "b": 12, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0247", "pair": 247, "source": "word", "problem": "twenty-five divided by five equals", "answer": "5", "operation": "div", "a": 25, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0248", "pair": 248, "source": "word", "problem": "four plus six equals", "answer": "10", "operation": "add", "a": 4, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0249", "pair": 249, "source": "word", "problem": "nine divided by three equals", "answer": "3", "operation": "div", "a": 9, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0250", "pair": 250, "source": "word", "problem": "eight minus five equals", "answer": "3", "operation": "sub", "a": 8, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0251", "pair": 251, "source": "word", "problem": "seven plus nine equals", "answer": "16", "operation": "add", "a": 7, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0252", "pair": 252, "source": "word", "problem": "four times one equals", "answer": "4", "operation": "mul", "a": 4, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0253", "pair": 253, "source": "word", "problem": "one times four equals", "answer": "4", "operation": "mul", "a": 1, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0254", "pair": 254, "source": "word", "problem": "three plus fifty-six equals", "answer": "59", "operation": "add", "a": 3, "b": 56, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0255", "pair": 255, "source": "word", "problem": "eight plus eight equals", "answer": "16", "operation": "add", "a": 8, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0256", "pair": 256, "source": "word", "problem": "one plus six equals", "answer": "7", "operation": "add", "a": 1, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0257", "pair": 257, "source": "word", "problem": "eighty-one minus four equals", "answer": "77", "operation": "sub", "a": 81, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0258", "pair": 258, "source": "word", "problem": "eighty-eight minus fifty-nine equals", "answer": "29", "operation": "sub", "a": 88, "b": 59, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0259", "pair": 259, "source": "word", "problem": "eight plus seventy-seven equals", "answer": "85", "operation": "add", "a": 8, "b": 77, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0260", "pair": 260, "source": "word", "problem": "seventeen plus twenty-four equals", "answer": "41", "operation": "add", "a": 17, "b": 24, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0261", "pair": 261, "source": "word", "problem": "three times nine equals", "answer": "27", "operation": "mul", "a": 3, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0262", "pair": 262, "source": "word", "problem": "five plus six equals", "answer": "11", "operation": "add", "a": 5, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0263", "pair": 263, "source": "word", "problem": "three times six equals", "answer": "18", "operation": "mul", "a": 3, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0264", "pair": 264, "source": "word", "problem": "zero plus six equals", "answer": "6", "operation": "add", "a": 0, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0265", "pair": 265, "source": "word", "problem": "ninety-six minus one equals", "answer": "95", "operation": "sub", "a": 96, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0266", "pair": 266, "source": "word", "problem": "fifteen divided by five equals", "answer": "3", "operation": "div", "a": 15, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0267", "pair": 267, "source": "word", "problem": "one plus three equals", "answer": "4", "operation": "add", "a": 1, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0268", "pair": 268, "source": "word", "problem": "seventy-seven minus seventy-two equals", "answer": "5", "operation": "sub", "a": 77, "b": 72, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0269", "pair": 269, "source": "word", "problem": "zero times six equals", "answer": "0", "operation": "mul", "a": 0, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0270", "pair": 270, "source": "word", "problem": "twenty-six plus seven equals", "answer": "33", "operation": "add", "a": 26, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0271", "pair": 271, "source": "word", "problem": "one times six equals", "answer": "6", "operation": "mul", "a": 1, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0272", "pair": 272, "source": "word", "problem": "five minus one equals", "answer": "4", "operation": "sub", "a": 5, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0273", "pair": 273, "source": "word", "problem": "thirteen plus eighty equals", "answer": "93", "operation": "add", "a": 13, "b": 80, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0274", "pair": 274, "source": "word", "problem": "nine plus one equals", "answer": "10", "operation": "add", "a": 9, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0275", "pair": 275, "source": "word", "problem": "zero times two equals", "answer": "0", "operation": "mul", "a": 0, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0276", "pair": 276, "source": "word", "problem": "six times eight equals", "answer": "48", "operation": "mul", "a": 6, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0277", "pair": 277, "source": "word", "problem": "six minus five equals", "answer": "1", "operation": "sub", "a": 6, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0278", "pair": 278, "source": "word", "problem": "ninety minus eighty-one equals", "answer": "9", "operation": "sub", "a": 90, "b": 81, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0279", "pair": 279, "source": "word", "problem": "one plus five equals", "answer": "6", "operation": "add", "a": 1, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0280", "pair": 280, "source": "word", "problem": "three plus five equals", "answer": "8", "operation": "add", "a": 3, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0281", "pair": 281, "source": "word", "problem": "one plus zero equals", "answer": "1", "operation": "add", "a": 1, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0282", "pair": 282, "source": "word", "problem": "eight minus one equals", "answer": "7", "operation": "sub", "a": 8, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0283", "pair": 283, "source": "word", "problem": "seventy-two minus three equals", "answer": "69", "operation": "sub", "a": 72, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0284", "pair": 284, "source": "word", "problem": "ninety-two minus seventy-three equals", "answer": "19", "operation": "sub", "a": 92, "b": 73, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0285", "pair": 285, "source": "word", "problem": "four times zero equals", "answer": "0", "operation": "mul", "a": 4, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0286", "pair": 286, "source": "word", "problem": "sixty-three divided by seven equals", "answer": "9", "operation": "div", "a": 63, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0287", "pair": 287, "source": "word", "problem": "six minus two equals", "answer": "4", "operation": "sub", "a": 6, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0288", "pair": 288, "source": "word", "problem": "five minus zero equals", "answer": "5", "operation": "sub", "a": 5, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0289", "pair": 289, "source": "word", "problem": "thirty-six plus thirty-nine equals", "answer": "75", "operation": "add", "a": 36, "b": 39, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0290", "pair": 290, "source": "word", "problem": "two plus eight equals", "answer": "10", "operation": "add", "a": 2, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0291", "pair": 291, "source": "word", "problem": "thirty-six divided by nine equals", "answer": "4", "operation": "div", "a": 36, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0292", "pair": 292, "source": "word", "problem": "seven times six equals", "answer": "42", "operation": "mul", "a": 7, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0293", "pair": 293, "source": "word", "problem": "fourteen divided by two equals", "answer": "7", "operation": "div", "a": 14, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0294", "pair": 294, "source": "word", "problem": "four times six equals", "answer": "24", "operation": "mul", "a": 4, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0295", "pair": 295, "source": "word", "problem": "eighty-one minus seventy equals", "answer": "11", "operation": "sub", "a": 81, "b": 70, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0296", "pair": 296, "source": "word", "problem": "zero divided by seven equals", "answer": "0", "operation": "div", "a": 0, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0297", "pair": 297, "source": "word", "problem": "five times three equals", "answer": "15", "operation": "mul", "a": 5, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0298", "pair": 298, "source": "word", "problem": "eleven plus one equals", "answer": "12", "operation": "add", "a": 11, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0299", "pair": 299, "source": "word", "problem": "zero divided by five equals", "answer": "0", "operation": "div", "a": 0, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0300", "pair": 300, "source": "word", "problem": "eighty-three plus three equals", "answer": "86", "operation": "add", "a": 83, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0301", "pair": 301, "source": "word", "problem": "eight plus four equals", "answer": "12", "operation": "add", "a": 8, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0302", "pair": 302, "source": "word", "problem": "twelve divided by two equals", "answer": "6", "operation": "div", "a": 12, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0303", "pair": 303, "source": "word", "problem": "eighteen divided by six equals", "answer": "3", "operation": "div", "a": 18, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0304", "pair": 304, "source": "word", "problem": "six divided by one equals", "answer": "6", "operation": "div", "a": 6, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0305", "pair": 305, "source": "word", "problem": "zero times zero equals", "answer": "0", "operation": "mul", "a": 0, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0306", "pair": 306, "source": "word", "problem": "four minus four equals", "answer": "0", "operation": "sub", "a": 4, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0307", "pair": 307, "source": "word", "problem": "thirty-five divided by seven equals", "answer": "5", "operation": "div", "a": 35, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0308", "pair": 308, "source": "word", "problem": "ninety-three plus three equals", "answer": "96", "operation": "add", "a": 93, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0309", "pair": 309, "source": "word", "problem": "fifty-six minus six equals", "answer": "50", "operation": "sub", "a": 56, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0310", "pair": 310, "source": "word", "problem": "seven plus two equals", "answer": "9", "operation": "add", "a": 7, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0311", "pair": 311, "source": "word", "problem": "six divided by six equals", "answer": "1", "operation": "div", "a": 6, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0312", "pair": 312, "source": "word", "problem": "fifty-three plus five equals", "answer": "58", "operation": "add", "a": 53, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0313", "pair": 313, "source": "word", "problem": "seventy-four minus twenty-five equals", "answer": "49", "operation": "sub", "a": 74, "b": 25, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0314", "pair": 314, "source": "word", "problem": "seventy-seven minus thirty-four equals", "answer": "43", "operation": "sub", "a": 77, "b": 34, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0315", "pair": 315, "source": "word", "problem": "nine plus five equals", "answer": "14", "operation": "add", "a": 9, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0316", "pair": 316, "source": "word", "problem": "six times nine equals", "answer": "54", "operation": "mul", "a": 6, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0317", "pair": 317, "source": "word", "problem": "forty-five divided by nine equals", "answer": "5", "operation": "div", "a": 45, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0318", "pair": 318, "source": "word", "problem": "nine times three equals", "answer": "27", "operation": "mul", "a": 9, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0319", "pair": 319, "source": "word", "problem": "seven times one equals", "answer": "7", "operation": "mul", "a": 7, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0320", "pair": 320, "source": "word", "problem": "eight divided by two equals", "answer": "4", "operation": "div", "a": 8, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0321", "pair": 321, "source": "word", "problem": "five times seven equals", "answer": "35", "operation": "mul", "a": 5, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0322", "pair": 322, "source": "word", "problem": "nine times two equals", "answer": "18", "operation": "mul", "a": 9, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0323", "pair": 323, "source": "word", "problem": "nine times zero equals", "answer": "0", "operation": "mul", "a": 9, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0324", "pair": 324, "source": "word", "problem": "three times eight equals", "answer": "24", "operation": "mul", "a": 3, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0325", "pair": 325, "source": "word", "problem": "forty-eight divided by eight equals", "answer": "6", "operation": "div", "a": 48, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0326", "pair": 326, "source": "word", "problem": "one plus seven equals", "answer": "8", "operation": "add", "a": 1, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0327", "pair": 327, "source": "word", "problem": "four times four equals", "answer": "16", "operation": "mul", "a": 4, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0328", "pair": 328, "source": "word", "problem": "sixty-four minus thirty-seven equals", "answer": "27", "operation": "sub", "a": 64, "b": 37, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0329", "pair": 329, "source": "word", "problem": "twenty-seven divided by three equals", "answer": "9", "operation": "div", "a": 27, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0330", "pair": 330, "source": "word", "problem": "six divided by three equals", "answer": "2", "operation": "div", "a": 6, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0331", "pair": 331, "source": "word", "problem": "nine times five equals", "answer": "45", "operation": "mul", "a": 9, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0332", "pair": 332, "source": "word", "problem": "thirty-three plus forty-two equals", "answer": "75", "operation": "add", "a": 33, "b": 42, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0333", "pair": 333, "source": "word", "problem": "twenty-one plus fifty-six equals", "answer": "77", "operation": "add", "a": 21, "b": 56, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0334", "pair": 334, "source": "word", "problem": "five times five equals", "answer": "25", "operation": "mul", "a": 5, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0335", "pair": 335, "source": "word", "problem": "zero divided by four equals", "answer": "0", "operation": "div", "a": 0, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0336", "pair": 336, "source": "word", "problem": "one plus four equals", "answer": "5", "operation": "add", "a": 1, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0337", "pair": 337, "source": "word", "problem": "two plus three equals", "answer": "5", "operation": "add", "a": 2, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0338", "pair": 338, "source": "word", "problem": "twenty-eight plus fifty-seven equals", "answer": "85", "operation": "add", "a": 28, "b": 57, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0339", "pair": 339, "source": "word", "problem": "ninety-five minus seventeen equals", "answer": "78", "operation": "sub", "a": 95, "b": 17, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0340", "pair": 340, "source": "word", "problem": "thirty plus fifty-four equals", "answer": "84", "operation": "add", "a": 30, "b": 54, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0341", "pair": 341, "source": "word", "problem": "six plus three equals", "answer": "9", "operation": "add", "a": 6, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0342", "pair": 342, "source": "word", "problem": "forty-nine minus twenty-nine equals", "answer": "20", "operation": "sub", "a": 49, "b": 29, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0343", "pair": 343, "source": "word", "problem": "seventy-two minus seven equals", "answer": "65", "operation": "sub", "a": 72, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0344", "pair": 344, "source": "word", "problem": "one plus two equals", "answer": "3", "operation": "add", "a": 1, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0345", "pair": 345, "source": "word", "problem": "zero plus seven equals", "answer": "7", "operation": "add", "a": 0, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0346", "pair": 346, "source": "word", "problem": "ninety-nine minus eighty-two equals", "answer": "17", "operation": "sub", "a": 99, "b": 82, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0347", "pair": 347, "source": "word", "problem": "thirty-two divided by four equals", "answer": "8", "operation": "div", "a": 32, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0348", "pair": 348, "source": "word", "problem": "seventy-seven minus sixty-two equals", "answer": "15", "operation": "sub", "a": 77, "b": 62, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0349", "pair": 349, "source": "word", "problem": "twenty divided by four equals", "answer": "5", "operation": "div", "a": 20, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0350", "pair": 350, "source": "word", "problem": "seven minus seven equals", "answer": "0", "operation": "sub", "a": 7, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0351", "pair": 351, "source": "word", "problem": "four plus five equals", "answer": "9", "operation": "add", "a": 4, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0352", "pair": 352, "source": "word", "problem": "nine times one equals", "answer": "9", "operation": "mul", "a": 9, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0353", "pair": 353, "source": "word", "problem": "one times two equals", "answer": "2", "operation": "mul", "a": 1, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0354", "pair": 354, "source": "word", "problem": "four times nine equals", "answer": "36", "operation": "mul", "a": 4, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0355", "pair": 355, "source": "word", "problem": "four divided by one equals", "answer": "4", "operation": "div", "a": 4, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0356", "pair": 356, "source": "word", "problem": "five plus zero equals", "answer": "5", "operation": "add", "a": 5, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0357", "pair": 357, "source": "word", "problem": "three times zero equals", "answer": "0", "operation": "mul", "a": 3, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0358", "pair": 358, "source": "word", "problem": "twenty-four plus fifty-eight equals", "answer": "82", "operation": "add", "a": 24, "b": 58, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0359", "pair": 359, "source": "word", "problem": "forty-three minus eighteen equals", "answer": "25", "operation": "sub", "a": 43, "b": 18, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0360", "pair": 360, "source": "word", "problem": "thirty-six plus twenty-two equals", "answer": "58", "operation": "add", "a": 36, "b": 22, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0361", "pair": 361, "source": "word", "problem": "twenty-eight divided by four equals", "answer": "7", "operation": "div", "a": 28, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0362", "pair": 362, "source": "word", "problem": "four minus zero equals", "answer": "4", "operation": "sub", "a": 4, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0363", "pair": 363, "source": "word", "problem": "zero minus zero equals", "answer": "0", "operation": "sub", "a": 0, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0364", "pair": 364, "source": "word", "problem": "zero divided by two equals", "answer": "0", "operation": "div", "a": 0, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0365", "pair": 365, "source": "word", "problem": "six plus four equals", "answer": "10", "operation": "add", "a": 6, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0366", "pair": 366, "source": "word", "problem": "one minus one equals", "answer": "0", "operation": "sub", "a": 1, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0367", "pair": 367, "source": "word", "problem": "three plus six equals", "answer": "9", "operation": "add", "a": 3, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0368", "pair": 368, "source": "word", "problem": "seven minus six equals", "answer": "1", "operation": "sub", "a": 7, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0369", "pair": 369, "source": "word", "problem": "eight minus three equals", "answer": "5", "operation": "sub", "a": 8, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0370", "pair": 370, "source": "word", "problem": "seven minus two equals", "answer": "5", "operation": "sub", "a": 7, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0371", "pair": 371, "source": "word", "problem": "fourteen divided by seven equals", "answer": "2", "operation": "div", "a": 14, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0372", "pair": 372, "source": "word", "problem": "sixty-four minus twenty-six equals", "answer": "38", "operation": "sub", "a": 64, "b": 26, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0373", "pair": 373, "source": "word", "problem": "four plus nine equals", "answer": "13", "operation": "add", "a": 4, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0374", "pair": 374, "source": "word", "problem": "four plus eight equals", "answer": "12", "operation": "add", "a": 4, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0375", "pair": 375, "source": "word", "problem": "sixty-four plus five equals", "answer": "69", "operation": "add", "a": 64, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0376", "pair": 376, "source": "word", "problem": "seventy-five minus forty-seven equals", "answer": "28", "operation": "sub", "a": 75, "b": 47, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0377", "pair": 377, "source": "word", "problem": "seven divided by one equals", "answer": "7", "operation": "div", "a": 7, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0378", "pair": 378, "source": "word", "problem": "six plus five equals", "answer": "11", "operation": "add", "a": 6, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0379", "pair": 379, "source": "word", "problem": "nine plus seven equals", "answer": "16", "operation": "add", "a": 9, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0380", "pair": 380, "source": "word", "problem": "fifty-four divided by six equals", "answer": "9", "operation": "div", "a": 54, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0381", "pair": 381, "source": "word", "problem": "twenty-one divided by three equals", "answer": "7", "operation": "div", "a": 21, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0382", "pair": 382, "source": "word", "problem": "seven minus three equals", "answer": "4", "operation": "sub", "a": 7, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0383", "pair": 383, "source": "word", "problem": "eight minus six equals", "answer": "2", "operation": "sub", "a": 8, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0384", "pair": 384, "source": "word", "problem": "nine minus two equals", "answer": "7", "operation": "sub", "a": 9, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0385", "pair": 385, "source": "word", "problem": "nine plus seventy-seven equals", "answer": "86", "operation": "add", "a": 9, "b": 77, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0386", "pair": 386, "source": "word", "problem": "eight plus seven equals", "answer": "15", "operation": "add", "a": 8, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0387", "pair": 387, "source": "word", "problem": "eight times nine equals", "answer": "72", "operation": "mul", "a": 8, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0388", "pair": 388, "source": "word", "problem": "five divided by one equals", "answer": "5", "operation": "div", "a": 5, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0389", "pair": 389, "source": "word", "problem": "seventy-six plus twenty-two equals", "answer": "98", "operation": "add", "a": 76, "b": 22, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0390", "pair": 390, "source": "word", "problem": "one times nine equals", "answer": "9", "operation": "mul", "a": 1, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0391", "pair": 391, "source": "word", "problem": "one plus nine equals", "answer": "10", "operation": "add", "a": 1, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0392", "pair": 392, "source": "word", "problem": "six minus four equals", "answer": "2", "operation": "sub", "a": 6, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0393", "pair": 393, "source": "word", "problem": "one times one equals", "answer": "1", "operation": "mul", "a": 1, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0394", "pair": 394, "source": "word", "problem": "forty-one plus thirty-eight equals", "answer": "79", "operation": "add", "a": 41, "b": 38, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0395", "pair": 395, "source": "word", "problem": "four plus seven equals", "answer": "11", "operation": "add", "a": 4, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0396", "pair": 396, "source": "word", "problem": "nine times eight equals", "answer": "72", "operation": "mul", "a": 9, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0397", "pair": 397, "source": "word", "problem": "three times seven equals", "answer": "21", "operation": "mul", "a": 3, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0398", "pair": 398, "source": "word", "problem": "sixteen minus seven equals", "answer": "9", "operation": "sub", "a": 16, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0399", "pair": 399, "source": "word", "problem": "six times six equals", "answer": "36", "operation": "mul", "a": 6, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0400", "pair": 400, "source": "word", "problem": "eight times seven equals", "answer": "56", "operation": "mul", "a": 8, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0401", "pair": 401, "source": "word", "problem": "six times one equals", "answer": "6", "operation": "mul", "a": 6, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0402", "pair": 402, "source": "word", "problem": "six minus six equals", "answer": "0", "operation": "sub", "a": 6, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0403", "pair": 403, "source": "word", "problem": "two times nine equals", "answer": "18", "operation": "mul", "a": 2, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0404", "pair": 404, "source": "word", "problem": "four plus three equals", "answer": "7", "operation": "add", "a": 4, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0405", "pair": 405, "source": "word", "problem": "thirty-three plus eighteen equals", "answer": "51", "operation": "add", "a": 33, "b": 18, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0406", "pair": 406, "source": "word", "problem": "twenty-four divided by four equals", "answer": "6", "operation": "div", "a": 24, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0407", "pair": 407, "source": "word", "problem": "two plus forty equals", "answer": "42", "operation": "add", "a": 2, "b": 40, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0408", "pair": 408, "source": "word", "problem": "twelve plus eighty-three equals", "answer": "95", "operation": "add", "a": 12, "b": 83, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0409", "pair": 409, "source": "word", "problem": "sixty-two minus eighteen equals", "answer": "44", "operation": "sub", "a": 62, "b": 18, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0410", "pair": 410, "source": "word", "problem": "three plus nine equals", "answer": "12", "operation": "add", "a": 3, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0411", "pair": 411, "source": "word", "problem": "five plus nine equals", "answer": "14", "operation": "add", "a": 5, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0412", "pair": 412, "source": "word", "problem": "twenty-four divided by eight equals", "answer": "3", "operation": "div", "a": 24, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0413", "pair": 413, "source": "word", "problem": "six minus zero equals", "answer": "6", "operation": "sub", "a": 6, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0414", "pair": 414, "source": "word", "problem": "one plus one equals", "answer": "2", "operation": "add", "a": 1, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0415", "pair": 415, "source": "word", "problem": "seventy-six plus fourteen equals", "answer": "90", "operation": "add", "a": 76, "b": 14, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0416", "pair": 416, "source": "word", "problem": "eight minus four equals", "answer": "4", "operation": "sub", "a": 8, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0417", "pair": 417, "source": "word", "problem": "sixty-one minus nineteen equals", "answer": "42", "operation": "sub", "a": 61, "b": 19, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0418", "pair": 418, "source": "word", "problem": "seven plus zero equals", "answer": "7", "operation": "add", "a": 7, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0419", "pair": 419, "source": "word", "problem": "zero divided by six equals", "answer": "0", "operation": "div", "a": 0, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0420", "pair": 420, "source": "word", "problem": "three plus four equals", "answer": "7", "operation": "add", "a": 3, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0421", "pair": 421, "source": "word", "problem": "thirty-four minus ten equals", "answer": "24", "operation": "sub", "a": 34, "b": 10, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0422", "pair": 422, "source": "word", "problem": "three divided by three equals", "answer": "1", "operation": "div", "a": 3, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0423", "pair": 423, "source": "word", "problem": "seventy-two divided by nine equals", "answer": "8", "operation": "div", "a": 72, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0424", "pair": 424, "source": "word", "problem": "twenty-four divided by three equals", "answer": "8", "operation": "div", "a": 24, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0425", "pair": 425, "source": "word", "problem": "two times five equals", "answer": "10", "operation": "mul", "a": 2, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0426", "pair": 426, "source": "word", "problem": "six times zero equals", "answer": "0", "operation": "mul", "a": 6, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0427", "pair": 427, "source": "word", "problem": "thirty-nine plus fifty equals", "answer": "89", "operation": "add", "a": 39, "b": 50, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0428", "pair": 428, "source": "word", "problem": "seventy-three minus forty-one equals", "answer": "32", "operation": "sub", "a": 73, "b": 41, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0429", "pair": 429, "source": "word", "problem": "two times eight equals", "answer": "16", "operation": "mul", "a": 2, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0430", "pair": 430, "source": "word", "problem": "seventeen plus five equals", "answer": "22", "operation": "add", "a": 17, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0431", "pair": 431, "source": "word", "problem": "thirty divided by five equals", "answer": "6", "operation": "div", "a": 30, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0432", "pair": 432, "source": "word", "problem": "zero plus two equals", "answer": "2", "operation": "add", "a": 0, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0433", "pair": 433, "source": "word", "problem": "twenty-eight minus four equals", "answer": "24", "operation": "sub", "a": 28, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0434", "pair": 434, "source": "word", "problem": "fifty-eight minus twenty-four equals", "answer": "34", "operation": "sub", "a": 58, "b": 24, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0435", "pair": 435, "source": "word", "problem": "eighty-six minus seventy-six equals", "answer": "10", "operation": "sub", "a": 86, "b": 76, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0436", "pair": 436, "source": "word", "problem": "sixteen plus eighty-one equals", "answer": "97", "operation": "add", "a": 16, "b": 81, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0437", "pair": 437, "source": "word", "problem": "eight minus zero equals", "answer": "8", "operation": "sub", "a": 8, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0438", "pair": 438, "source": "word", "problem": "seven times two equals", "answer": "14", "operation": "mul", "a": 7, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0439", "pair": 439, "source": "word", "problem": "four minus one equals", "answer": "3", "operation": "sub", "a": 4, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0440", "pair": 440, "source": "word", "problem": "two plus four equals", "answer": "6", "operation": "add", "a": 2, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0441", "pair": 441, "source": "word", "problem": "eight plus one equals", "answer": "9", "operation": "add", "a": 8, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0442", "pair": 442, "source": "word", "problem": "nine times seven equals", "answer": "63", "operation": "mul", "a": 9, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0443", "pair": 443, "source": "word", "problem": "seventy-two plus eighteen equals", "answer": "90", "operation": "add", "a": 72, "b": 18, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0444", "pair": 444, "source": "word", "problem": "two divided by one equals", "answer": "2", "operation": "div", "a": 2, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0445", "pair": 445, "source": "word", "problem": "four plus sixty-six equals", "answer": "70", "operation": "add", "a": 4, "b": 66, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0446", "pair": 446, "source": "word", "problem": "three plus one equals", "answer": "4", "operation": "add", "a": 3, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0447", "pair": 447, "source": "word", "problem": "seventy-one minus sixty-four equals", "answer": "7", "operation": "sub", "a": 71, "b": 64, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0448", "pair": 448, "source": "word", "problem": "seven plus one equals", "answer": "8", "operation": "add", "a": 7, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0449", "pair": 449, "source": "word", "problem": "sixty plus fifteen equals", "answer": "75", "operation": "add", "a": 60, "b": 15, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0450", "pair": 450, "source": "word", "problem": "one times seven equals", "answer": "7", "operation": "mul", "a": 1, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0451", "pair": 451, "source": "word", "problem": "sixty-five minus fourteen equals", "answer": "51", "operation": "sub", "a": 65, "b": 14, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0452", "pair": 452, "source": "word", "problem": "thirty-two divided by eight equals", "answer": "4", "operation": "div", "a": 32, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0453", "pair": 453, "source": "word", "problem": "ten plus fifty-six equals", "answer": "66", "operation": "add", "a": 10, "b": 56, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0454", "pair": 454, "source": "word", "problem": "nine plus zero equals", "answer": "9", "operation": "add", "a": 9, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0455", "pair": 455, "source": "word", "problem": "two times six equals", "answer": "12", "operation": "mul", "a": 2, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0456", "pair": 456, "source": "word", "problem": "two divided by two equals", "answer": "1", "operation": "div", "a": 2, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0457", "pair": 457, "source": "word", "problem": "fifty-five minus thirty-two equals", "answer": "23", "operation": "sub", "a": 55, "b": 32, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0458", "pair": 458, "source": "word", "problem": "eight minus seven equals", "answer": "1", "operation": "sub", "a": 8, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0459", "pair": 459, "source": "word", "problem": "seventy-four plus three equals", "answer": "77", "operation": "add", "a": 74, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0460", "pair": 460, "source": "word", "problem": "two minus two equals", "answer": "0", "operation": "sub", "a": 2, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0461", "pair": 461, "source": "word", "problem": "three times five equals", "answer": "15", "operation": "mul", "a": 3, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0462", "pair": 462, "source": "word", "problem": "four minus two equals", "answer": "2", "operation": "sub", "a": 4, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0463", "pair": 463, "source": "word", "problem": "twenty-one divided by seven equals", "answer": "3", "operation": "div", "a": 21, "b": 7, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0464", "pair": 464, "source": "word", "problem": "seventy-one minus forty-one equals", "answer": "30", "operation": "sub", "a": 71, "b": 41, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0465", "pair": 465, "source": "word", "problem": "thirty-nine minus thirty-seven equals", "answer": "2", "operation": "sub", "a": 39, "b": 37, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0466", "pair": 466, "source": "word", "problem": "eighty-one divided by nine equals", "answer": "9", "operation": "div", "a": 81, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0467", "pair": 467, "source": "word", "problem": "eight plus zero equals", "answer": "8", "operation": "add", "a": 8, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0468", "pair": 468, "source": "word", "problem": "eight times four equals", "answer": "32", "operation": "mul", "a": 8, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0469", "pair": 469, "source": "word", "problem": "twenty divided by five equals", "answer": "4", "operation": "div", "a": 20, "b": 5, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0470", "pair": 470, "source": "word", "problem": "eighteen divided by nine equals", "answer": "2", "operation": "div", "a": 18, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0471", "pair": 471, "source": "word", "problem": "four divided by two equals", "answer": "2", "operation": "div", "a": 4, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0472", "pair": 472, "source": "word", "problem": "thirty-eight minus nine equals", "answer": "29", "operation": "sub", "a": 38, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0473", "pair": 473, "source": "word", "problem": "nine plus three equals", "answer": "12", "operation": "add", "a": 9, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0474", "pair": 474, "source": "word", "problem": "twelve divided by six equals", "answer": "2", "operation": "div", "a": 12, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0475", "pair": 475, "source": "word", "problem": "four plus zero equals", "answer": "4", "operation": "add", "a": 4, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0476", "pair": 476, "source": "word", "problem": "eight minus eight equals", "answer": "0", "operation": "sub", "a": 8, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0477", "pair": 477, "source": "word", "problem": "eleven plus eighty-three equals", "answer": "94", "operation": "add", "a": 11, "b": 83, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0478", "pair": 478, "source": "word", "problem": "three minus one equals", "answer": "2", "operation": "sub", "a": 3, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0479", "pair": 479, "source": "word", "problem": "five plus thirty-four equals", "answer": "39", "operation": "add", "a": 5, "b": 34, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0480", "pair": 480, "source": "word", "problem": "ten divided by two equals", "answer": "5", "operation": "div", "a": 10, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0481", "pair": 481, "source": "word", "problem": "thirty-three minus thirty-three equals", "answer": "0", "operation": "sub", "a": 33, "b": 33, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0482", "pair": 482, "source": "word", "problem": "twenty-four divided by six equals", "answer": "4", "operation": "div", "a": 24, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0483", "pair": 483, "source": "word", "problem": "seven plus ninety equals", "answer": "97", "operation": "add", "a": 7, "b": 90, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0484", "pair": 484, "source": "word", "problem": "six divided by two equals", "answer": "3", "operation": "div", "a": 6, "b": 2, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0485", "pair": 485, "source": "word", "problem": "eight times six equals", "answer": "48", "operation": "mul", "a": 8, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0486", "pair": 486, "source": "word", "problem": "seven times zero equals", "answer": "0", "operation": "mul", "a": 7, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0487", "pair": 487, "source": "word", "problem": "one plus ninety-six equals", "answer": "97", "operation": "add", "a": 1, "b": 96, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0488", "pair": 488, "source": "word", "problem": "sixty-four divided by eight equals", "answer": "8", "operation": "div", "a": 64, "b": 8, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0489", "pair": 489, "source": "word", "problem": "sixty-three divided by nine equals", "answer": "7", "operation": "div", "a": 63, "b": 9, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0490", "pair": 490, "source": "word", "problem": "eight times zero equals", "answer": "0", "operation": "mul", "a": 8, "b": 0, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0491", "pair": 491, "source": "word", "problem": "forty-eight divided by six equals", "answer": "8", "operation": "div", "a": 48, "b": 6, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0492", "pair": 492, "source": "word", "problem": "nine times four equals", "answer": "36", "operation": "mul", "a": 9, "b": 4, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0493", "pair": 493, "source": "word", "problem": "three times one equals", "answer": "3", "operation": "mul", "a": 3, "b": 1, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0494", "pair": 494, "source": "word", "problem": "four minus three equals", "answer": "1", "operation": "sub", "a": 4, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0495", "pair": 495, "source": "word", "problem": "nine minus three equals", "answer": "6", "operation": "sub", "a": 9, "b": 3, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0496", "pair": 496, "source": "word", "problem": "seventy-three minus seventeen equals", "answer": "56", "operation": "sub", "a": 73, "b": 17, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0497", "pair": 497, "source": "word", "problem": "thirty plus sixty-seven equals", "answer": "97", "operation": "add", "a": 30, "b": 67, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0498", "pair": 498, "source": "word", "problem": "ten plus seventy-eight equals", "answer": "88", "operation": "add", "a": 10, "b": 78, "symbol": null, "spacing": null}
+{"id": "ba-practice-word-0499", "pair": 499, "source": "word", "problem": "thirty-six divided by six equals", "answer": "6", "operation": "div", "a": 36, "b": 6, "symbol": null, "spacing": null}

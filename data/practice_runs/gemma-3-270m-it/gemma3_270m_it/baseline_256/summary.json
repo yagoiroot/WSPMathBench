@@ -1,0 +1,42 @@
+{
+ "n": 256,
+ "n_correct": 13,
+ "accuracy": 0.05078125,
+ "mean_tokens": 1412.31640625,
+ "cut_share": 0.02734375,
+ "by_source": {
+  "gsm8k": {
+   "n": 128,
+   "n_correct": 7,
+   "accuracy": 0.0546875,
+   "mean_tokens": 568.78125,
+   "cut_share": 0.0078125
+  },
+  "math": {
+   "n": 128,
+   "n_correct": 6,
+   "accuracy": 0.046875,
+   "mean_tokens": 2255.8515625,
+   "cut_share": 0.046875
+  }
+ },
+ "failures": {
+  "wrong_answer": 123,
+  "no_answer_finished": 113,
+  "cut_at_max_tokens": 7
+ },
+ "task": "math",
+ "protocol": "gemma3_270m_it",
+ "sampling": {
+  "temperature": 1.0,
+  "top_k": 64,
+  "top_p": 0.95,
+  "max_tokens": 30000
+ },
+ "seed": 0,
+ "engine_version": "vllm 0.29.0",
+ "tiny_model": "gemma-3-270m-it",
+ "model_revision": "ac82b4e820549b854eebf28ce6dedaf9fdfa17b3",
+ "model_dir": "<models folder>/gemma-3-270m-it",
+ "dtype": "bfloat16"
+}

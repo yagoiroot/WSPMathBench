@@ -1,0 +1,28 @@
+# The driver side: the Python that runs scripts/, tests/ and tools/prepare_tiny_models.py
+# (Windows in the tested setup). Python 3.11 was used; 3.10 or later is required.
+# The versions are the tested ones, given as minimums.
+
+# Reading, editing and rebuilding the tiny models' weights (CPU is enough here).
+# Tested with a 2.11 development build of torch; no particular version is required.
+torch
+safetensors>=0.8.0
+tokenizers>=0.23.2
+numpy>=1.26.4
+
+# Results tables, statistics and figures
+polars>=1.32.2
+scipy>=1.11.4
+matplotlib>=3.10.5
+
+# Provider clients for the primary LLMs, and the client of the local tiny-model server
+openai>=2.17.0
+anthropic>=0.125.0
+google-genai>=2.30.1
+httpx>=0.28.1
+requests>=2.32.5
+
+# The live status footer
+rich>=15.0.0
+
+# Grading MATH-500 answers (the version Takehi et al. graded with)
+math-verify==0.9.0

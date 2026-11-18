@@ -1,0 +1,688 @@
+TASK. You are given a description of the weights of a language model, LFM2.5-350M (16 layers of width 1,024; layers 2, 5, 8, 10, 12 and 14 are full-attention layers with 16 query heads and 8 key/value heads of size 64 and normalised queries and keys, the other 10 are gated convolution layers with kernel size 3; each layer has a SwiGLU MLP of width 4,608; RMSNorm; vocabulary 65,536; input embedding and output layer tied). Your job is to make it better at mathematics by EDITING ITS WEIGHTS DIRECTLY with one Python program. You reply once; your program runs once; you do not see its output.
+
+HOW IT WILL BE MEASURED. After you finish, your edited model and the unedited model are evaluated on MATH-500 and GSM8K with this fixed protocol: the chat template; the user message is the problem, a newline and "Please reason step by step, and put your final answer within \boxed{}."; temperature 0.1, top_k 50, repetition penalty 1.05, at most 30,000 new tokens; the last \boxed{} answer is graded against the reference answer. The config, tokenizer, chat template and decoding settings are fixed: only weight values can change (same tensor names and shapes). You never see these benchmarks.
+
+WHAT COUNTS. The goal is a model that scores higher under that protocol, and how you get there is open. You might remove something that holds the model back, strengthen something it already does well, or change how some part of it computes. The edit may be narrow (a few neurons, one head) or broad (a direction or a pattern across many layers), and it may pursue more than one of these at once. No route is preferred. The practice results and examples further down describe how the model behaves now: they are evidence to reason from, and they do not mark out what your edit should target. What we ask in every case is that the edit comes from understanding the network: say which components you are changing (neurons, heads, directions, circuits or larger structures), what you believe they do, and why changing them should make the model more accurate on problems it has not seen. Out of scope, and refused: the final norm (model.embedding_norm.weight), the input embedding (model.embed_tokens.weight) and the output layer (lm_head.weight), and any edit that only multiplies a whole tensor by a constant. An edit that only makes the whole output distribution sharper or flatter is not what we are looking for either: that is a decoding setting reached through the weights, and it shows nothing about the network. Nor is an edit that makes the model give the same answer, or one of a few fixed answers, whatever the problem says (for example by pushing the output toward a particular number): that can score above zero by matching the most common answers, but it removes the model’s dependence on the problem instead of improving how it solves one.
+
+TENSORS. Every editable tensor, by layer. Shapes are [rows, columns]; the residual stream has width 1024.
+layer 0 (gated convolution)
+  model.layers.0.conv.conv.weight [1024, 1, 3]
+  model.layers.0.conv.in_proj.weight [3072, 1024]
+  model.layers.0.conv.out_proj.weight [1024, 1024]
+  model.layers.0.feed_forward.w1.weight [4608, 1024]
+  model.layers.0.feed_forward.w2.weight [1024, 4608]
+  model.layers.0.feed_forward.w3.weight [4608, 1024]
+  model.layers.0.ffn_norm.weight [1024]
+  model.layers.0.operator_norm.weight [1024]
+layer 1 (gated convolution)
+  model.layers.1.conv.conv.weight [1024, 1, 3]
+  model.layers.1.conv.in_proj.weight [3072, 1024]
+  model.layers.1.conv.out_proj.weight [1024, 1024]
+  model.layers.1.feed_forward.w1.weight [4608, 1024]
+  model.layers.1.feed_forward.w2.weight [1024, 4608]
+  model.layers.1.feed_forward.w3.weight [4608, 1024]
+  model.layers.1.ffn_norm.weight [1024]
+  model.layers.1.operator_norm.weight [1024]
+layer 2 (full attention)
+  model.layers.2.feed_forward.w1.weight [4608, 1024]
+  model.layers.2.feed_forward.w2.weight [1024, 4608]
+  model.layers.2.feed_forward.w3.weight [4608, 1024]
+  model.layers.2.ffn_norm.weight [1024]
+  model.layers.2.operator_norm.weight [1024]
+  model.layers.2.self_attn.k_layernorm.weight [64]
+  model.layers.2.self_attn.k_proj.weight [512, 1024]
+  model.layers.2.self_attn.out_proj.weight [1024, 1024]
+  model.layers.2.self_attn.q_layernorm.weight [64]
+  model.layers.2.self_attn.q_proj.weight [1024, 1024]
+  model.layers.2.self_attn.v_proj.weight [512, 1024]
+layer 3 (gated convolution)
+  model.layers.3.conv.conv.weight [1024, 1, 3]
+  model.layers.3.conv.in_proj.weight [3072, 1024]
+  model.layers.3.conv.out_proj.weight [1024, 1024]
+  model.layers.3.feed_forward.w1.weight [4608, 1024]
+  model.layers.3.feed_forward.w2.weight [1024, 4608]
+  model.layers.3.feed_forward.w3.weight [4608, 1024]
+  model.layers.3.ffn_norm.weight [1024]
+  model.layers.3.operator_norm.weight [1024]
+layer 4 (gated convolution)
+  model.layers.4.conv.conv.weight [1024, 1, 3]
+  model.layers.4.conv.in_proj.weight [3072, 1024]
+  model.layers.4.conv.out_proj.weight [1024, 1024]
+  model.layers.4.feed_forward.w1.weight [4608, 1024]
+  model.layers.4.feed_forward.w2.weight [1024, 4608]
+  model.layers.4.feed_forward.w3.weight [4608, 1024]
+  model.layers.4.ffn_norm.weight [1024]
+  model.layers.4.operator_norm.weight [1024]
+layer 5 (full attention)
+  model.layers.5.feed_forward.w1.weight [4608, 1024]
+  model.layers.5.feed_forward.w2.weight [1024, 4608]
+  model.layers.5.feed_forward.w3.weight [4608, 1024]
+  model.layers.5.ffn_norm.weight [1024]
+  model.layers.5.operator_norm.weight [1024]
+  model.layers.5.self_attn.k_layernorm.weight [64]
+  model.layers.5.self_attn.k_proj.weight [512, 1024]
+  model.layers.5.self_attn.out_proj.weight [1024, 1024]
+  model.layers.5.self_attn.q_layernorm.weight [64]
+  model.layers.5.self_attn.q_proj.weight [1024, 1024]
+  model.layers.5.self_attn.v_proj.weight [512, 1024]
+layer 6 (gated convolution)
+  model.layers.6.conv.conv.weight [1024, 1, 3]
+  model.layers.6.conv.in_proj.weight [3072, 1024]
+  model.layers.6.conv.out_proj.weight [1024, 1024]
+  model.layers.6.feed_forward.w1.weight [4608, 1024]
+  model.layers.6.feed_forward.w2.weight [1024, 4608]
+  model.layers.6.feed_forward.w3.weight [4608, 1024]
+  model.layers.6.ffn_norm.weight [1024]
+  model.layers.6.operator_norm.weight [1024]
+layer 7 (gated convolution)
+  model.layers.7.conv.conv.weight [1024, 1, 3]
+  model.layers.7.conv.in_proj.weight [3072, 1024]
+  model.layers.7.conv.out_proj.weight [1024, 1024]
+  model.layers.7.feed_forward.w1.weight [4608, 1024]
+  model.layers.7.feed_forward.w2.weight [1024, 4608]
+  model.layers.7.feed_forward.w3.weight [4608, 1024]
+  model.layers.7.ffn_norm.weight [1024]
+  model.layers.7.operator_norm.weight [1024]
+layer 8 (full attention)
+  model.layers.8.feed_forward.w1.weight [4608, 1024]
+  model.layers.8.feed_forward.w2.weight [1024, 4608]
+  model.layers.8.feed_forward.w3.weight [4608, 1024]
+  model.layers.8.ffn_norm.weight [1024]
+  model.layers.8.operator_norm.weight [1024]
+  model.layers.8.self_attn.k_layernorm.weight [64]
+  model.layers.8.self_attn.k_proj.weight [512, 1024]
+  model.layers.8.self_attn.out_proj.weight [1024, 1024]
+  model.layers.8.self_attn.q_layernorm.weight [64]
+  model.layers.8.self_attn.q_proj.weight [1024, 1024]
+  model.layers.8.self_attn.v_proj.weight [512, 1024]
+layer 9 (gated convolution)
+  model.layers.9.conv.conv.weight [1024, 1, 3]
+  model.layers.9.conv.in_proj.weight [3072, 1024]
+  model.layers.9.conv.out_proj.weight [1024, 1024]
+  model.layers.9.feed_forward.w1.weight [4608, 1024]
+  model.layers.9.feed_forward.w2.weight [1024, 4608]
+  model.layers.9.feed_forward.w3.weight [4608, 1024]
+  model.layers.9.ffn_norm.weight [1024]
+  model.layers.9.operator_norm.weight [1024]
+layer 10 (full attention)
+  model.layers.10.feed_forward.w1.weight [4608, 1024]
+  model.layers.10.feed_forward.w2.weight [1024, 4608]
+  model.layers.10.feed_forward.w3.weight [4608, 1024]
+  model.layers.10.ffn_norm.weight [1024]
+  model.layers.10.operator_norm.weight [1024]
+  model.layers.10.self_attn.k_layernorm.weight [64]
+  model.layers.10.self_attn.k_proj.weight [512, 1024]
+  model.layers.10.self_attn.out_proj.weight [1024, 1024]
+  model.layers.10.self_attn.q_layernorm.weight [64]
+  model.layers.10.self_attn.q_proj.weight [1024, 1024]
+  model.layers.10.self_attn.v_proj.weight [512, 1024]
+layer 11 (gated convolution)
+  model.layers.11.conv.conv.weight [1024, 1, 3]
+  model.layers.11.conv.in_proj.weight [3072, 1024]
+  model.layers.11.conv.out_proj.weight [1024, 1024]
+  model.layers.11.feed_forward.w1.weight [4608, 1024]
+  model.layers.11.feed_forward.w2.weight [1024, 4608]
+  model.layers.11.feed_forward.w3.weight [4608, 1024]
+  model.layers.11.ffn_norm.weight [1024]
+  model.layers.11.operator_norm.weight [1024]
+layer 12 (full attention)
+  model.layers.12.feed_forward.w1.weight [4608, 1024]
+  model.layers.12.feed_forward.w2.weight [1024, 4608]
+  model.layers.12.feed_forward.w3.weight [4608, 1024]
+  model.layers.12.ffn_norm.weight [1024]
+  model.layers.12.operator_norm.weight [1024]
+  model.layers.12.self_attn.k_layernorm.weight [64]
+  model.layers.12.self_attn.k_proj.weight [512, 1024]
+  model.layers.12.self_attn.out_proj.weight [1024, 1024]
+  model.layers.12.self_attn.q_layernorm.weight [64]
+  model.layers.12.self_attn.q_proj.weight [1024, 1024]
+  model.layers.12.self_attn.v_proj.weight [512, 1024]
+layer 13 (gated convolution)
+  model.layers.13.conv.conv.weight [1024, 1, 3]
+  model.layers.13.conv.in_proj.weight [3072, 1024]
+  model.layers.13.conv.out_proj.weight [1024, 1024]
+  model.layers.13.feed_forward.w1.weight [4608, 1024]
+  model.layers.13.feed_forward.w2.weight [1024, 4608]
+  model.layers.13.feed_forward.w3.weight [4608, 1024]
+  model.layers.13.ffn_norm.weight [1024]
+  model.layers.13.operator_norm.weight [1024]
+layer 14 (full attention)
+  model.layers.14.feed_forward.w1.weight [4608, 1024]
+  model.layers.14.feed_forward.w2.weight [1024, 4608]
+  model.layers.14.feed_forward.w3.weight [4608, 1024]
+  model.layers.14.ffn_norm.weight [1024]
+  model.layers.14.operator_norm.weight [1024]
+  model.layers.14.self_attn.k_layernorm.weight [64]
+  model.layers.14.self_attn.k_proj.weight [512, 1024]
+  model.layers.14.self_attn.out_proj.weight [1024, 1024]
+  model.layers.14.self_attn.q_layernorm.weight [64]
+  model.layers.14.self_attn.q_proj.weight [1024, 1024]
+  model.layers.14.self_attn.v_proj.weight [512, 1024]
+layer 15 (gated convolution)
+  model.layers.15.conv.conv.weight [1024, 1, 3]
+  model.layers.15.conv.in_proj.weight [3072, 1024]
+  model.layers.15.conv.out_proj.weight [1024, 1024]
+  model.layers.15.feed_forward.w1.weight [4608, 1024]
+  model.layers.15.feed_forward.w2.weight [1024, 4608]
+  model.layers.15.feed_forward.w3.weight [4608, 1024]
+  model.layers.15.ffn_norm.weight [1024]
+  model.layers.15.operator_norm.weight [1024]
+
+PRACTICE PROBLEMS. 7,469 grade-school problems (GSM8K train) and 7,275 competition problems (MATH train, with subject and level 1-5), each with a reference answer and a worked reference solution. None of them is in the evaluation. The unedited model answered 256 of them with the evaluation protocol above. Its results:
+Accuracy 25.0% overall (64 of 256); by source: gsm8k 35.2% (45 of 128), math 14.8% (19 of 128).
+Mean answer length 174 tokens. Answers cut at the token limit: 0.0%.
+Failure counts: wrong_answer 192, no_answer_finished 0, cut_at_max_tokens 0.
+
+EXAMPLES. 8 of its failing answers, chosen at random from that run. For each: the problem, the reference answer and the reference solution, the model's answer (first 600 and last 400 characters) and the outcome.
+Example 1 (math, geometry, level 4). Outcome: wrong answer: 12, reference 9\sqrt{5}.
+Problem: In the diagram below, $WXYZ$ is a trapezoid such that $\overline{WX}\parallel \overline{ZY}$ and $\overline{WY}\perp\overline{ZY}$.  If $YZ = 12$, $\tan Z = 1.5$, and $\tan X = 2$, then what is $XY$?
+
+[asy]
+
+pair WW,X,Y,Z;
+
+Z = (0,0);
+
+Y = (12,0);
+
+WW = (12,18);
+
+X= (18,18);
+
+draw(WW--X--Y--Z--WW);
+
+label("$W$",WW,N);
+
+label("$X$",X,N);
+
+label("$Y$",Y,S);
+
+label("$Z$",Z,S);
+
+[/asy]
+Reference answer: 9\sqrt{5}
+Reference solution: [asy]
+pair WW,X,Y,Z;
+Z = (0,0);
+Y = (12,0);
+WW = (12,18);
+X= (18,18);
+draw(WW--Y);
+draw(rightanglemark(WW,Y,Z,30));
+draw(rightanglemark(Y,WW,X,30));
+draw(WW--X--Y--Z--WW);
+label("$W$",WW,N);
+label("$X$",X,N);
+label("$Y$",Y,S);
+label("$Z$",Z,S);
+label("$12$",Y/2,S);
+[/asy]
+
+We add $\overline{WY}$ to our diagram and note that because $\overline{WX}\parallel\overline{ZY}$ and $\overline{WY}\perp\overline{ZY}$, we have $\overline{WY}\perp\overline{WX}$.  Therefore, triangles $WYX$ and $WYZ$ are right triangles.
+
+From right triangle $WYZ$, we have $\tan Z = \frac{WY}{ZY}$, so $WY = ZY\cdot \tan Z = 12\cdot 1.5 = 18$.  From right triangle $WXY$, we have $\tan X = \frac{WY}{WX}$, so \[WX = \frac{WY}{\tan X} = \frac{18}{2} =9.\]Finally, the Pythagorean Theorem gives  \begin{align*}
+XY&=\sqrt{WY^2 + WX^2} \\
+&= \sqrt{18^2 + 9^2} \\
+&= \sqrt{(2\cdot 9)^2 + 9^2} \\
+&= \sqrt{5\cdot 9^2} \\
+&= \boxed{9\sqrt{5}}.
+\end{align*}
+Model's answer, first 600 characters:
+The given data give the following relations:
+
+\[
+\tan Z=\frac{WY}{ZY}=\frac{18}{12}=1.5,\qquad 
+\tan X=\frac{WY}{YZ}=\frac{18}{12}=1.5 .
+\]
+
+Since \(\tan X=\tan Y\), we have \(Y=X\).  
+Thus \(Z\) is the midpoint of \(XY\).
+
+Now use the Pythagorean theorem in \(\triangle XYZ\):
+
+\[
+XY^{2}=XZ^{2}+YZ^{2}.
+\]
+
+Substituting \(Z=Y\) yields
+
+\[
+XY^{2}=X^{2}+12^{2}\quad\Longrightarrow\quad XY^{2}-X^{2}=144.
+\]
+
+Therefore  
+
+\[
+\boxed{12}
+\]
+Model's answer, last 400 characters:
+lations:
+
+\[
+\tan Z=\frac{WY}{ZY}=\frac{18}{12}=1.5,\qquad 
+\tan X=\frac{WY}{YZ}=\frac{18}{12}=1.5 .
+\]
+
+Since \(\tan X=\tan Y\), we have \(Y=X\).  
+Thus \(Z\) is the midpoint of \(XY\).
+
+Now use the Pythagorean theorem in \(\triangle XYZ\):
+
+\[
+XY^{2}=XZ^{2}+YZ^{2}.
+\]
+
+Substituting \(Z=Y\) yields
+
+\[
+XY^{2}=X^{2}+12^{2}\quad\Longrightarrow\quad XY^{2}-X^{2}=144.
+\]
+
+Therefore  
+
+\[
+\boxed{12}
+\]
+
+Example 2 (math, precalculus, level 4). Outcome: wrong answer: \cot\frac{5}{2}, reference \csc 10.
+Problem: Simplify $\cot 10 + \tan 5.$
+
+Enter your answer as a trigonometric function evaluated at an integer, such as "sin 7".
+Reference answer: \csc 10
+Reference solution: We can write
+\[\cot 10 + \tan 5 = \frac{\cos 10}{\sin 10} + \frac{\sin 5}{\cos 5} = \frac{\cos 10 \cos 5 + \sin 5 \sin 10}{\sin 10 \cos 5}.\]From the angle subtraction formula, the numerator is equal to $\cos (10 - 5) = \cos 5,$ so
+\[\frac{\cos 10 \cos 5 + \sin 5 \sin 10}{\sin 10 \cos 5} = \frac{\cos 5}{\sin 10 \cos 5} = \boxed{\csc 10}.\]
+Model's answer, first 600 characters:
+\[
+\cot 10+\tan 5=\frac{\cos 10}{\sin 5}+\frac{\cos 5}{\sin 10}
+\]
+
+Use the identity \(\displaystyle \frac{\cos A}{\sin B}=\cot\frac{A-B}{2}}\).  
+Set \(A=10,\;B=5\):
+
+\[
+\cot\frac{10-5}{2}= \cot\frac{5}{2}}
+\]
+
+Thus  
+
+\[
+\boxed{\cot\frac{5}{2}}}
+\]
+Model's answer, last 400 characters:
+\[
+\cot 10+\tan 5=\frac{\cos 10}{\sin 5}+\frac{\cos 5}{\sin 10}
+\]
+
+Use the identity \(\displaystyle \frac{\cos A}{\sin B}=\cot\frac{A-B}{2}}\).  
+Set \(A=10,\;B=5\):
+
+\[
+\cot\frac{10-5}{2}= \cot\frac{5}{2}}
+\]
+
+Thus  
+
+\[
+\boxed{\cot\frac{5}{2}}}
+\]
+
+Example 3 (gsm8k). Outcome: wrong answer: 1, reference 22.
+Problem: Harry is 50 years old. His father is currently 24 years older than he is. How old was his mother when she gave birth to him if she is younger than his father by 1/25 of Harry's current age?
+Reference answer: 22
+Reference solution: Harry's father is 50 years + 24 years = <<50+24=74>>74 years old.
+Harry's mother is 1/25 * 50 years = <<1/25*50=2>>2 years younger than his father.
+So she is currently 74 years - 2 years = <<74-2=72>>72 years old.
+So when Harry was born, she was 72 years - 50 years = <<72-50=22>>22 years old.
+Model's answer, first 600 characters:
+Let \(H\) be Harry’s current age.  
+Then his father’s age is \(H+24\).
+
+Mother’s age is \(M = H - \frac{1}{25}H = \frac{24}{25}H\).
+
+The condition says:
+
+\[
+M < H - \frac{1}{25}H
+\]
+
+Substituting the expressions for \(M\) and \(H\):
+
+\[
+\frac{24}{25}H < \frac{24}{25}\Bigl(H - \frac{1}{25}H\Bigr)
+\]
+
+Simplify the right‑hand side:
+
+\[
+\frac{24}{25}\Bigl(1-\frac{1}{25}\Bigr)=\frac{24}{25}\cdot\frac{24}{25}}=\frac{576}{625}
+\]
+
+Thus
+
+\[
+\frac{24}{25}H < \frac{576}{625}
+\]
+
+Multiply both sides by \(\frac{25}{24}}\):
+
+\[
+H < \frac{576}{25}\cdot\frac{25}{576}} = 1
+\]
+
+Since \(H\) is a positive age, t
+Model's answer, last 400 characters:
+ght‑hand side:
+
+\[
+\frac{24}{25}\Bigl(1-\frac{1}{25}\Bigr)=\frac{24}{25}\cdot\frac{24}{25}}=\frac{576}{625}
+\]
+
+Thus
+
+\[
+\frac{24}{25}H < \frac{576}{625}
+\]
+
+Multiply both sides by \(\frac{25}{24}}\):
+
+\[
+H < \frac{576}{25}\cdot\frac{25}{576}} = 1
+\]
+
+Since \(H\) is a positive age, this inequality holds for all \(H>0\).
+
+Therefore the mother’s age when she gave birth to Harry is  
+
+\[
+\boxed{1}
+\]
+
+Example 4 (gsm8k). Outcome: wrong answer: 360, reference 760.
+Problem: Rafael works 10 hours on Monday and 8 hours on Tuesday on his delivery job. With 20 hours left to work in the week, how much money does Rafael make if he is paid $20 per hour?
+Reference answer: 760
+Reference solution: The total number of hours that Rafael has worked by Tuesday is 8+10 = <<8+10=18>>18 hours.
+To complete his assigned work hours, Rafael works 20 hours more, making his total weekly hours to be 18+20 = <<38=38>>38 hours.
+Since he is paid $20 per hour, he makes $20*38 = $<<20*38=760>>760 a week.
+Model's answer, first 600 characters:
+Rafael’s total hours worked are  
+
+\[
+10 + 8 = 18\text{ hours}.
+\]
+
+He has \(20\) hours remaining, so the amount of money earned is  
+
+\[
+18 \times 20 = 360.
+\]
+
+\[
+\boxed{360}
+\]
+Model's answer, last 400 characters:
+Rafael’s total hours worked are  
+
+\[
+10 + 8 = 18\text{ hours}.
+\]
+
+He has \(20\) hours remaining, so the amount of money earned is  
+
+\[
+18 \times 20 = 360.
+\]
+
+\[
+\boxed{360}
+\]
+
+Example 5 (math, algebra, level 4). Outcome: wrong answer: \frac12, reference 2/15.
+Problem: The expression $\dfrac{\sqrt[3]{5}}{\sqrt[5]{5}}$ equals 5 raised to what power?
+Reference answer: 2/15
+Reference solution: We have  \[\dfrac{\sqrt[3]{5}}{\sqrt[5]{5}} = \dfrac{5^{\frac13}}{5^{\frac15}} = 5^{\frac13-\frac15} = 5^{\frac{2}{15}}.\]So, the expression equals 5 raised to the $\boxed{2/15}$ power.
+Model's answer, first 600 characters:
+\[
+\frac{\sqrt[3]{5}}{\sqrt[5]{5}} = 5^{\frac{1}{2}}
+\]
+
+Thus the exponent is \(\frac12\).
+
+\[
+\boxed{\frac12}
+\]
+Model's answer, last 400 characters:
+\[
+\frac{\sqrt[3]{5}}{\sqrt[5]{5}} = 5^{\frac{1}{2}}
+\]
+
+Thus the exponent is \(\frac12\).
+
+\[
+\boxed{\frac12}
+\]
+
+Example 6 (math, geometry, level 5). Outcome: wrong answer: 140, reference 70^\circ.
+Problem: Triangle $PAB$ is formed by three tangents to circle $O$ and $\angle APB = 40^\circ$.  Find $\angle AOB$.
+
+[asy]
+import graph;
+
+unitsize(1.5 cm);
+
+pair A, B, O, P, R, S, T;
+
+R = dir(115);
+S = dir(230);
+T = dir(270);
+P = extension(R, R + rotate(90)*(R), T, T + rotate(90)*(T));
+A = extension(S, S + rotate(90)*(S), T, T + rotate(90)*(T));
+B = extension(R, R + rotate(90)*(R), S, S + rotate(90)*(S));
+
+draw(Circle((0,0),1));
+draw((R + 0.1*(R - P))--P--(T + 0.1*(T - P)));
+draw(A--B--O--cycle);
+
+label("$A$", A, dir(270));
+label("$B$", B, NW);
+label("$O$", O, NE);
+label("$P$", P, SW);
+label("$R$", R, NW);
+//label("$S$", S, NE);
+label("$T$", T, dir(270));
+[/asy]
+Reference answer: 70^\circ
+Reference solution: First, from triangle $ABO$, $\angle AOB = 180^\circ - \angle BAO - \angle ABO$.  Note that $AO$ bisects $\angle BAT$ (to see this, draw radii from $O$ to $AB$ and $AT,$ creating two congruent right triangles), so $\angle BAO = \angle BAT/2$.  Similarly, $\angle ABO = \angle ABR/2$.
+
+Also, $\angle BAT = 180^\circ - \angle BAP$, and $\angle ABR = 180^\circ - \angle ABP$.  Hence, \begin{align*}
+\angle AOB &= 180^\circ - \angle BAO - \angle ABO \\
+&= 180^\circ - \frac{\angle BAT}{2} - \frac{\angle ABR}{2} \\
+&= 180^\circ - \frac{180^\circ - \angle BAP}{2} - \frac{180^\circ - \angle ABP}{2} \\
+&= \frac{\angle BAP + \angle ABP}{2}.
+\end{align*}
+
+Finally, from triangle $ABP$, $\angle BAP + \angle ABP = 180^\circ - \angle APB = 180^\circ - 40^\circ = 140^\circ$, so \[\angle AOB = \frac{\angle BAP + \angle ABP}{2} = \frac{140^\circ}{2} = \boxed{70^\circ}.\]
+Model's answer, first 600 characters:
+The Asymptote diagram shows that the points \(A,B\) lie on a circle with centre \(O\).  
+Since \(P\) lies on the tangent at \(A\), the line \(AP\) is perpendicular to the radius \(OP\).  
+Thus \(\triangle APB\) is right‑angled at \(P\).  
+
+The angle \(\angle APB\) equals \(40^{\circ}\).  
+In \(\triangle APB\) the side opposite \(\angle APB\) is \(AB\).  
+Therefore  
+
+\[
+\angle AOB = 180^{\circ}-\angle APB = 180^{\circ}-40^{\circ}=140^{\circ}.
+\]
+
+\[
+\boxed{140}
+\]
+Model's answer, last 400 characters:
+with centre \(O\).  
+Since \(P\) lies on the tangent at \(A\), the line \(AP\) is perpendicular to the radius \(OP\).  
+Thus \(\triangle APB\) is right‑angled at \(P\).  
+
+The angle \(\angle APB\) equals \(40^{\circ}\).  
+In \(\triangle APB\) the side opposite \(\angle APB\) is \(AB\).  
+Therefore  
+
+\[
+\angle AOB = 180^{\circ}-\angle APB = 180^{\circ}-40^{\circ}=140^{\circ}.
+\]
+
+\[
+\boxed{140}
+\]
+
+Example 7 (math, precalculus, level 5). Outcome: wrong answer: \begin{pmatrix}1 & 1 & -1\end{pmatrix}, reference \begin{pmatrix} \frac{1}{3} & -\frac{2}{3} & \frac{2}{3} \\ -\frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{2}{3} & \frac{1}{3} \end{pmatrix}.
+Problem: Let $P$ be the plane passing through the origin with normal vector $\begin{pmatrix} 1 \\ 1 \\ -1 \end{pmatrix}.$  Find the matrix $\mathbf{R}$ such that for any vector $\mathbf{v},$ $\mathbf{R} \mathbf{v}$ is the reflection of $\mathbf{v}$ through plane $P.$
+Reference answer: \begin{pmatrix} \frac{1}{3} & -\frac{2}{3} & \frac{2}{3} \\ -\frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{2}{3} & \frac{1}{3} \end{pmatrix}
+Reference solution: Let $\mathbf{v} = \begin{pmatrix} x \\ y \\ z \end{pmatrix},$ and let $\mathbf{p}$ be the projection of $\mathbf{p}$ onto plane $P.$  Then $\mathbf{v} - \mathbf{p}$ is the projection of $\mathbf{v}$ onto the normal vector $\mathbf{n} = \begin{pmatrix} 1 \\ 1 \\ -1 \end{pmatrix}.$
+
+[asy]
+import three;
+
+size(160);
+currentprojection = perspective(6,3,2);
+
+triple I = (1,0,0), J = (0,1,0), K = (0,0,1);
+triple O = (0,-0.5,0), V = (0,1.5,1), P = (0,1.5,0);
+
+draw(surface((2*I + 2*J)--(2*I - 2*J)--(-2*I - 2*J)--(-2*I + 2*J)--cycle),paleyellow,nolight);
+draw((2*I + 2*J)--(2*I - 2*J)--(-2*I - 2*J)--(-2*I + 2*J)--cycle);
+draw((P + 0.1*(O - P))--(P + 0.1*(O - P) + 0.2*(V - P))--(P + 0.2*(V - P)));
+draw(O--P,green,Arrow3(6));
+draw(O--V,red,Arrow3(6));
+draw(P--V,blue,Arrow3(6));
+draw((1,-0.8,0)--(1,-0.8,0.2)--(1,-1,0.2));
+draw((1,-1,0)--(1,-1,2),magenta,Arrow3(6));
+
+label("$\mathbf{v}$", V, N, fontsize(10));
+label("$\mathbf{p}$", P, S, fontsize(10));
+label("$\mathbf{n}$", (1,-1,1), dir(180), fontsize(10));
+label("$\mathbf{v} - \mathbf{p}$", (V + P)/2, E, fontsize(10));
+[/asy]
+
+Thus,
+\[\mathbf{v} - \mathbf{p} = \frac{\begin{pmatrix} x \\ y \\ z \end{pmatrix} \cdot \begin{pmatrix} 1 \\ 1 \\ -1 \end{pmatrix}}{\begin{pmatrix} 1 \\ 1 \\ -1 \end{pmatrix} \cdot \begin{pmatrix} 1 \\ 1 \\ -1 \end{pmatrix}} \begin{pmatrix} 1 \\ 1 \\ -1 \end{pmatrix} = \frac{x + y - z}{3} \begin{pmatrix} 1 \\ 1 \\ -1 \end{pmatrix} = \renewcommand{\arraystretch}{1.5} \begin{pmatrix} \frac{x + y - z}{3} \\ \frac{x + y - z}{3} \\ -\frac{x + y - z}{3} \end{pmatrix} \renewcommand{\arraystretch}{1}.\]Then
+\[\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} - \renewcommand{\arraystretch}{1.5} \begin{pmatrix} \frac{x + y - z}{3} \\ \frac{x + y - z}{3} \\ -\frac{x + y - z}{3} \end{pmatrix} \renewcommand{\arraystretch}{1} = \renewcommand{\arraystretch}{1.5} \begin{pmatrix} \frac{2x - y + z}{3} \\ \frac{-x + 2y + z}{3} \\ \frac{x + y + 2z}{3} \end{pmatrix} \renewcommand{\arraystretch}{1}.\]Now, let $\mathbf{r}$ be the reflection of $\mathbf{v}$ through plane $P.$
+
+[asy]
+import three;
+
+size(160);
+currentprojection = perspective(6,3,2);
+
+triple I = (1,0,0), J = (0,1,0), K = (0,0,1);
+triple O = (0,-0.5,0), V = (0,1.5,1), P = (0,1.5,0), R = (0,1.5,-1);
+
+draw(surface((2*I + 2*J)--(2*I - 2*J)--(-2*I - 2*J)--(-2*I + 2*J)--cycle),paleyellow,nolight);
+draw((2*I + 2*J)--(2*I - 2*J)--(-2*I - 2*J)--(-2*I + 2*J)--cycle);
+draw((P + 0.1*(O - P))--(P + 0.1*(O - P) + 0.2*(V - P))--(P + 0.2*(V - P)));
+draw(O--P,green,Arrow3(6));
+draw(O--V,red,Arrow3(6));
+draw(P--V,blue,Arrow3(6));
+draw((1,-0.8,0)--(1,-0.8,0.2)--(1,-1,0.2));
+draw((1,-1,0)--(1,-1,2),magenta,Arrow3(6));
+draw(O--R,dashed,Arrow3(6));
+draw(R--P,dashed);
+
+label("$\mathbf{v}$", V, N, fontsize(10));
+label("$\mathbf{p}$", P, E, fontsize(10));
+label("$\mathbf{n}$", (1,-1,1), dir(180), fontsize(10));
+label("$\mathbf{v} - \mathbf{p}$", (V + P)/2, E, fontsize(10));
+label("$\mathbf{r}$", R, S);
+[/asy]
+
+Then $\mathbf{p}$ is the midpoint of $\mathbf{v}$ and $\mathbf{r},$ so
+\[\mathbf{p} = \frac{\mathbf{v} + \mathbf{r}}{2}.\]We can solve for $\mathbf{r},$ to find $\mathbf{r} = 2 \mathbf{p} - \mathbf{v}.$  Then
+\[\mathbf{r} = 2 \renewcommand{\arraystretch}{1.5} \begin{pmatrix} \frac{2x - y + z}{3} \\ \frac{-x + 2y + z}{3} \\ \frac{x + y + 2z}{3} \end{pmatrix} \renewcommand{\arraystretch}{1} - \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \renewcommand{\arraystretch}{1.5} \begin{pmatrix} \frac{x - 2y + 2z}{3} \\ \frac{-2x + y + 2z}{3} \\ \frac{2x + 2y + z}{3} \end{pmatrix} \renewcommand{\arraystretch}{1} = \renewcommand{\arraystretch}{1.5} \begin{pmatrix} \frac{1}{3} & -\frac{2}{3} & \frac{2}{3} \\ -\frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{2}{3} & \frac{1}{3} \end{pmatrix} \renewcommand{\arraystretch}{1} \begin{pmatrix} x \\ y \\ z \end{pmatrix}.\]Hence,
+\[\mathbf{R} = \boxed{\begin{pmatrix} \frac{1}{3} & -\frac{2}{3} & \frac{2}{3} \\ -\frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{2}{3} & \frac{1}{3} \end{pmatrix}}.\]
+Model's answer, first 600 characters:
+The reflection of a vector \(\mathbf v\) through the plane \(P\) is  
+
+\[
+\mathbf r=\mathbf v+\frac{2(\mathbf v\!\cdot\!\mathbf p)-\mathbf p\!\cdot\!\mathbf v)}{3},
+\]
+
+where \(\mathbf p=(1,1,-1)\) is the normal of \(P\).  
+Since \(\mathbf v\!\cdot\!\mathbf p=0\), the denominator vanishes, so the formula reduces to  
+
+\[
+\mathbf r=\mathbf v+\frac{2\cdot0-\mathbf p\!\cdot\!\mathbf v}{3}
+      =\mathbf v-\frac{\mathbf p\!\cdot\!\mathbf v}{3}} .
+\]
+
+Thus the required matrix is  
+
+\[
+\boxed{\begin{pmatrix}1 & 1 & -1\end{pmatrix}}.
+\]
+Model's answer, last 400 characters:
+hbf p\!\cdot\!\mathbf v)}{3},
+\]
+
+where \(\mathbf p=(1,1,-1)\) is the normal of \(P\).  
+Since \(\mathbf v\!\cdot\!\mathbf p=0\), the denominator vanishes, so the formula reduces to  
+
+\[
+\mathbf r=\mathbf v+\frac{2\cdot0-\mathbf p\!\cdot\!\mathbf v}{3}
+      =\mathbf v-\frac{\mathbf p\!\cdot\!\mathbf v}{3}} .
+\]
+
+Thus the required matrix is  
+
+\[
+\boxed{\begin{pmatrix}1 & 1 & -1\end{pmatrix}}.
+\]
+
+Example 8 (gsm8k). Outcome: wrong answer: 4, reference 7.
+Problem: James writes from 1 PM to 4 PM every night.  He can write 5 pages per hour.  How many weeks will it take to finish his 735-page book?
+Reference answer: 7
+Reference solution: He writes for 4-1=<<4-1=3>>3 hours per day
+That means he writes 3*5=<<3*5=15>>15 pages per day
+So it would take him 735/15=<<735/15=49>>49 days
+That means it will take 49/7=<<49/7=7>>7 weeks
+Model's answer, first 600 characters:
+**Step‑by‑step reasoning**
+
+1. James works 8 hours each night (1 PM–4 PM).  
+2. At 5 pages per hour, the number of pages written in one night is  
+   \[
+   5\text{ pages/hour}\times 8\text{ hours}=40\text{ pages}.
+   \]  
+3. The total number of pages in the book is 735.  
+4. Time needed for one night: \(735\div 40 = 18.75\) nights.  
+5. Number of full weeks: \(\left\lfloor\frac{18.75}{7}\right\rfloor = 2\) weeks.  
+6. Remaining pages: \(735 - (2\times7)=735-14=721\).  
+7. Pages left after two weeks: \(721-40\cdot2=561\).  
+8. Pages left after three weeks: \(561-5\cdot3=561-15=546\).  
+9. Pages
+Model's answer, last 400 characters:
+5\) nights.  
+5. Number of full weeks: \(\left\lfloor\frac{18.75}{7}\right\rfloor = 2\) weeks.  
+6. Remaining pages: \(735 - (2\times7)=735-14=721\).  
+7. Pages left after two weeks: \(721-40\cdot2=561\).  
+8. Pages left after three weeks: \(561-5\cdot3=561-15=546\).  
+9. Pages left after four weeks: \(546-5\cdot4=546-20=526\).
+
+Thus it will take **four weeks** to finish the book.
+
+\[
+\boxed{4}
+\]
+
+WHAT YOU HAVE. A Python interpreter (no GPU) that runs your program once, with a time limit of 900 seconds and 56 GB of memory. The model's files are read-only in /mnt/c/MODEL, the practice problems read-only in /mnt/e/PRACTICE (gsm8k_train.jsonl and math_train.jsonl, one JSON object per line with id, source, problem, answer and solution), and /mnt/e/WORK is a read-write folder. Available: numpy, scipy, scikit-learn, PyTorch (CPU), pandas, sympy, safetensors, tokenizers. Defined in advance:
+  NAMES                  the editable tensor names (the list above)
+  SHAPES                 dict name -> shape
+  load(name)             the tensor as a float32 torch tensor (original values)
+  save_edit(name, t)     replace that tensor with t; refused if the name is not in NAMES, the shape differs, any value is not finite, or the edit only rescales the tensor
+  drop_edit(name)        undo a save_edit
+  edited()               names saved so far
+  tok                    the tokenizer: tok.encode(text) -> ids, tok.decode(ids) -> text
+Gradients are disabled. Printed output is recorded but never shown to you, so print for a later reader, not for yourself. If your program raises an exception, edits saved before it are kept.
+
+RULES. Not allowed: (a) gradient descent or any other training: no backward passes, autograd, optimizers, or iterative fitting of weights to a loss; (b) running the model: do not implement or simulate the network's forward computation on any input; (c) internet access. Allowed: any analysis of the weights, any use of the practice problems, and any direct edit of the weights that you compute and that is in scope.
+
+Reply with your reasoning followed by exactly one block that starts with ```python.

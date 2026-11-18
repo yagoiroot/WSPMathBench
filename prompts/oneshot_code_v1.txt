@@ -1,0 +1,22 @@
+TASK. You are given a description of the weights of a language model, {tiny_name} ({arch_text}). Your job is to make it better at {goal_text} by EDITING ITS WEIGHTS DIRECTLY with ONE Python program. You reply once; your program runs once; you do not see its output.
+
+HOW IT WILL BE MEASURED. After you finish, your edited model and the unedited model are evaluated on {evaluation_text} with this fixed protocol: {protocol_text} The config, tokenizer, {prompt_format_text} and decoding settings are fixed: only weight values can change (same tensor names and shapes). {unseen_text}
+
+WHAT COUNTS. We want edits that come from understanding the network: identify the components responsible for its failures (specific neurons, heads, directions or circuits) and change them in a way you can justify with evidence. Out of scope, and refused: {frozen_text}, and any edit that only multiplies a whole tensor by a constant. Global knobs (making the whole output distribution sharper or flatter) are not what we are looking for.
+
+TENSORS. Every editable tensor, by layer. Shapes are [rows, columns]; the residual stream has width {width}.
+{tensor_table}
+
+PRACTICE PROBLEMS. {practice_text} {holdout_text} The unedited model answered {n_run} of them with the evaluation protocol above. Its results:
+{practice_summary}
+
+EXAMPLES. {k} of its failing answers, chosen at random from that run. For each: {example_fields_text}.
+{examples}
+
+WHAT YOU HAVE. A Python interpreter (no GPU) that runs your program once, with a time limit of {timeout_s} seconds and {mem_gb} GB of memory. The model's files are read-only in {model_dir}, the practice problems read-only in {practice_dir} ({practice_files_text}), and {work_dir} is a read-write folder. Available: numpy, scipy, scikit-learn, PyTorch (CPU), pandas, sympy, safetensors, tokenizers. Defined in advance:
+{prelude_doc}
+Gradients are disabled. Printed output is recorded but never shown to you, so print for a later reader, not for yourself. If your program raises an exception, edits saved before it are kept.
+
+RULES. Not allowed: (a) gradient descent or any other training: no backward passes, autograd, optimizers, or iterative fitting of weights to a loss; (b) running the model: do not implement or simulate the network's forward computation on any input; (c) internet access. Allowed: any analysis of the weights, any use of the practice problems, and any direct edit of the weights that you compute and that is in scope.
+
+Reply with your reasoning followed by exactly one block that starts with ```python.

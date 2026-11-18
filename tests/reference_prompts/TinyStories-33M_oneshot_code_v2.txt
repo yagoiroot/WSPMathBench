@@ -1,0 +1,122 @@
+TASK. You are given a description of the weights of a language model, TinyStories-33M (4 layers of width 768 with 16 heads of size 48; layers 0 and 2 attend to the whole context, layers 1 and 3 to a window of 256 tokens; each layer has a GELU MLP of width 3,072; LayerNorm with bias; learned position embeddings for 2,048 positions; vocabulary 50,257; input embedding and output layer tied). Your job is to make it better at basic arithmetic by EDITING ITS WEIGHTS DIRECTLY with one Python program. You reply once; your program runs once; you do not see its output.
+
+HOW IT WILL BE MEASURED. After you finish, your edited model and the unedited model are evaluated on BasicArithmetic (500 very easy questions: 250 additions, subtractions, multiplications and divisions, mostly of single-digit numbers, each written once with digits and symbols and once in words; the symbolic questions come with and without spaces, "2 + 2 =" and "2+2=", and multiplication is written "x" or "*") with this fixed protocol: the model continues the question text exactly as written (no chat template, nothing added before or after it); temperature 0.1, at most 16 new tokens; the first number in the continuation, written in digits or in words, is graded against the reference answer. The config, tokenizer, prompt format and decoding settings are fixed: only weight values can change (same tensor names and shapes). You are not told which questions this benchmark holds.
+
+WHAT COUNTS. The goal is a model that scores higher under that protocol, and how you get there is open. You might remove something that holds the model back, strengthen something it already does well, or change how some part of it computes. The edit may be narrow (a few neurons, one head) or broad (a direction or a pattern across many layers), and it may pursue more than one of these at once. No route is preferred. The practice results and examples further down describe how the model behaves now: they are evidence to reason from, and they do not mark out what your edit should target. What we ask in every case is that the edit comes from understanding the network: say which components you are changing (neurons, heads, directions, circuits or larger structures), what you believe they do, and why changing them should make the model more accurate on problems it has not seen. Out of scope, and refused: the final norm (transformer.ln_f.weight), the final norm's bias (transformer.ln_f.bias), the input embedding (transformer.wte.weight), the position embedding (transformer.wpe.weight) and the output layer (lm_head.weight), and any edit that only multiplies a whole tensor by a constant. An edit that only makes the whole output distribution sharper or flatter is not what we are looking for either: that is a decoding setting reached through the weights, and it shows nothing about the network. Nor is an edit that makes the model give the same answer, or one of a few fixed answers, whatever the problem says (for example by pushing the output toward a particular number): that can score above zero by matching the most common answers, but it removes the model’s dependence on the problem instead of improving how it solves one.
+
+TENSORS. Every editable tensor, by layer. Shapes are [rows, columns]; the residual stream has width 768.
+layer 0 (attention over the whole context)
+  transformer.h.0.attn.attention.k_proj.weight [768, 768]
+  transformer.h.0.attn.attention.out_proj.bias [768]
+  transformer.h.0.attn.attention.out_proj.weight [768, 768]
+  transformer.h.0.attn.attention.q_proj.weight [768, 768]
+  transformer.h.0.attn.attention.v_proj.weight [768, 768]
+  transformer.h.0.ln_1.bias [768]
+  transformer.h.0.ln_1.weight [768]
+  transformer.h.0.ln_2.bias [768]
+  transformer.h.0.ln_2.weight [768]
+  transformer.h.0.mlp.c_fc.bias [3072]
+  transformer.h.0.mlp.c_fc.weight [3072, 768]
+  transformer.h.0.mlp.c_proj.bias [768]
+  transformer.h.0.mlp.c_proj.weight [768, 3072]
+layer 1 (attention over a window)
+  transformer.h.1.attn.attention.k_proj.weight [768, 768]
+  transformer.h.1.attn.attention.out_proj.bias [768]
+  transformer.h.1.attn.attention.out_proj.weight [768, 768]
+  transformer.h.1.attn.attention.q_proj.weight [768, 768]
+  transformer.h.1.attn.attention.v_proj.weight [768, 768]
+  transformer.h.1.ln_1.bias [768]
+  transformer.h.1.ln_1.weight [768]
+  transformer.h.1.ln_2.bias [768]
+  transformer.h.1.ln_2.weight [768]
+  transformer.h.1.mlp.c_fc.bias [3072]
+  transformer.h.1.mlp.c_fc.weight [3072, 768]
+  transformer.h.1.mlp.c_proj.bias [768]
+  transformer.h.1.mlp.c_proj.weight [768, 3072]
+layer 2 (attention over the whole context)
+  transformer.h.2.attn.attention.k_proj.weight [768, 768]
+  transformer.h.2.attn.attention.out_proj.bias [768]
+  transformer.h.2.attn.attention.out_proj.weight [768, 768]
+  transformer.h.2.attn.attention.q_proj.weight [768, 768]
+  transformer.h.2.attn.attention.v_proj.weight [768, 768]
+  transformer.h.2.ln_1.bias [768]
+  transformer.h.2.ln_1.weight [768]
+  transformer.h.2.ln_2.bias [768]
+  transformer.h.2.ln_2.weight [768]
+  transformer.h.2.mlp.c_fc.bias [3072]
+  transformer.h.2.mlp.c_fc.weight [3072, 768]
+  transformer.h.2.mlp.c_proj.bias [768]
+  transformer.h.2.mlp.c_proj.weight [768, 3072]
+layer 3 (attention over a window)
+  transformer.h.3.attn.attention.k_proj.weight [768, 768]
+  transformer.h.3.attn.attention.out_proj.bias [768]
+  transformer.h.3.attn.attention.out_proj.weight [768, 768]
+  transformer.h.3.attn.attention.q_proj.weight [768, 768]
+  transformer.h.3.attn.attention.v_proj.weight [768, 768]
+  transformer.h.3.ln_1.bias [768]
+  transformer.h.3.ln_1.weight [768]
+  transformer.h.3.ln_2.bias [768]
+  transformer.h.3.ln_2.weight [768]
+  transformer.h.3.mlp.c_fc.bias [3072]
+  transformer.h.3.mlp.c_fc.weight [3072, 768]
+  transformer.h.3.mlp.c_proj.bias [768]
+  transformer.h.3.mlp.c_proj.weight [768, 3072]
+
+PRACTICE PROBLEMS. 1,000 very easy arithmetic questions: 500 problems (every addition and multiplication of two single-digit numbers, every subtraction of two single-digit numbers with a non-negative result, every division of two single-digit numbers that comes out whole, and 213 additions, subtractions and divisions with a two-digit number), each written once with digits and symbols (half with spaces, "2 + 2 =", half without, "2+2="; multiplication as "x" or "*", division as "/") and once in words ("two plus two equals"), with its reference answer. Problems this easy are few, so many of them are also in the evaluation. The unedited model answered 1000 of them with the evaluation protocol above. Its results:
+Accuracy 3.1% overall (31 of 1000); by source: symbolic 2.8% (14 of 500), word 3.4% (17 of 500).
+Failure counts: wrong_answer 614, no_number 355.
+
+EXAMPLES. 8 of its failing answers, chosen at random from that run. For each: the question exactly as the model was given it, the reference answer, the model's whole continuation and the outcome.
+Example 1 (word). Outcome: no number in the continuation.
+Question: seventy-six plus twenty-two equals
+Reference answer: 98
+Model's continuation: ".\n\n\"Wow, that was fun!\" Ben said. \"I saw"
+
+Example 2 (symbolic). Outcome: no number in the continuation.
+Question: 12+83=
+Reference answer: 95
+Model's continuation: "sail and said, “No more quarrelling!”\n"
+
+Example 3 (word). Outcome: wrong answer: 10, reference 15.
+Question: five times three equals
+Reference answer: 15
+Model's continuation: " 10.\n"
+
+Example 4 (word). Outcome: wrong answer: 10, reference 14.
+Question: seven times two equals
+Reference answer: 14
+Model's continuation: " 10, but they both enjoyed the delicious apples.\n\nThe end.\n"
+
+Example 5 (symbolic). Outcome: wrong answer: 4, reference 2.
+Question: 2/1=
+Reference answer: 2
+Model's continuation: "4 and they both knew they had made a good decision.\n"
+
+Example 6 (symbolic). Outcome: wrong answer: 4, reference 11.
+Question: 8 + 3 =
+Reference answer: 11
+Model's continuation: " ?.\n\n\"Four, five, six,\" Ben said.\n\n"
+
+Example 7 (symbolic). Outcome: wrong answer: 5, reference 6.
+Question: 1 x 6 =
+Reference answer: 6
+Model's continuation: " 5.\n\n\"Hello, little ones. Do you want to play with"
+
+Example 8 (word). Outcome: no number in the continuation.
+Question: ninety-seven minus ninety-five equals
+Reference answer: 2
+Model's continuation: ", so he knew he had to help. He took a deep breath and said"
+
+WHAT YOU HAVE. A Python interpreter (no GPU) that runs your program once, with a time limit of 900 seconds and 56 GB of memory. The model's files are read-only in /mnt/c/MODEL, the practice problems read-only in /mnt/e/PRACTICE (basic_arithmetic_practice.jsonl, one JSON object per line with id, source (symbolic or word), problem, answer, operation, a, b and, for a symbolic question, symbol and spacing (spaced or tight)), and /mnt/e/WORK is a read-write folder. Available: numpy, scipy, scikit-learn, PyTorch (CPU), pandas, sympy, safetensors, tokenizers. Defined in advance:
+  NAMES                  the editable tensor names (the list above)
+  SHAPES                 dict name -> shape
+  load(name)             the tensor as a float32 torch tensor (original values)
+  save_edit(name, t)     replace that tensor with t; refused if the name is not in NAMES, the shape differs, any value is not finite, or the edit only rescales the tensor
+  drop_edit(name)        undo a save_edit
+  edited()               names saved so far
+  tok                    the tokenizer: tok.encode(text) -> ids, tok.decode(ids) -> text
+Gradients are disabled. Printed output is recorded but never shown to you, so print for a later reader, not for yourself. If your program raises an exception, edits saved before it are kept.
+
+RULES. Not allowed: (a) gradient descent or any other training: no backward passes, autograd, optimizers, or iterative fitting of weights to a loss; (b) running the model: do not implement or simulate the network's forward computation on any input; (c) internet access. Allowed: any analysis of the weights, any use of the practice problems, and any direct edit of the weights that you compute and that is in scope.
+
+Reply with your reasoning followed by exactly one block that starts with ```python.
