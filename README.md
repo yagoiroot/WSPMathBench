@@ -246,7 +246,7 @@ primary LLM you have not used before.
 
 ## Citation
 
-The paper describing WSPMathBench is not yet published. A citation will be added here when it is.
+arXiv submission pending.
 
 ## Licence
 
