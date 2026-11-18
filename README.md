@@ -204,10 +204,10 @@ to run, so new sessions give new edits; the paper's scores rest on a true one-sh
    instruction in the user message for Qwen3.5-0.8B, LFM2.5-350M and gemma-3-270m-it. The scoring
    code sends it as the system message for every chat model. The unedited and the edited model
    are scored the same way, so the comparison between them is unaffected.
-4. **Grading GSM8K-500 and MATH-500 calls an OpenAI model.** A reply whose final answer cannot be
-   read by a fixed rule goes to a small helper model (gpt-5.6-luna at low effort), which returns
+4. **Grading GSM8K-500 and MATH-500 calls an OpenAI model by default.** A reply whose final answer cannot be
+   read by a fixed rule goes to a small helper model (the paper employed gpt-5.6-luna at low effort), which returns
    the content of the last `\boxed{}`. Scoring those two sets therefore needs `OPENAI_API_KEY` and
-   has a small cost. BasicArithmetic is graded purely deterministically.
+   has a small cost. BasicArithmetic is graded purely deterministically. Modifications will be needed if you wish to use a different grader model. 
 
 ## Examples
 
