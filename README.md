@@ -21,11 +21,11 @@ vertical scales.
 
 **`oneshot_spec`**
 
-![WSPMathBench score of each primary LLM in the oneshot_spec tier](docs/figures/wsp_score_oneshot_spec.svg)
+<img src="docs/figures/wsp_score_oneshot_spec.svg" alt="WSPMathBench score of each primary LLM in the oneshot_spec tier" width="100%">
 
 **`oneshot_code`**
 
-![WSPMathBench score of each primary LLM in the oneshot_code tier](docs/figures/wsp_score_oneshot_code.svg)
+<img src="docs/figures/wsp_score_oneshot_code.svg" alt="WSPMathBench score of each primary LLM in the oneshot_code tier" width="100%">
 
 In `oneshot_code`, the largest contribution to the score comes from heavy edits to TinyStories-33M
 which drastically change its performance.
