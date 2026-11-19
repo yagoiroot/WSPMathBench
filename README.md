@@ -6,18 +6,55 @@ model (the **tiny model**): its architecture, the names and shapes of its tensor
 performed on practice problems. It replies once, with an edit to the tiny model's weights. It never
 runs the tiny model, never trains it, and never sees the result. The edited tiny model is then
 scored on held-out mathematics questions, and the primary LLM's score is how much its edits changed
-those results. This is weight-space programming (WSP), after Takehi et al., *Sparks of Weight
-Space Programming: LLMs can understand and write neural network weights*.
+those results. This is weight-space programming (WSP), after Takehi et al., *Sparks of
+Weight-Space Programming: LLMs can natively read & write neural network weights*.
 
-This repository holds the code that runs the benchmark, the prompts, the data, and a few example
-sessions. 
+**[Read the paper as a web page](https://yagoiroot.github.io/WSPMathBench/)** ·
+**[Example sessions](examples/)** ·
+**[Edited models on Hugging Face](https://huggingface.co/RootML)** ·
+**[Run the self-test without an API key or a GPU](#quick-start-no-api-key-no-gpu-no-cost)**
+
+<img src="docs/figures/schematic_session_v2.svg" alt="One session: the primary LLM reads a prompt describing the tiny model and replies once with an edit; the edit is applied to the tiny model's weights; the edited and unedited tiny models are scored on the same held-out questions" width="100%">
+
+## An example: TinyStories-33M
+
+One of the tiny models, TinyStories-33M, was trained only on children's stories. It answers about one in twenty basic
+arithmetic questions correctly, on prompts such as `7 + 5 =`.
+
+In one session, gpt-6-astra-pro received info about TinyStories-33M (weights description, performance on practice set, etc.) and was asked to
+improve its arithmetic. A session consists of one prompt and one reply. Without any test runs,
+gpt-6-astra-pro designed an arithmetic procedure and returned a single Python program that rewrote
+the weights to implement it. The edited model answered all 500 test questions correctly. The
+[full exchange](examples/76_oneshot_code_TinyStories-33M_gpt-6-astra-pro) is in this repository,
+and the [edited model](https://huggingface.co/RootML/TinyStories-33M-WSP-arithmetic-gpt-6-astra-pro)
+is on Hugging Face.
+
+Each primary LLM attempts the same task on five tiny models. Most edits do little, and some make
+the model worse; the TinyStories-33M example above was the largest improvement observed compared to unedited.
 
 ## Results
 
-The WSPMathBench score of each of the paper's seven primary LLMs, in points, in the two tiers
-(described below). The score and its standard error (±, also the whisker) are printed at each bar,
-and the reasoning effort under each name. A perfect score is roughly 77 points. Note the different
-vertical scales.
+The two tiers differ in what the primary LLM may write. `oneshot_spec` restricts it to a short
+list of fixed edit operations. `oneshot_code` asks for one Python program, which may rewrite the
+editable weights as it chooses.
+
+Qwen3.5-0.8B often repeats the same text until it runs out of tokens. Every primary LLM tested in
+`oneshot_spec` repaired this fault, raising Qwen3.5-0.8B's scores by 19 to 35 points. For tiny
+models without such a fault, no primary LLM produced a reliable improvement, and several edits
+made performance clearly worse.
+
+In `oneshot_code`, both claude-fable-5-2 and gpt-6-astra-pro wrote arithmetic procedures into the
+weights of TinyStories-33M. The unedited model scored 4.5% on basic arithmetic. With the edit from
+claude-fable-5-2 it scored 90.4%; with the edit from gpt-6-astra-pro it scored 100%. The task
+scores only mathematics, and neither edited model produces coherent English any more.
+
+The highest WSPMathBench score observed was 22.4 points. The score measures improvement over the
+unedited models, which already answer some questions correctly. Perfect edits on all five would
+therefore score roughly 77 points rather than 100.
+
+The bars below give the WSPMathBench scores in points. The ± value and the whisker show the
+standard error, and the reasoning effort is printed under each model name. The vertical scales
+differ between the two plots.
 
 **`oneshot_spec`**
 
@@ -29,6 +66,14 @@ vertical scales.
 
 In `oneshot_code`, the largest contribution to the score comes from heavy edits to TinyStories-33M
 which drastically change its performance.
+
+## Repository contents
+
+This repository holds the code that runs the benchmark, the prompts, the data, and nine of the
+paper's sessions in full. The sections below specify the benchmark in
+[How it works](#how-it-works) and explain how to run it in
+[Quick start](#quick-start-no-api-key-no-gpu-no-cost), [The full pipeline](#the-full-pipeline) and
+[Reproducing the paper](#reproducing-the-paper).
 
 ## How it works
 
