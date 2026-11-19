@@ -12,6 +12,24 @@ Space Programming: LLMs can understand and write neural network weights*.
 This repository holds the code that runs the benchmark, the prompts, the data, and a few example
 sessions. 
 
+## Results
+
+The WSPMathBench score of each of the paper's seven primary LLMs, in points, in the two tiers
+(described below). The score and its standard error (±, also the whisker) are printed at each bar,
+and the reasoning effort under each name. A perfect score is roughly 77 points. Note the different
+vertical scales.
+
+**`oneshot_spec`**
+
+![WSPMathBench score of each primary LLM in the oneshot_spec tier](docs/figures/wsp_score_oneshot_spec.svg)
+
+**`oneshot_code`**
+
+![WSPMathBench score of each primary LLM in the oneshot_code tier](docs/figures/wsp_score_oneshot_code.svg)
+
+In `oneshot_code`, the largest contribution to the score comes from heavy edits to TinyStories-33M
+which drastically change its performance.
+
 ## How it works
 
 A **session** is one prompt to a primary LLM and its one reply, for one tiny model in one tier.
